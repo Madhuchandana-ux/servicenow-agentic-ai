@@ -1,0 +1,1001 @@
+employee_id,employee_name,employee_email,department,location,joining_date,vip_user,phone
+EMP00001,Allison Hill,allison.hill@abctech.com,Human Resources,Hyderabad,2021-01-31,Yes,321.581.9600
+EMP00002,Lance Hoffman,lance.hoffman@abctech.com,Sales,Bangalore,2024-02-12,No,001-486-537-9402x654
+EMP00003,Gabrielle Davis,gabrielle.davis@abctech.com,Finance,Hyderabad,2019-01-19,Yes,855-394-0781
+EMP00004,Sandra Montgomery,sandra.montgomery@abctech.com,Procurement,Hyderabad,2024-04-17,No,(993)710-3413x164
+EMP00005,Henry Santiago,henry.santiago@abctech.com,Marketing,Noida,2024-08-10,Yes,001-719-228-3276x483
+EMP00006,Andrew Stewart,andrew.stewart@abctech.com,Sales,Kolkata,2021-10-25,Yes,513-695-3767x242
+EMP00007,Jessica Silva,jessica.silva@abctech.com,Marketing,Pune,2019-02-23,No,(332)887-1012x269
+EMP00008,Zachary Rice,zachary.rice@abctech.com,Human Resources,Pune,2021-11-09,No,+1-401-984-5146
+EMP00009,Nathan Cortez,nathan.cortez@abctech.com,Finance,Noida,2024-01-06,No,728.914.8932x52880
+EMP00010,Timothy Koch,timothy.koch@abctech.com,Human Resources,Delhi,2024-12-08,Yes,430-639-1171x8227
+EMP00011,Lisa Brandt,lisa.brandt@abctech.com,Human Resources,Hyderabad,2020-07-22,Yes,+1-534-565-7871
+EMP00012,Alex Spencer,alex.spencer@abctech.com,Marketing,Bangalore,2022-04-06,No,001-330-510-3105
+EMP00013,John Ryan,john.ryan@abctech.com,IT,Chennai,2022-02-25,Yes,001-899-973-7631x1656
+EMP00014,Amy Valdez,amy.valdez@abctech.com,Operations,Bangalore,2024-10-31,Yes,+1-410-665-1333x8726
+EMP00015,Shannon Jones,shannon.jones@abctech.com,Procurement,Mumbai,2019-11-01,No,+1-910-980-1326
+EMP00016,James Brown,james.brown@abctech.com,Operations,Mumbai,2021-08-21,Yes,(206)247-4687x2343
+EMP00017,Amy Silva,amy.silva@abctech.com,Finance,Pune,2022-07-02,Yes,582.208.1219x13619
+EMP00018,Jennifer Silva,jennifer.silva@abctech.com,Marketing,Pune,2020-05-20,No,954.335.3462x47510
+EMP00019,Daniel Baker,daniel.baker@abctech.com,Customer Support,Noida,2019-08-09,Yes,(613)354-2784x980
+EMP00020,Brandy Wilson,brandy.wilson@abctech.com,Marketing,Delhi,2024-07-22,No,682-944-9353
+EMP00021,Terry Williams,terry.williams@abctech.com,IT,Mumbai,2019-07-21,No,+1-264-300-5242x7868
+EMP00022,Stephen Mckee,stephen.mckee@abctech.com,Human Resources,Hyderabad,2019-03-26,Yes,+1-605-798-2620
+EMP00023,Rebecca Valencia,rebecca.valencia@abctech.com,Customer Support,Bangalore,2022-04-26,No,(833)215-8692x322
+EMP00024,Tim Patton,tim.patton@abctech.com,Procurement,Delhi,2024-03-16,Yes,(534)221-6073x37543
+EMP00025,Jennifer Ramirez,jennifer.ramirez@abctech.com,Procurement,Delhi,2021-10-25,No,645-486-8501
+EMP00026,Victoria Johnson,victoria.johnson@abctech.com,Customer Support,Chennai,2023-02-02,No,+1-265-856-9816x934
+EMP00027,Timothy Ryan,timothy.ryan@abctech.com,Procurement,Chennai,2023-09-11,No,001-735-861-5951x4846
+EMP00028,Kristen Lee,kristen.lee@abctech.com,Procurement,Mumbai,2019-09-19,Yes,+1-762-999-4680x44369
+EMP00029,Michael Dixon,michael.dixon@abctech.com,Procurement,Hyderabad,2024-09-19,No,001-221-248-9513x4332
+EMP00030,John Atkinson,john.atkinson@abctech.com,Finance,Bangalore,2022-01-26,Yes,476-293-6763
+EMP00031,Shannon Mcclure,shannon.mcclure@abctech.com,Finance,Mumbai,2024-05-12,Yes,001-763-928-7083x17278
+EMP00032,Michelle Wagner,michelle.wagner@abctech.com,Legal,Bangalore,2023-12-22,Yes,+1-972-577-4348
+EMP00033,Billy Mitchell,billy.mitchell@abctech.com,Legal,Chennai,2020-12-21,No,855-881-2236x231
+EMP00034,John Brown,john.brown@abctech.com,Marketing,Mumbai,2021-06-30,No,(569)909-6705x46688
+EMP00035,Jeffrey Johnson,jeffrey.johnson@abctech.com,Legal,Noida,2019-05-11,Yes,462-972-9806x99016
+EMP00036,David Murphy,david.murphy@abctech.com,Human Resources,Pune,2018-03-28,Yes,755.564.6417x080
+EMP00037,Rachael Pearson,rachael.pearson@abctech.com,Administration,Mumbai,2018-01-30,Yes,001-603-730-9232x71937
+EMP00038,Lawrence Adkins,lawrence.adkins@abctech.com,Marketing,Bangalore,2018-05-09,Yes,824-519-0496
+EMP00039,Michael Burton,michael.burton@abctech.com,Procurement,Mumbai,2021-02-14,Yes,749-319-0586
+EMP00040,Gloria Atkinson,gloria.atkinson@abctech.com,Procurement,Chennai,2024-05-27,No,916.857.2628x4987
+EMP00041,Leslie Morris,leslie.morris@abctech.com,Marketing,Noida,2022-07-26,Yes,714.273.7996
+EMP00042,Frederick Freeman MD,frederick.freeman.md@abctech.com,Human Resources,Kolkata,2021-12-22,No,954-594-8083x136
+EMP00043,Maria Henry,maria.henry@abctech.com,Legal,Hyderabad,2019-02-08,No,9147363495
+EMP00044,Patrick Rivera,patrick.rivera@abctech.com,IT,Bangalore,2020-10-15,Yes,001-574-544-3135x182
+EMP00045,Destiny Lawrence,destiny.lawrence@abctech.com,Procurement,Noida,2019-07-29,Yes,001-689-241-3435x24082
+EMP00046,Kristen Terry,kristen.terry@abctech.com,Operations,Noida,2020-10-20,No,(771)409-4777
+EMP00047,Dawn Hensley,dawn.hensley@abctech.com,Procurement,Bangalore,2018-07-27,Yes,616-371-9022
+EMP00048,Bailey Duran DDS,bailey.duran.dds@abctech.com,Human Resources,Mumbai,2019-11-13,No,+1-238-367-7496x499
+EMP00049,Christine Clark,christine.clark@abctech.com,Legal,Mumbai,2022-07-01,Yes,+1-212-532-8120x67974
+EMP00050,Douglas Heath,douglas.heath@abctech.com,Customer Support,Hyderabad,2022-05-19,No,434-693-6183
+EMP00051,Andrea Martin,andrea.martin@abctech.com,Operations,Kolkata,2024-03-26,Yes,999-347-1746x4887
+EMP00052,Stacy Navarro,stacy.navarro@abctech.com,Marketing,Delhi,2020-06-10,Yes,+1-940-913-9904x902
+EMP00053,Catherine Richards,catherine.richards@abctech.com,IT,Hyderabad,2018-07-25,No,+1-671-875-6551x2567
+EMP00054,Krista Gibson,krista.gibson@abctech.com,Procurement,Chennai,2018-08-21,Yes,945-916-8087x60385
+EMP00055,Christina Dunn,christina.dunn@abctech.com,Sales,Bangalore,2024-09-03,Yes,377-510-9324x8086
+EMP00056,Susan Murray MD,susan.murray.md@abctech.com,Customer Support,Bangalore,2024-05-22,Yes,(974)484-6773
+EMP00057,Thomas Romero,thomas.romero@abctech.com,Administration,Bangalore,2022-09-14,No,(614)965-8404
+EMP00058,Jill Washington,jill.washington@abctech.com,Operations,Mumbai,2021-07-10,No,988-867-5339x63605
+EMP00059,Matthew Hoover,matthew.hoover@abctech.com,Customer Support,Chennai,2021-05-13,No,(370)928-9517
+EMP00060,Charles Pitts,charles.pitts@abctech.com,Human Resources,Hyderabad,2023-02-21,Yes,(817)745-9615
+EMP00061,Stacy Freeman,stacy.freeman@abctech.com,Human Resources,Mumbai,2023-09-04,Yes,+1-309-313-4316
+EMP00062,Michael Berger,michael.berger@abctech.com,IT,Bangalore,2020-09-27,No,8504455623
+EMP00063,Bob Pitts,bob.pitts@abctech.com,Sales,Noida,2024-02-04,Yes,+1-637-492-3747x407
+EMP00064,Tony Huerta,tony.huerta@abctech.com,Procurement,Delhi,2019-03-01,No,664-674-3671x3695
+EMP00065,Ronald Foster,ronald.foster@abctech.com,Human Resources,Bangalore,2024-03-16,No,5905974395
+EMP00066,Megan Le,megan.le@abctech.com,Operations,Mumbai,2021-11-05,No,+1-421-504-7095x21456
+EMP00067,Joshua Mata,joshua.mata@abctech.com,Procurement,Noida,2020-10-25,Yes,784.324.7451x71236
+EMP00068,Alexis Herrera,alexis.herrera@abctech.com,Customer Support,Delhi,2018-06-30,No,754.596.5137x098
+EMP00069,Madison Marshall,madison.marshall@abctech.com,Sales,Delhi,2019-10-24,No,001-446-812-0047x113
+EMP00070,Michael Paul,michael.paul@abctech.com,Procurement,Hyderabad,2019-04-04,Yes,+1-669-226-1796
+EMP00071,Claudia Wallace,claudia.wallace@abctech.com,Procurement,Hyderabad,2022-02-21,Yes,551.358.5064
+EMP00072,Samantha Davis,samantha.davis@abctech.com,Customer Support,Chennai,2018-06-21,No,390.505.3293
+EMP00073,Robin Hall,robin.hall@abctech.com,Finance,Pune,2020-05-10,Yes,001-729-504-2284x21020
+EMP00074,Alexis Baker,alexis.baker@abctech.com,IT,Kolkata,2024-12-17,Yes,(368)911-7758
+EMP00075,Theresa Williams,theresa.williams@abctech.com,Sales,Chennai,2022-08-16,Yes,+1-784-470-0766x17711
+EMP00076,Donald Schultz,donald.schultz@abctech.com,IT,Kolkata,2020-10-13,Yes,+1-856-398-4789
+EMP00077,Ashley Pena,ashley.pena@abctech.com,Human Resources,Kolkata,2018-06-08,Yes,001-783-667-3657x66156
+EMP00078,Christian Leblanc,christian.leblanc@abctech.com,Marketing,Noida,2021-12-03,Yes,211-716-1528
+EMP00079,Jennifer Russo,jennifer.russo@abctech.com,Marketing,Hyderabad,2020-03-02,No,001-360-749-4519x83273
+EMP00080,Holly Farmer,holly.farmer@abctech.com,Operations,Bangalore,2021-02-17,No,001-636-289-9809
+EMP00081,Michael Parker,michael.parker@abctech.com,Procurement,Pune,2018-04-24,No,850-922-9612x01836
+EMP00082,Jacob Griffith,jacob.griffith@abctech.com,Sales,Delhi,2018-06-06,No,001-999-810-2290x14767
+EMP00083,Paul Wilson,paul.wilson@abctech.com,IT,Pune,2022-11-23,Yes,(614)597-8403x69003
+EMP00084,Pamela Roberts,pamela.roberts@abctech.com,Customer Support,Mumbai,2020-11-09,No,707-362-2683
+EMP00085,Patrick Graham,patrick.graham@abctech.com,Finance,Mumbai,2022-01-31,Yes,715.496.9664x160
+EMP00086,Lisa Collier,lisa.collier@abctech.com,IT,Pune,2019-05-26,No,(716)513-6968x164
+EMP00087,Christopher Dixon,christopher.dixon@abctech.com,Customer Support,Pune,2022-07-07,Yes,488-635-5231
+EMP00088,Lance Wolf,lance.wolf@abctech.com,Marketing,Kolkata,2022-04-02,No,+1-912-377-9979x9552
+EMP00089,Mark Hogan,mark.hogan@abctech.com,Customer Support,Hyderabad,2021-05-29,Yes,001-205-781-4770
+EMP00090,Angela Lin,angela.lin@abctech.com,Customer Support,Pune,2023-03-20,No,999-586-7980
+EMP00091,John Hernandez,john.hernandez@abctech.com,Marketing,Noida,2019-11-27,Yes,9719518203
+EMP00092,Lisa Cox,lisa.cox@abctech.com,Operations,Pune,2019-01-18,No,666-459-0515x1864
+EMP00093,Kevin Thomas,kevin.thomas@abctech.com,Marketing,Mumbai,2019-08-27,Yes,(346)829-1486x528
+EMP00094,Alicia Parker,alicia.parker@abctech.com,Marketing,Noida,2024-11-08,No,357.233.2214
+EMP00095,Sherri Williamson,sherri.williamson@abctech.com,Customer Support,Mumbai,2022-04-22,No,+1-962-622-9270x653
+EMP00096,Rachel Young,rachel.young@abctech.com,Marketing,Chennai,2018-01-23,No,847.835.9774
+EMP00097,Ruth Solis,ruth.solis@abctech.com,Marketing,Chennai,2023-10-23,Yes,(640)375-8181
+EMP00098,Denise Whitehead,denise.whitehead@abctech.com,Procurement,Mumbai,2019-05-13,Yes,(861)737-5060
+EMP00099,Zachary Brooks,zachary.brooks@abctech.com,Legal,Pune,2022-12-18,No,4519522047
+EMP00100,Aaron Miller,aaron.miller@abctech.com,Procurement,Noida,2019-10-14,No,232-589-8614x341
+EMP00101,Riley Bryant,riley.bryant@abctech.com,Operations,Mumbai,2021-02-09,No,679-880-8932
+EMP00102,Harry Duncan,harry.duncan@abctech.com,Marketing,Delhi,2022-12-07,No,(218)851-8888
+EMP00103,Amanda Hughes,amanda.hughes@abctech.com,Marketing,Delhi,2021-10-07,Yes,(740)751-5319x520
+EMP00104,Carrie Maxwell,carrie.maxwell@abctech.com,Sales,Chennai,2020-08-05,Yes,772.621.7043x030
+EMP00105,Virginia Daniels,virginia.daniels@abctech.com,Marketing,Bangalore,2022-08-27,No,903-845-0541x566
+EMP00106,Cody Holt,cody.holt@abctech.com,Procurement,Noida,2022-08-31,Yes,(384)316-1692x845
+EMP00107,Edward Griffin,edward.griffin@abctech.com,Customer Support,Kolkata,2024-07-20,No,001-362-875-7059x640
+EMP00108,Robert Shelton,robert.shelton@abctech.com,Legal,Hyderabad,2021-12-11,No,7298702135
+EMP00109,Amanda Hernandez,amanda.hernandez@abctech.com,Customer Support,Mumbai,2023-06-23,No,555.371.9285x654
+EMP00110,Cody Holmes,cody.holmes@abctech.com,Customer Support,Noida,2018-04-29,No,+1-514-347-3947
+EMP00111,Benjamin Thompson,benjamin.thompson@abctech.com,Customer Support,Chennai,2023-03-30,Yes,001-771-555-1884x422
+EMP00112,Curtis Taylor,curtis.taylor@abctech.com,Customer Support,Hyderabad,2018-12-10,No,805.989.5782x9114
+EMP00113,Patricia Morrow,patricia.morrow@abctech.com,Sales,Noida,2020-01-15,No,425-417-7852
+EMP00114,Thomas Brown,thomas.brown@abctech.com,Customer Support,Pune,2020-05-16,No,682-342-2535
+EMP00115,Mark Pierce,mark.pierce@abctech.com,IT,Kolkata,2021-02-13,No,(449)481-8299
+EMP00116,Michelle Jacobs,michelle.jacobs@abctech.com,Human Resources,Noida,2018-03-21,Yes,001-800-210-9439
+EMP00117,Mr. Dylan Frye MD,mr..dylan.frye.md@abctech.com,IT,Mumbai,2018-10-09,Yes,+1-464-771-0276x77359
+EMP00118,Emma Travis,emma.travis@abctech.com,Finance,Mumbai,2020-03-27,Yes,(962)558-8153x714
+EMP00119,Anthony Dougherty,anthony.dougherty@abctech.com,Marketing,Chennai,2023-04-24,Yes,+1-963-625-9532x787
+EMP00120,Brandon Long MD,brandon.long.md@abctech.com,Legal,Delhi,2022-02-19,Yes,939.650.0479
+EMP00121,Sarah Jordan,sarah.jordan@abctech.com,Sales,Delhi,2019-03-19,Yes,656-350-6098x358
+EMP00122,Jerry Pierce,jerry.pierce@abctech.com,Operations,Kolkata,2022-06-13,Yes,+1-891-221-6558x523
+EMP00123,Chad Cook,chad.cook@abctech.com,Administration,Mumbai,2019-02-22,Yes,687.729.8259x5269
+EMP00124,Katrina Burns,katrina.burns@abctech.com,Administration,Hyderabad,2021-11-23,No,001-647-205-5169
+EMP00125,Deborah Rios,deborah.rios@abctech.com,IT,Bangalore,2023-09-04,No,001-399-530-9728x96230
+EMP00126,Erik Hernandez,erik.hernandez@abctech.com,Finance,Kolkata,2023-07-01,No,001-936-889-7028x385
+EMP00127,Christopher Barr,christopher.barr@abctech.com,IT,Noida,2019-09-19,Yes,585-949-7334x84344
+EMP00128,Gregory Peck,gregory.peck@abctech.com,Procurement,Delhi,2024-11-27,No,001-344-719-8665x2404
+EMP00129,Mary Burgess,mary.burgess@abctech.com,Legal,Kolkata,2024-08-23,No,538.548.4219
+EMP00130,Taylor Perez,taylor.perez@abctech.com,Marketing,Bangalore,2021-02-16,Yes,401.865.7120
+EMP00131,Shirley Alvarez,shirley.alvarez@abctech.com,Legal,Kolkata,2021-10-09,No,+1-434-254-0193x8026
+EMP00132,Jennifer Simpson DVM,jennifer.simpson.dvm@abctech.com,IT,Chennai,2023-06-21,No,400-949-9154x7887
+EMP00133,Robert Rivera,robert.rivera@abctech.com,Operations,Pune,2021-02-19,No,001-774-320-5493x2966
+EMP00134,Brandon Holden,brandon.holden@abctech.com,Procurement,Hyderabad,2023-10-18,Yes,253.604.6374x5499
+EMP00135,Melissa Brown,melissa.brown@abctech.com,Marketing,Kolkata,2023-06-25,Yes,774-526-8414
+EMP00136,Casey Hernandez,casey.hernandez@abctech.com,Legal,Noida,2023-01-10,Yes,001-795-368-7833x9187
+EMP00137,Ashley Poole,ashley.poole@abctech.com,Operations,Mumbai,2022-07-15,No,939.282.2587x13971
+EMP00138,Jose Bryant,jose.bryant@abctech.com,Administration,Pune,2023-04-23,No,3872406403
+EMP00139,Michael Weaver,michael.weaver@abctech.com,Customer Support,Pune,2021-12-12,No,7178046226
+EMP00140,Thomas Bennett,thomas.bennett@abctech.com,Operations,Delhi,2020-08-02,Yes,482-551-2868
+EMP00141,Nicole Good,nicole.good@abctech.com,IT,Bangalore,2024-01-04,Yes,386.286.3375x243
+EMP00142,Jennifer Miranda,jennifer.miranda@abctech.com,Marketing,Noida,2021-02-06,No,2335119079
+EMP00143,Jennifer Young,jennifer.young@abctech.com,Human Resources,Mumbai,2021-04-28,No,702.584.3959
+EMP00144,Charles Keller,charles.keller@abctech.com,Sales,Delhi,2018-02-27,Yes,964.240.8926
+EMP00145,Teresa Powers,teresa.powers@abctech.com,Operations,Hyderabad,2018-08-12,No,956.262.4628x73342
+EMP00146,Tracy Grant,tracy.grant@abctech.com,Sales,Noida,2019-02-25,No,(363)543-5175
+EMP00147,James Jacobs,james.jacobs@abctech.com,Legal,Noida,2022-12-10,Yes,6132983735
+EMP00148,Colton Figueroa,colton.figueroa@abctech.com,Finance,Delhi,2023-05-11,Yes,001-773-693-6385x4678
+EMP00149,Jose Crawford,jose.crawford@abctech.com,Customer Support,Noida,2018-10-31,Yes,575-435-5609
+EMP00150,Juan Silva,juan.silva@abctech.com,Sales,Chennai,2024-04-24,Yes,001-664-923-5369x3785
+EMP00151,Maria Henry,maria.henry@abctech.com,Marketing,Bangalore,2024-04-04,Yes,(252)328-7280
+EMP00152,Mary Duran,mary.duran@abctech.com,Procurement,Kolkata,2023-01-20,No,(923)212-0387x50997
+EMP00153,Juan Smith,juan.smith@abctech.com,Administration,Kolkata,2021-06-04,Yes,648.740.8621x18233
+EMP00154,James Watson,james.watson@abctech.com,Administration,Bangalore,2020-05-01,Yes,(979)233-4101x6668
+EMP00155,Michele Miller,michele.miller@abctech.com,Operations,Bangalore,2019-10-06,Yes,(259)418-0339x74014
+EMP00156,Emily Ali,emily.ali@abctech.com,Procurement,Bangalore,2019-10-04,No,001-826-714-2939
+EMP00157,Patrick Gibbs,patrick.gibbs@abctech.com,Legal,Noida,2021-04-07,Yes,001-818-750-1631x599
+EMP00158,Donald Riddle,donald.riddle@abctech.com,Operations,Delhi,2023-02-03,Yes,335.386.6296x1943
+EMP00159,James Bowers,james.bowers@abctech.com,Operations,Mumbai,2022-10-08,Yes,(765)651-1047
+EMP00160,Brandon Jordan,brandon.jordan@abctech.com,Sales,Delhi,2019-08-06,Yes,+1-388-761-0158
+EMP00161,Alexandria Gutierrez,alexandria.gutierrez@abctech.com,Sales,Delhi,2024-09-03,No,001-418-339-8262x24447
+EMP00162,Donald Evans,donald.evans@abctech.com,Legal,Bangalore,2023-04-04,No,354-437-9937
+EMP00163,Travis Cook,travis.cook@abctech.com,Operations,Noida,2022-11-29,Yes,+1-965-775-6924x593
+EMP00164,James Flores,james.flores@abctech.com,Customer Support,Pune,2024-10-08,Yes,001-479-235-6465x1939
+EMP00165,Julia Erickson,julia.erickson@abctech.com,Human Resources,Mumbai,2024-06-14,Yes,341.967.2434x266
+EMP00166,Karen Morales DDS,karen.morales.dds@abctech.com,Operations,Hyderabad,2019-12-19,No,001-268-805-8911x352
+EMP00167,Erin Hogan,erin.hogan@abctech.com,Operations,Chennai,2024-07-25,No,501-943-8889
+EMP00168,Joel Frazier,joel.frazier@abctech.com,Human Resources,Noida,2021-11-26,No,001-782-650-7146x112
+EMP00169,Richard Boyd,richard.boyd@abctech.com,IT,Bangalore,2019-10-21,No,(371)477-5140x105
+EMP00170,Natalie Black,natalie.black@abctech.com,Legal,Delhi,2022-06-29,Yes,+1-425-886-7362
+EMP00171,Omar Ware,omar.ware@abctech.com,Legal,Bangalore,2021-07-12,No,496.760.3341x918
+EMP00172,Jim Baker,jim.baker@abctech.com,Human Resources,Kolkata,2023-10-09,No,485.696.9691x5579
+EMP00173,Leslie Powers,leslie.powers@abctech.com,Customer Support,Hyderabad,2020-02-08,No,813-841-2528x66929
+EMP00174,Mark Steele,mark.steele@abctech.com,Administration,Noida,2022-12-16,Yes,+1-228-927-4225x7905
+EMP00175,Robert Maynard,robert.maynard@abctech.com,Operations,Chennai,2021-03-25,No,676.576.7721x90340
+EMP00176,Carol Ellis,carol.ellis@abctech.com,Human Resources,Hyderabad,2024-10-29,Yes,001-578-881-9148x5807
+EMP00177,Ronald Potter,ronald.potter@abctech.com,Operations,Hyderabad,2024-03-12,Yes,807-445-1713x3959
+EMP00178,Rachel Li,rachel.li@abctech.com,Marketing,Bangalore,2023-03-06,Yes,6956849825
+EMP00179,Tiffany Robertson,tiffany.robertson@abctech.com,Legal,Delhi,2023-09-16,No,+1-412-660-4223x25367
+EMP00180,Jaime Jones,jaime.jones@abctech.com,Legal,Noida,2020-09-25,Yes,001-316-884-5775x90175
+EMP00181,Jeffrey Lewis,jeffrey.lewis@abctech.com,Customer Support,Mumbai,2024-09-21,Yes,354-958-9297x500
+EMP00182,Timothy Moore,timothy.moore@abctech.com,Human Resources,Delhi,2022-08-27,No,706.432.4241x541
+EMP00183,Mario Barber,mario.barber@abctech.com,Finance,Delhi,2021-05-07,No,001-236-211-0371x29387
+EMP00184,Ruth Mcneil,ruth.mcneil@abctech.com,Sales,Noida,2024-01-16,No,(427)413-6111x55426
+EMP00185,Justin Bishop,justin.bishop@abctech.com,IT,Kolkata,2023-02-09,Yes,(375)332-6973
+EMP00186,Bryce Blair,bryce.blair@abctech.com,Marketing,Kolkata,2020-08-14,Yes,(665)223-4138x999
+EMP00187,Mary Turner,mary.turner@abctech.com,IT,Noida,2022-04-11,Yes,398.236.4037x61379
+EMP00188,Dr. Bonnie Valencia,dr..bonnie.valencia@abctech.com,Legal,Hyderabad,2019-06-02,No,001-365-282-7109
+EMP00189,Andrew Brown,andrew.brown@abctech.com,Human Resources,Noida,2019-02-13,No,(384)686-6618x8924
+EMP00190,Thomas Mccann,thomas.mccann@abctech.com,Finance,Chennai,2022-08-07,Yes,(285)569-1463
+EMP00191,Jeffrey Chavez,jeffrey.chavez@abctech.com,Human Resources,Noida,2020-12-21,No,+1-604-421-0202x758
+EMP00192,Paul Marks,paul.marks@abctech.com,Human Resources,Pune,2023-12-26,No,001-710-256-4814x9177
+EMP00193,Mr. Jacob Scott Jr.,mr..jacob.scott.jr.@abctech.com,Legal,Hyderabad,2024-12-04,Yes,001-913-780-0030
+EMP00194,Chris Velazquez,chris.velazquez@abctech.com,Operations,Mumbai,2019-01-06,Yes,3867353654
+EMP00195,Michael Williams,michael.williams@abctech.com,Human Resources,Noida,2019-11-13,Yes,380.961.7445
+EMP00196,Curtis Elliott,curtis.elliott@abctech.com,Finance,Pune,2018-08-18,No,293-575-9738x3206
+EMP00197,Makayla Steele,makayla.steele@abctech.com,IT,Kolkata,2019-08-20,No,8509641383
+EMP00198,Valerie Thomas,valerie.thomas@abctech.com,Administration,Chennai,2019-11-28,Yes,410-838-6571x918
+EMP00199,Keith Graham,keith.graham@abctech.com,Administration,Kolkata,2024-12-13,No,(634)545-6557
+EMP00200,Dale Chan,dale.chan@abctech.com,Administration,Chennai,2020-08-09,No,001-312-712-7756
+EMP00201,Christine Parker,christine.parker@abctech.com,Legal,Delhi,2018-02-08,No,711-824-9035x213
+EMP00202,Megan Green,megan.green@abctech.com,Procurement,Chennai,2018-10-30,No,(306)478-8317
+EMP00203,Antonio Norman,antonio.norman@abctech.com,Administration,Delhi,2022-10-04,No,323.265.1994
+EMP00204,Christina Brewer PhD,christina.brewer.phd@abctech.com,Operations,Mumbai,2022-04-25,Yes,851-907-0296
+EMP00205,Michael Thompson,michael.thompson@abctech.com,Marketing,Kolkata,2024-05-31,No,524.647.2099
+EMP00206,Dr. John Miller MD,dr..john.miller.md@abctech.com,Operations,Hyderabad,2022-06-10,Yes,(738)838-0657x87598
+EMP00207,Alexander Harper,alexander.harper@abctech.com,Administration,Hyderabad,2024-10-19,No,3405785932
+EMP00208,Deborah Velasquez,deborah.velasquez@abctech.com,Marketing,Pune,2020-06-16,Yes,001-203-796-5223x9559
+EMP00209,Kristy Hart,kristy.hart@abctech.com,Administration,Delhi,2019-07-15,Yes,578.542.7010
+EMP00210,John Rivera,john.rivera@abctech.com,Finance,Delhi,2022-12-11,No,+1-732-352-5002x921
+EMP00211,Tom Foster,tom.foster@abctech.com,Sales,Bangalore,2021-04-23,No,454-752-2675
+EMP00212,Kevin Thompson,kevin.thompson@abctech.com,Sales,Mumbai,2019-06-26,No,542-320-9690x2959
+EMP00213,Brenda Mcgee,brenda.mcgee@abctech.com,Procurement,Delhi,2019-11-05,No,555.521.5704
+EMP00214,Hayley Buchanan,hayley.buchanan@abctech.com,Operations,Pune,2019-04-17,Yes,001-300-967-6267x6586
+EMP00215,Laura Chang,laura.chang@abctech.com,Sales,Mumbai,2022-06-16,No,327.310.4054
+EMP00216,Stephen Martin,stephen.martin@abctech.com,Human Resources,Kolkata,2018-02-27,Yes,481-859-9706
+EMP00217,Brian Harris,brian.harris@abctech.com,Legal,Pune,2020-12-09,No,268.884.4431
+EMP00218,Sara Hernandez,sara.hernandez@abctech.com,IT,Bangalore,2020-08-15,Yes,(606)314-9731x032
+EMP00219,Brian Glover,brian.glover@abctech.com,Administration,Pune,2024-11-03,Yes,674.918.6256x5270
+EMP00220,Darrell Adams,darrell.adams@abctech.com,Legal,Delhi,2022-07-31,Yes,2218158693
+EMP00221,Jennifer Nichols,jennifer.nichols@abctech.com,Finance,Hyderabad,2021-05-31,Yes,493.374.1608x9899
+EMP00222,Joann Rush,joann.rush@abctech.com,Human Resources,Mumbai,2024-01-11,No,(433)620-6163
+EMP00223,Nicholas Aguirre,nicholas.aguirre@abctech.com,Legal,Pune,2024-01-22,Yes,268-868-5487
+EMP00224,Chase Knight,chase.knight@abctech.com,Customer Support,Bangalore,2023-06-28,No,001-611-891-4856
+EMP00225,Laura Kennedy,laura.kennedy@abctech.com,Operations,Hyderabad,2022-02-26,No,(746)529-9606
+EMP00226,John Adams,john.adams@abctech.com,Legal,Mumbai,2022-01-25,No,(705)644-4713x247
+EMP00227,Lisa Davis,lisa.davis@abctech.com,Procurement,Pune,2018-09-06,No,836.478.5082x148
+EMP00228,Kelly Carroll,kelly.carroll@abctech.com,Marketing,Bangalore,2023-02-06,Yes,(533)603-0705
+EMP00229,John Sanders,john.sanders@abctech.com,Administration,Hyderabad,2018-07-27,Yes,703-757-9727
+EMP00230,Steven Curry,steven.curry@abctech.com,Sales,Mumbai,2018-10-09,Yes,001-614-806-0293x333
+EMP00231,Sharon Coffey,sharon.coffey@abctech.com,Administration,Mumbai,2020-08-12,Yes,+1-707-922-9034x94466
+EMP00232,John Byrd,john.byrd@abctech.com,Administration,Hyderabad,2021-02-09,Yes,+1-369-910-8589x944
+EMP00233,William Davidson,william.davidson@abctech.com,Procurement,Delhi,2019-12-16,Yes,244-932-8309x652
+EMP00234,Deanna Barnes MD,deanna.barnes.md@abctech.com,Sales,Hyderabad,2022-01-07,No,6994353875
+EMP00235,Sherri White,sherri.white@abctech.com,Finance,Chennai,2020-12-22,Yes,772-548-2513
+EMP00236,Elizabeth French,elizabeth.french@abctech.com,Customer Support,Bangalore,2018-09-18,No,554-394-7170x99917
+EMP00237,Jane Evans,jane.evans@abctech.com,IT,Bangalore,2023-01-26,Yes,7224356972
+EMP00238,Katherine Welch,katherine.welch@abctech.com,Administration,Hyderabad,2023-11-06,No,(450)907-4329
+EMP00239,Penny Anderson,penny.anderson@abctech.com,Finance,Hyderabad,2023-05-16,No,(566)267-6008x35058
+EMP00240,Lori Wright,lori.wright@abctech.com,Human Resources,Noida,2022-12-22,Yes,001-654-621-6894x210
+EMP00241,Joseph Warren,joseph.warren@abctech.com,IT,Chennai,2018-09-27,No,(425)375-3260x33230
+EMP00242,Matthew Johnson,matthew.johnson@abctech.com,Administration,Pune,2022-04-10,No,+1-848-390-9010x0167
+EMP00243,Kara Hernandez,kara.hernandez@abctech.com,Legal,Kolkata,2019-02-11,Yes,001-304-661-8499x261
+EMP00244,Brian Gonzalez,brian.gonzalez@abctech.com,Customer Support,Noida,2020-07-24,No,948.535.6420
+EMP00245,Karen Young,karen.young@abctech.com,Legal,Kolkata,2022-08-31,No,3116972181
+EMP00246,Joyce Madden,joyce.madden@abctech.com,Customer Support,Pune,2020-11-10,Yes,270-212-0455x611
+EMP00247,Mary Jackson,mary.jackson@abctech.com,Legal,Bangalore,2019-01-09,Yes,(679)841-5521x667
+EMP00248,Karen Fisher,karen.fisher@abctech.com,Customer Support,Bangalore,2022-03-07,Yes,(912)402-1697
+EMP00249,Peggy Carr,peggy.carr@abctech.com,Administration,Pune,2019-05-16,No,+1-527-771-6701x45089
+EMP00250,Melissa Montgomery,melissa.montgomery@abctech.com,Customer Support,Hyderabad,2021-03-24,No,(437)356-2890x02877
+EMP00251,Erica Rivera,erica.rivera@abctech.com,IT,Bangalore,2024-06-25,Yes,908-338-6631x779
+EMP00252,Jillian Wilson,jillian.wilson@abctech.com,Sales,Noida,2020-07-07,No,501.966.0880x1994
+EMP00253,Heidi Brown,heidi.brown@abctech.com,Procurement,Pune,2019-04-16,Yes,375.389.9757
+EMP00254,Courtney Peterson,courtney.peterson@abctech.com,Customer Support,Hyderabad,2024-10-30,No,+1-548-585-1027x2614
+EMP00255,Samuel Lewis,samuel.lewis@abctech.com,Finance,Chennai,2021-01-24,No,451.960.9177
+EMP00256,Noah Tran,noah.tran@abctech.com,IT,Hyderabad,2020-01-14,No,(897)882-9221x69958
+EMP00257,Sydney Farmer,sydney.farmer@abctech.com,Human Resources,Chennai,2018-05-06,Yes,765-547-2269x848
+EMP00258,Marcus Roberts,marcus.roberts@abctech.com,Customer Support,Kolkata,2023-02-02,Yes,(822)688-5158x799
+EMP00259,Jenny Smith,jenny.smith@abctech.com,IT,Delhi,2021-08-21,Yes,606-620-0342
+EMP00260,Antonio Mueller,antonio.mueller@abctech.com,Finance,Chennai,2019-10-07,Yes,880.557.1983
+EMP00261,Rebecca Horton,rebecca.horton@abctech.com,Human Resources,Delhi,2022-12-20,No,001-906-566-5800x439
+EMP00262,Michele Holland,michele.holland@abctech.com,Administration,Noida,2022-08-24,Yes,001-898-293-3472x12281
+EMP00263,Justin Anderson,justin.anderson@abctech.com,Procurement,Bangalore,2021-11-14,Yes,001-240-657-2025
+EMP00264,Kenneth Howard DDS,kenneth.howard.dds@abctech.com,Operations,Noida,2023-11-29,Yes,583-528-1826x88615
+EMP00265,Erin Carter,erin.carter@abctech.com,Marketing,Kolkata,2024-09-20,Yes,001-798-878-0157x39930
+EMP00266,Theresa Cruz,theresa.cruz@abctech.com,Marketing,Delhi,2020-05-15,No,+1-240-685-8877
+EMP00267,Cheryl Palmer,cheryl.palmer@abctech.com,Operations,Pune,2019-05-07,No,328-580-1336
+EMP00268,Michele Cherry,michele.cherry@abctech.com,Customer Support,Chennai,2019-06-14,Yes,001-361-520-7501x10248
+EMP00269,Jennifer Hayes,jennifer.hayes@abctech.com,Procurement,Pune,2018-10-23,Yes,(765)306-1809x1901
+EMP00270,Michael Obrien,michael.obrien@abctech.com,Customer Support,Hyderabad,2023-02-27,No,476-660-7283x2684
+EMP00271,Suzanne Norton,suzanne.norton@abctech.com,Administration,Kolkata,2024-06-06,No,001-350-688-2100x9968
+EMP00272,Patrick Swanson,patrick.swanson@abctech.com,Operations,Bangalore,2022-07-18,No,568.322.2394
+EMP00273,Robert Phelps,robert.phelps@abctech.com,Sales,Noida,2022-01-22,No,001-487-581-4141x39755
+EMP00274,Manuel Mccullough,manuel.mccullough@abctech.com,Human Resources,Mumbai,2022-11-20,No,277-759-4929x95562
+EMP00275,Daniel Singh,daniel.singh@abctech.com,Procurement,Bangalore,2022-06-10,No,(345)625-7775x47812
+EMP00276,Brenda Ryan,brenda.ryan@abctech.com,Marketing,Pune,2019-11-20,Yes,611-908-0996x930
+EMP00277,Brittany Long,brittany.long@abctech.com,Procurement,Mumbai,2021-12-02,Yes,001-494-427-8816x58039
+EMP00278,Christopher Fry,christopher.fry@abctech.com,Marketing,Bangalore,2019-08-23,Yes,+1-727-850-3731x45303
+EMP00279,Jesse Williams,jesse.williams@abctech.com,Sales,Chennai,2018-11-05,No,+1-351-684-4989x2665
+EMP00280,Terry Black,terry.black@abctech.com,Legal,Noida,2024-05-01,No,(657)579-0827x231
+EMP00281,Christopher Guzman,christopher.guzman@abctech.com,IT,Chennai,2022-12-07,No,436-851-7773
+EMP00282,Andrew Berry,andrew.berry@abctech.com,Legal,Delhi,2021-01-30,Yes,(428)809-2024
+EMP00283,Kristy Smith,kristy.smith@abctech.com,IT,Bangalore,2021-06-25,No,001-441-637-9772x3692
+EMP00284,Michael Nielsen,michael.nielsen@abctech.com,Finance,Hyderabad,2022-02-19,Yes,+1-891-436-6210x388
+EMP00285,Cassandra Valenzuela,cassandra.valenzuela@abctech.com,Human Resources,Kolkata,2023-03-11,Yes,+1-808-781-1729x806
+EMP00286,Melissa Patterson,melissa.patterson@abctech.com,Legal,Mumbai,2021-08-09,No,865.699.1624x7314
+EMP00287,Michael Clarke,michael.clarke@abctech.com,Procurement,Chennai,2018-09-11,Yes,001-781-380-6356
+EMP00288,Matthew King,matthew.king@abctech.com,IT,Bangalore,2023-08-29,Yes,+1-969-459-4636
+EMP00289,Justin King,justin.king@abctech.com,Finance,Mumbai,2022-11-29,Yes,795-262-1372x1386
+EMP00290,Vincent Smith,vincent.smith@abctech.com,IT,Pune,2021-03-04,No,727-396-1143
+EMP00291,Misty Arias,misty.arias@abctech.com,IT,Hyderabad,2021-10-02,No,(598)249-0277x0384
+EMP00292,Kayla Hale,kayla.hale@abctech.com,Human Resources,Kolkata,2021-03-09,Yes,+1-820-553-0214x656
+EMP00293,Nancy Jones,nancy.jones@abctech.com,IT,Bangalore,2024-07-14,No,584-989-5543
+EMP00294,Laura Green,laura.green@abctech.com,Operations,Kolkata,2019-06-13,Yes,(981)881-8451x84894
+EMP00295,Patricia Todd,patricia.todd@abctech.com,Operations,Kolkata,2021-09-07,Yes,001-777-290-7141x63356
+EMP00296,Deborah Mitchell,deborah.mitchell@abctech.com,Customer Support,Pune,2018-03-16,No,(951)582-7553x9423
+EMP00297,David Baker,david.baker@abctech.com,Sales,Mumbai,2021-10-31,Yes,933.295.2111
+EMP00298,Kimberly Williams,kimberly.williams@abctech.com,Marketing,Chennai,2019-09-27,No,459.257.9472x8463
+EMP00299,Jenny Ayers,jenny.ayers@abctech.com,Human Resources,Hyderabad,2021-10-11,Yes,7852627187
+EMP00300,Daniel Carpenter,daniel.carpenter@abctech.com,Administration,Kolkata,2019-09-24,Yes,959-842-8434x79552
+EMP00301,Michael Watson,michael.watson@abctech.com,Administration,Chennai,2022-11-28,No,(847)529-2931x4386
+EMP00302,Tyler Hernandez,tyler.hernandez@abctech.com,IT,Mumbai,2022-12-25,No,6266728857
+EMP00303,Laura Ross,laura.ross@abctech.com,Legal,Mumbai,2023-12-28,No,001-620-734-7175x455
+EMP00304,Bryan Dillon,bryan.dillon@abctech.com,Legal,Mumbai,2022-02-15,No,+1-339-898-2455x877
+EMP00305,Julie Frye,julie.frye@abctech.com,Legal,Delhi,2022-04-14,No,(756)599-6112
+EMP00306,Matthew Page,matthew.page@abctech.com,Sales,Mumbai,2024-10-12,No,+1-464-575-9876x220
+EMP00307,Teresa Haynes,teresa.haynes@abctech.com,Finance,Noida,2022-03-01,Yes,232-261-1178
+EMP00308,Kelly Ferrell,kelly.ferrell@abctech.com,Procurement,Bangalore,2021-03-13,Yes,649-921-6433
+EMP00309,Bonnie Roberson,bonnie.roberson@abctech.com,Operations,Noida,2023-10-04,No,9054577848
+EMP00310,Melissa Thompson,melissa.thompson@abctech.com,Human Resources,Mumbai,2023-01-22,Yes,+1-979-668-8457x831
+EMP00311,David Torres,david.torres@abctech.com,Customer Support,Hyderabad,2022-06-12,No,9826547807
+EMP00312,Jeffrey Carter,jeffrey.carter@abctech.com,Marketing,Kolkata,2018-12-01,Yes,508.453.6866
+EMP00313,Maria Clayton,maria.clayton@abctech.com,Finance,Pune,2019-02-10,No,641.863.8944
+EMP00314,Barry Taylor,barry.taylor@abctech.com,Sales,Chennai,2018-06-06,No,279-474-9735
+EMP00315,Joseph Lopez,joseph.lopez@abctech.com,Sales,Noida,2023-01-12,Yes,244-927-0312
+EMP00316,Jason Floyd,jason.floyd@abctech.com,Human Resources,Hyderabad,2020-11-14,Yes,457.505.1204x6187
+EMP00317,Danielle James,danielle.james@abctech.com,Procurement,Kolkata,2019-04-01,Yes,3135673037
+EMP00318,Michael Collins,michael.collins@abctech.com,Operations,Bangalore,2018-07-15,No,520-888-1474x35031
+EMP00319,Christopher Hill,christopher.hill@abctech.com,Administration,Noida,2018-09-15,No,763-300-9792
+EMP00320,Jonathan Parks,jonathan.parks@abctech.com,Administration,Hyderabad,2023-10-12,Yes,500-252-8127x35857
+EMP00321,Heather Taylor,heather.taylor@abctech.com,Sales,Delhi,2022-10-25,No,4777848739
+EMP00322,John Dillon,john.dillon@abctech.com,Marketing,Kolkata,2020-02-07,No,+1-282-818-2744x857
+EMP00323,Sonya Harvey,sonya.harvey@abctech.com,Human Resources,Hyderabad,2022-05-19,Yes,(693)751-8638x782
+EMP00324,Frank Davis,frank.davis@abctech.com,Customer Support,Pune,2020-11-04,No,+1-910-622-0317x31096
+EMP00325,Daniel Robbins,daniel.robbins@abctech.com,Human Resources,Pune,2020-09-14,Yes,7372170586
+EMP00326,Deborah Williams,deborah.williams@abctech.com,Administration,Pune,2019-07-01,No,841-538-1138
+EMP00327,Matthew Hudson,matthew.hudson@abctech.com,Procurement,Pune,2019-12-19,No,(388)461-9576
+EMP00328,Krista Wagner,krista.wagner@abctech.com,Sales,Chennai,2018-09-16,Yes,+1-528-597-5585x56659
+EMP00329,Joshua Garner,joshua.garner@abctech.com,Operations,Mumbai,2018-06-29,Yes,(277)660-0490x824
+EMP00330,Mrs. Emily Ingram,mrs..emily.ingram@abctech.com,IT,Delhi,2023-10-13,No,001-448-488-9921x075
+EMP00331,Steve Wright,steve.wright@abctech.com,Operations,Hyderabad,2020-02-22,No,341-696-9315x727
+EMP00332,Robert James,robert.james@abctech.com,Finance,Pune,2021-01-24,No,001-205-756-6139x06048
+EMP00333,Brittany Shaw,brittany.shaw@abctech.com,Customer Support,Kolkata,2022-12-07,No,520.867.9981
+EMP00334,James Anderson,james.anderson@abctech.com,Sales,Noida,2023-07-31,No,879-408-6416
+EMP00335,Karen Gonzalez,karen.gonzalez@abctech.com,Human Resources,Kolkata,2018-11-20,Yes,(393)389-8331x4659
+EMP00336,Jessica Bailey,jessica.bailey@abctech.com,Procurement,Delhi,2021-08-08,Yes,559-704-2597x92703
+EMP00337,Nicholas Miller,nicholas.miller@abctech.com,IT,Delhi,2021-06-09,No,001-703-592-4051x4770
+EMP00338,Christy Payne,christy.payne@abctech.com,Sales,Noida,2021-12-10,Yes,001-648-579-2069x80420
+EMP00339,Lisa Brown,lisa.brown@abctech.com,IT,Kolkata,2021-01-29,Yes,+1-301-764-5104x6368
+EMP00340,Mr. Brandon Gonzalez,mr..brandon.gonzalez@abctech.com,Human Resources,Kolkata,2022-01-28,Yes,780.703.8457x620
+EMP00341,Eric Ferrell,eric.ferrell@abctech.com,Finance,Chennai,2024-10-24,Yes,840.546.0843x25621
+EMP00342,Kenneth Simmons,kenneth.simmons@abctech.com,Sales,Bangalore,2020-08-24,No,495-878-2329x8324
+EMP00343,Vanessa Thomas DVM,vanessa.thomas.dvm@abctech.com,IT,Kolkata,2024-05-12,Yes,(251)788-1252
+EMP00344,Jennifer Jenkins,jennifer.jenkins@abctech.com,Legal,Pune,2022-03-04,Yes,542.531.2209x949
+EMP00345,Alexander Miller,alexander.miller@abctech.com,Administration,Chennai,2023-12-09,No,001-572-289-7526x77223
+EMP00346,Wayne Schaefer,wayne.schaefer@abctech.com,IT,Delhi,2020-10-19,Yes,(233)831-2797x57366
+EMP00347,Jennifer Crosby,jennifer.crosby@abctech.com,Sales,Noida,2023-10-22,Yes,001-298-580-8177
+EMP00348,Jennifer Moss,jennifer.moss@abctech.com,Operations,Delhi,2023-01-02,No,+1-668-903-4764
+EMP00349,Edward Ellison,edward.ellison@abctech.com,Legal,Mumbai,2019-05-18,Yes,001-882-877-1812x982
+EMP00350,Alexander Chavez,alexander.chavez@abctech.com,Legal,Chennai,2022-12-29,No,001-337-814-5211x175
+EMP00351,Vanessa Salazar,vanessa.salazar@abctech.com,IT,Bangalore,2024-03-02,No,(468)460-2592
+EMP00352,Michael Barnes,michael.barnes@abctech.com,Operations,Chennai,2019-12-15,Yes,974-221-2309x4077
+EMP00353,Katherine Robinson,katherine.robinson@abctech.com,Human Resources,Mumbai,2019-07-23,No,+1-577-267-1990x38498
+EMP00354,Anthony Bailey,anthony.bailey@abctech.com,Finance,Pune,2024-03-19,No,(809)494-5101
+EMP00355,Duane Guerrero,duane.guerrero@abctech.com,Legal,Chennai,2024-11-11,Yes,001-799-882-7950x145
+EMP00356,Olivia Bridges,olivia.bridges@abctech.com,Operations,Kolkata,2023-05-15,No,547-521-4586
+EMP00357,Ashley Blair,ashley.blair@abctech.com,Customer Support,Bangalore,2019-05-29,Yes,+1-781-479-4695x4899
+EMP00358,Kathleen Daniel,kathleen.daniel@abctech.com,Legal,Noida,2023-10-21,Yes,872.893.4301x0713
+EMP00359,Gregory Shaffer,gregory.shaffer@abctech.com,Procurement,Chennai,2019-06-13,Yes,703.244.1448
+EMP00360,Gary Foster,gary.foster@abctech.com,Human Resources,Chennai,2021-05-30,Yes,001-290-423-5577
+EMP00361,Mr. Steven Herrera,mr..steven.herrera@abctech.com,IT,Mumbai,2021-11-18,No,776-308-4958x80395
+EMP00362,Diana Johnson,diana.johnson@abctech.com,Human Resources,Delhi,2020-03-15,No,(882)399-6291x4504
+EMP00363,David Hayes DVM,david.hayes.dvm@abctech.com,Sales,Delhi,2024-11-21,Yes,984.221.5031
+EMP00364,Susan Moore,susan.moore@abctech.com,Procurement,Chennai,2024-08-21,Yes,378-245-2182x30768
+EMP00365,Andrew Charles,andrew.charles@abctech.com,Sales,Pune,2024-04-27,Yes,657-501-8409
+EMP00366,Corey Hill,corey.hill@abctech.com,Human Resources,Hyderabad,2024-06-20,Yes,771-742-2410x98813
+EMP00367,Tony Brock,tony.brock@abctech.com,Administration,Kolkata,2024-12-06,Yes,001-232-414-9587
+EMP00368,Steven Williams,steven.williams@abctech.com,Legal,Delhi,2021-05-22,Yes,(501)366-2997x9545
+EMP00369,Nicole Owens,nicole.owens@abctech.com,Customer Support,Delhi,2023-02-01,Yes,(517)417-4773
+EMP00370,Lisa Durham,lisa.durham@abctech.com,Sales,Noida,2022-08-30,No,(425)657-7017x1577
+EMP00371,Lindsey Anderson,lindsey.anderson@abctech.com,Marketing,Pune,2024-10-20,No,861-858-1487
+EMP00372,David Moore,david.moore@abctech.com,IT,Pune,2022-06-22,No,361.953.9669x5832
+EMP00373,Kyle Nguyen,kyle.nguyen@abctech.com,Procurement,Bangalore,2021-07-31,No,872-746-1919
+EMP00374,Matthew Davis PhD,matthew.davis.phd@abctech.com,Human Resources,Delhi,2023-01-16,Yes,001-902-527-8469
+EMP00375,Shawn Evans,shawn.evans@abctech.com,Human Resources,Hyderabad,2021-04-03,No,+1-246-251-9098x62405
+EMP00376,Samantha Howard,samantha.howard@abctech.com,Marketing,Chennai,2021-09-03,No,403-969-6566x6683
+EMP00377,Justin Bridges,justin.bridges@abctech.com,Marketing,Chennai,2023-08-03,No,(462)342-2010x276
+EMP00378,Robert Dalton,robert.dalton@abctech.com,Legal,Delhi,2023-07-31,Yes,001-596-492-7868x765
+EMP00379,Adam Jimenez,adam.jimenez@abctech.com,Customer Support,Noida,2020-09-13,No,001-338-946-8950x0975
+EMP00380,Angela Cross,angela.cross@abctech.com,Finance,Hyderabad,2021-02-26,No,247.781.8913x71894
+EMP00381,Alexandra Gibson,alexandra.gibson@abctech.com,Operations,Hyderabad,2019-03-17,Yes,295.965.4420x9494
+EMP00382,Laura Douglas,laura.douglas@abctech.com,Operations,Pune,2022-07-10,Yes,690-647-1281x4429
+EMP00383,Alexis Rodriguez,alexis.rodriguez@abctech.com,Customer Support,Hyderabad,2024-05-24,Yes,(492)275-2437
+EMP00384,Bradley Thomas,bradley.thomas@abctech.com,IT,Delhi,2018-10-29,No,(776)263-7239
+EMP00385,Nicole Wilson,nicole.wilson@abctech.com,Procurement,Delhi,2024-12-27,Yes,(876)974-7836
+EMP00386,Joseph Graham,joseph.graham@abctech.com,Sales,Bangalore,2022-06-02,No,676-658-0185x6945
+EMP00387,Dawn Silva,dawn.silva@abctech.com,Procurement,Pune,2019-08-14,No,239.838.5258x001
+EMP00388,Brian Griffin,brian.griffin@abctech.com,Procurement,Hyderabad,2018-07-05,Yes,544.330.0910
+EMP00389,Barbara Gates,barbara.gates@abctech.com,IT,Noida,2023-10-29,Yes,(369)921-2447
+EMP00390,Destiny Simmons,destiny.simmons@abctech.com,Administration,Chennai,2021-09-05,No,+1-954-321-4066x50442
+EMP00391,Timothy Bishop Jr.,timothy.bishop.jr.@abctech.com,Sales,Kolkata,2024-11-30,No,312.686.3917x4101
+EMP00392,Alicia Jimenez,alicia.jimenez@abctech.com,Procurement,Noida,2024-04-24,No,+1-800-864-2569x0877
+EMP00393,Priscilla Floyd,priscilla.floyd@abctech.com,Finance,Pune,2021-09-18,No,+1-730-667-1985
+EMP00394,Mark Benjamin,mark.benjamin@abctech.com,Administration,Delhi,2018-04-20,No,258-851-7432
+EMP00395,Elizabeth Price,elizabeth.price@abctech.com,Operations,Mumbai,2018-07-30,No,257-517-3203
+EMP00396,Arthur Fernandez MD,arthur.fernandez.md@abctech.com,Sales,Kolkata,2019-08-29,Yes,+1-370-505-0506
+EMP00397,Mary Ellis,mary.ellis@abctech.com,Administration,Bangalore,2020-02-21,No,+1-482-293-1027x07903
+EMP00398,Anthony Parker,anthony.parker@abctech.com,IT,Kolkata,2019-09-13,Yes,579-329-1117
+EMP00399,Jessica Cain,jessica.cain@abctech.com,Customer Support,Noida,2018-09-13,Yes,001-365-319-8253x0925
+EMP00400,Peter Jackson,peter.jackson@abctech.com,Procurement,Pune,2023-05-14,No,(282)973-9021x962
+EMP00401,Adam Howe,adam.howe@abctech.com,IT,Chennai,2023-02-26,No,001-594-467-2324x876
+EMP00402,Amanda White,amanda.white@abctech.com,Procurement,Pune,2020-12-18,No,791.545.6083x3181
+EMP00403,Mark Clark,mark.clark@abctech.com,Marketing,Mumbai,2021-02-16,No,2317277220
+EMP00404,Jeffrey Cook,jeffrey.cook@abctech.com,Marketing,Delhi,2021-03-29,No,001-970-710-8220x78113
+EMP00405,Paul Villanueva,paul.villanueva@abctech.com,IT,Noida,2021-11-29,No,515.331.3636
+EMP00406,John Zamora,john.zamora@abctech.com,Operations,Bangalore,2024-06-06,No,(539)772-6527
+EMP00407,Christina Martinez,christina.martinez@abctech.com,Customer Support,Pune,2019-08-23,Yes,001-690-442-1776x253
+EMP00408,Margaret Carr,margaret.carr@abctech.com,Operations,Bangalore,2021-11-19,No,(998)931-6873
+EMP00409,Nicholas Fitzgerald,nicholas.fitzgerald@abctech.com,Legal,Mumbai,2020-04-07,No,235.869.3929
+EMP00410,Amanda Ruiz,amanda.ruiz@abctech.com,Procurement,Delhi,2019-07-17,Yes,001-880-568-6717x73180
+EMP00411,Edward Holland,edward.holland@abctech.com,Marketing,Hyderabad,2023-12-16,Yes,907-942-7990
+EMP00412,Shelly Sullivan,shelly.sullivan@abctech.com,Finance,Bangalore,2022-08-20,No,(570)316-5804x649
+EMP00413,Gabriela Randolph,gabriela.randolph@abctech.com,Human Resources,Chennai,2018-01-22,Yes,550.416.5790x55281
+EMP00414,Mrs. Ashley Mendoza,mrs..ashley.mendoza@abctech.com,Customer Support,Noida,2023-05-10,Yes,001-993-935-5486x40155
+EMP00415,Sandra Harrison,sandra.harrison@abctech.com,Operations,Pune,2021-03-15,Yes,+1-384-379-5137
+EMP00416,Christopher Mullen,christopher.mullen@abctech.com,Human Resources,Mumbai,2024-01-01,Yes,212-641-2723
+EMP00417,Michael Huynh,michael.huynh@abctech.com,Customer Support,Chennai,2018-05-29,No,756.770.4310x3856
+EMP00418,Mr. Joseph Kelley,mr..joseph.kelley@abctech.com,Sales,Delhi,2018-06-03,No,449.724.2437x540
+EMP00419,Tyler Montgomery,tyler.montgomery@abctech.com,Administration,Bangalore,2021-10-04,No,(284)722-2231
+EMP00420,Jessica Wood,jessica.wood@abctech.com,Procurement,Noida,2019-07-04,No,480.655.2578
+EMP00421,Alexander Velazquez,alexander.velazquez@abctech.com,Operations,Mumbai,2019-04-07,Yes,001-927-752-0885x47492
+EMP00422,Monique Mccullough,monique.mccullough@abctech.com,Legal,Delhi,2020-02-02,No,(781)340-6937
+EMP00423,Lee Lee,lee.lee@abctech.com,Operations,Mumbai,2019-12-20,No,234.730.1871x86375
+EMP00424,Mike Patterson,mike.patterson@abctech.com,Customer Support,Pune,2018-12-22,Yes,(950)645-5478x1376
+EMP00425,Nicholas Hurst,nicholas.hurst@abctech.com,Sales,Chennai,2023-05-10,Yes,001-862-399-1234x7851
+EMP00426,Mark Nelson,mark.nelson@abctech.com,Finance,Delhi,2022-04-21,No,(987)292-3264
+EMP00427,Elizabeth Richards,elizabeth.richards@abctech.com,Operations,Pune,2021-05-21,Yes,487.930.0244x7146
+EMP00428,Maria Johnson,maria.johnson@abctech.com,Operations,Pune,2020-08-25,Yes,001-247-619-5979x64715
+EMP00429,Anthony Flores,anthony.flores@abctech.com,Legal,Delhi,2019-10-17,No,001-325-520-4565x044
+EMP00430,Catherine Davis,catherine.davis@abctech.com,Human Resources,Delhi,2022-02-14,Yes,001-428-655-4451x89520
+EMP00431,John Peterson,john.peterson@abctech.com,Marketing,Chennai,2023-05-13,No,(313)828-3389
+EMP00432,Billy Fuentes,billy.fuentes@abctech.com,Administration,Pune,2022-08-31,No,7754452798
+EMP00433,Alyssa Olsen,alyssa.olsen@abctech.com,Procurement,Mumbai,2020-10-10,Yes,822.334.2321
+EMP00434,Raymond Todd,raymond.todd@abctech.com,Procurement,Noida,2023-12-04,Yes,6312089071
+EMP00435,Michael Webster,michael.webster@abctech.com,Administration,Bangalore,2018-09-10,Yes,493-693-2501
+EMP00436,Hannah Martin,hannah.martin@abctech.com,Administration,Chennai,2019-11-05,No,293.389.1190x83342
+EMP00437,Tami York,tami.york@abctech.com,Human Resources,Mumbai,2024-07-16,Yes,859.327.1256x6383
+EMP00438,Emily Owens,emily.owens@abctech.com,Procurement,Noida,2018-08-16,Yes,627.954.8015x71647
+EMP00439,Jason Mercer,jason.mercer@abctech.com,Procurement,Kolkata,2023-02-15,Yes,(431)875-2071x67811
+EMP00440,Kevin Garcia,kevin.garcia@abctech.com,Procurement,Noida,2021-06-16,No,(515)835-3961
+EMP00441,Diana Reeves,diana.reeves@abctech.com,Operations,Hyderabad,2020-06-11,Yes,001-694-465-7967
+EMP00442,Ashley King,ashley.king@abctech.com,Finance,Kolkata,2021-11-12,Yes,432.601.0170x2695
+EMP00443,Anne Jones,anne.jones@abctech.com,Human Resources,Noida,2018-05-10,No,001-287-273-4778x48588
+EMP00444,Sheryl Wilson MD,sheryl.wilson.md@abctech.com,Sales,Chennai,2022-09-18,No,(877)900-2842x7624
+EMP00445,Laura Henry,laura.henry@abctech.com,Legal,Kolkata,2022-03-19,Yes,+1-889-677-8280
+EMP00446,Wesley Jensen MD,wesley.jensen.md@abctech.com,IT,Bangalore,2020-01-02,No,350-809-0255x9056
+EMP00447,Hunter Bell,hunter.bell@abctech.com,Procurement,Chennai,2020-07-01,Yes,+1-733-234-9114x15208
+EMP00448,Scott Bradley,scott.bradley@abctech.com,Operations,Noida,2024-02-09,No,(340)579-0569x65917
+EMP00449,Jonathan Hubbard,jonathan.hubbard@abctech.com,Marketing,Mumbai,2023-03-02,Yes,629-845-6371x83440
+EMP00450,Lori Rubio,lori.rubio@abctech.com,Operations,Mumbai,2019-04-08,No,001-791-395-4198x763
+EMP00451,Elizabeth Brock,elizabeth.brock@abctech.com,Administration,Hyderabad,2020-09-12,Yes,(485)936-6498x78208
+EMP00452,Victor Harmon,victor.harmon@abctech.com,Human Resources,Hyderabad,2023-01-03,Yes,548.496.9083x572
+EMP00453,Pamela Richard,pamela.richard@abctech.com,Marketing,Hyderabad,2022-07-06,Yes,(451)536-4424x93631
+EMP00454,Robert Collins,robert.collins@abctech.com,Procurement,Mumbai,2018-08-20,No,486.260.3242x0448
+EMP00455,Katelyn Smith,katelyn.smith@abctech.com,Marketing,Pune,2024-06-23,No,459-541-6516
+EMP00456,Nicholas Fitzpatrick,nicholas.fitzpatrick@abctech.com,Marketing,Delhi,2019-08-10,Yes,898.547.1391x55963
+EMP00457,Christopher Booker,christopher.booker@abctech.com,Customer Support,Delhi,2021-02-01,Yes,964.590.7851x586
+EMP00458,Sherry Giles,sherry.giles@abctech.com,Customer Support,Noida,2018-07-12,No,(675)740-9003x486
+EMP00459,Melinda Nichols,melinda.nichols@abctech.com,Procurement,Pune,2022-09-02,Yes,676.506.4413
+EMP00460,Caitlin Gonzales,caitlin.gonzales@abctech.com,Operations,Kolkata,2020-01-24,No,360-741-7765x61248
+EMP00461,Nicholas Kelley,nicholas.kelley@abctech.com,Marketing,Mumbai,2021-05-16,No,370-402-7206x34591
+EMP00462,Micheal Saunders,micheal.saunders@abctech.com,Finance,Kolkata,2022-09-03,Yes,+1-529-365-7724x2954
+EMP00463,Christopher Walter,christopher.walter@abctech.com,Customer Support,Mumbai,2020-11-10,No,001-530-608-9317
+EMP00464,Caroline Morales,caroline.morales@abctech.com,Human Resources,Noida,2022-02-28,Yes,(394)521-5291x08677
+EMP00465,Cheryl Atkins,cheryl.atkins@abctech.com,Finance,Delhi,2022-03-25,Yes,447-862-6393x436
+EMP00466,Alyssa Cherry,alyssa.cherry@abctech.com,Human Resources,Mumbai,2024-08-03,Yes,997.435.9710
+EMP00467,Valerie Sanders,valerie.sanders@abctech.com,Legal,Mumbai,2021-09-25,Yes,266.794.1180
+EMP00468,Kaitlin Gomez,kaitlin.gomez@abctech.com,Marketing,Mumbai,2019-04-26,Yes,+1-290-404-8964x652
+EMP00469,Jonathan Conrad,jonathan.conrad@abctech.com,Administration,Mumbai,2022-06-13,No,921.658.6241x502
+EMP00470,Tammy Campbell,tammy.campbell@abctech.com,Operations,Kolkata,2023-03-25,No,294-585-6257x287
+EMP00471,David Johnson,david.johnson@abctech.com,Operations,Delhi,2022-01-13,No,927-361-7075x877
+EMP00472,Sharon Martinez,sharon.martinez@abctech.com,Legal,Bangalore,2023-04-08,Yes,534-222-8499
+EMP00473,Laura Butler,laura.butler@abctech.com,IT,Pune,2022-08-23,Yes,737-315-0416
+EMP00474,Brittany Miller,brittany.miller@abctech.com,Sales,Hyderabad,2020-12-04,No,001-477-549-0509x759
+EMP00475,Rebecca Campbell,rebecca.campbell@abctech.com,Operations,Chennai,2020-03-14,Yes,5188961642
+EMP00476,Samuel Martin,samuel.martin@abctech.com,Customer Support,Mumbai,2023-08-08,No,001-564-921-4764x92515
+EMP00477,James Adams,james.adams@abctech.com,Operations,Noida,2023-07-03,Yes,+1-761-965-9266x108
+EMP00478,Maria Reeves,maria.reeves@abctech.com,IT,Chennai,2019-07-28,No,588.814.7617x4224
+EMP00479,Anthony Jones,anthony.jones@abctech.com,Sales,Hyderabad,2023-11-17,Yes,6817866179
+EMP00480,Brad Gordon,brad.gordon@abctech.com,Finance,Hyderabad,2022-08-17,Yes,772-926-0164
+EMP00481,Joanna Morton,joanna.morton@abctech.com,Human Resources,Chennai,2018-02-07,No,223-421-9416x80061
+EMP00482,Julia Sullivan,julia.sullivan@abctech.com,IT,Hyderabad,2024-12-05,No,+1-397-249-9564x12203
+EMP00483,Chelsea Johnson,chelsea.johnson@abctech.com,Legal,Hyderabad,2018-01-28,No,323.468.3147x2760
+EMP00484,Nancy Wallace,nancy.wallace@abctech.com,Finance,Hyderabad,2023-12-09,No,370.879.3349x6050
+EMP00485,Sarah Mclaughlin,sarah.mclaughlin@abctech.com,Finance,Kolkata,2020-01-05,Yes,+1-284-207-6789x973
+EMP00486,Ethan Brown,ethan.brown@abctech.com,Procurement,Chennai,2020-09-14,No,+1-967-717-9576x0243
+EMP00487,Jordan Matthews,jordan.matthews@abctech.com,IT,Delhi,2022-06-14,No,+1-359-972-4665x72934
+EMP00488,Curtis Obrien,curtis.obrien@abctech.com,Customer Support,Noida,2024-05-03,Yes,767-643-3800
+EMP00489,Christopher Clayton,christopher.clayton@abctech.com,Operations,Bangalore,2018-05-10,No,701.256.1931x83745
+EMP00490,Kristin Kemp,kristin.kemp@abctech.com,Customer Support,Kolkata,2024-03-13,Yes,001-289-310-7711x991
+EMP00491,Bruce Harris,bruce.harris@abctech.com,Finance,Chennai,2018-12-05,No,(524)978-7125x521
+EMP00492,Patricia Smith,patricia.smith@abctech.com,IT,Bangalore,2023-12-04,Yes,854.582.1456x5328
+EMP00493,Jeffrey Hardin,jeffrey.hardin@abctech.com,Marketing,Noida,2021-01-15,Yes,885.407.2081x155
+EMP00494,James Johnson,james.johnson@abctech.com,Operations,Hyderabad,2020-01-05,Yes,+1-629-408-4668x4550
+EMP00495,Jill Harris,jill.harris@abctech.com,Marketing,Chennai,2022-06-20,No,+1-299-775-6341
+EMP00496,Nathan Hobbs,nathan.hobbs@abctech.com,Sales,Mumbai,2024-05-10,No,684.531.8848x52008
+EMP00497,Elizabeth Henderson,elizabeth.henderson@abctech.com,Customer Support,Chennai,2018-11-18,No,910.754.8510x17490
+EMP00498,Dr. Virginia Cunningham,dr..virginia.cunningham@abctech.com,Finance,Bangalore,2022-11-26,Yes,+1-789-535-4492x6831
+EMP00499,Heather Garcia,heather.garcia@abctech.com,IT,Kolkata,2021-08-29,No,001-766-811-0627x371
+EMP00500,Kelly Foster,kelly.foster@abctech.com,Legal,Noida,2020-07-23,No,997-467-7622x827
+EMP00501,Kayla Rice,kayla.rice@abctech.com,Customer Support,Chennai,2024-07-27,Yes,001-337-770-2851x961
+EMP00502,Amanda Hernandez,amanda.hernandez@abctech.com,Administration,Delhi,2020-10-06,Yes,(645)644-7022x960
+EMP00503,Robert Burns,robert.burns@abctech.com,Operations,Chennai,2022-04-06,Yes,985-710-6794
+EMP00504,Karen Cortez,karen.cortez@abctech.com,Customer Support,Pune,2022-01-17,Yes,+1-822-887-7725x199
+EMP00505,James Weaver,james.weaver@abctech.com,Finance,Delhi,2022-12-27,No,+1-274-512-0948x18139
+EMP00506,Kathryn Smith,kathryn.smith@abctech.com,Human Resources,Chennai,2018-12-24,No,+1-282-904-3397x18956
+EMP00507,Allison Kim,allison.kim@abctech.com,Legal,Kolkata,2019-02-28,Yes,(608)356-4111x82422
+EMP00508,Tristan Gregory,tristan.gregory@abctech.com,IT,Bangalore,2024-09-11,No,7954200461
+EMP00509,Frederick Bennett,frederick.bennett@abctech.com,Customer Support,Hyderabad,2021-04-10,No,803-339-9378
+EMP00510,Fernando Tran,fernando.tran@abctech.com,Human Resources,Mumbai,2024-05-31,Yes,370-563-0489
+EMP00511,Marisa Martinez,marisa.martinez@abctech.com,Customer Support,Chennai,2019-07-23,No,001-467-518-3258
+EMP00512,Jessica Buck,jessica.buck@abctech.com,Operations,Noida,2019-08-21,Yes,600.879.4200x749
+EMP00513,Dr. Christy Pittman MD,dr..christy.pittman.md@abctech.com,Customer Support,Delhi,2022-09-21,No,(689)814-1612
+EMP00514,Jonathan Pham,jonathan.pham@abctech.com,Human Resources,Pune,2020-10-27,No,+1-254-974-3553x79502
+EMP00515,Adam Thompson,adam.thompson@abctech.com,Administration,Mumbai,2023-02-19,Yes,+1-376-781-1807
+EMP00516,Jamie Burke,jamie.burke@abctech.com,Operations,Hyderabad,2022-06-09,No,(520)317-5370x3045
+EMP00517,Lori Stokes,lori.stokes@abctech.com,IT,Noida,2021-10-03,Yes,237.550.4793
+EMP00518,Miss Ashley Ramirez,miss.ashley.ramirez@abctech.com,Operations,Pune,2024-10-06,No,672.583.9992x19212
+EMP00519,Monica Hill,monica.hill@abctech.com,IT,Chennai,2022-06-20,No,+1-308-994-8706x05664
+EMP00520,Joseph Williams DDS,joseph.williams.dds@abctech.com,Legal,Mumbai,2021-08-27,No,7463875063
+EMP00521,Rhonda Mooney,rhonda.mooney@abctech.com,Customer Support,Pune,2019-04-12,Yes,361.233.2541
+EMP00522,Robert Watkins,robert.watkins@abctech.com,Administration,Chennai,2024-03-03,No,+1-954-331-7350x5831
+EMP00523,Lauren Miller,lauren.miller@abctech.com,Marketing,Noida,2021-04-08,No,6068512070
+EMP00524,Michael Hansen,michael.hansen@abctech.com,Legal,Chennai,2021-05-25,No,866-319-6399x0767
+EMP00525,Timothy Logan,timothy.logan@abctech.com,Sales,Kolkata,2022-03-25,No,485.693.1109x193
+EMP00526,John Oliver,john.oliver@abctech.com,Administration,Noida,2024-07-12,No,(732)600-2496
+EMP00527,Kimberly Thomas,kimberly.thomas@abctech.com,Procurement,Hyderabad,2022-01-12,Yes,249.854.5089x2038
+EMP00528,William Davidson,william.davidson@abctech.com,Human Resources,Mumbai,2021-12-25,Yes,715.637.7959
+EMP00529,Christopher Gibson,christopher.gibson@abctech.com,Administration,Kolkata,2021-09-20,Yes,5739033793
+EMP00530,Tiffany Rivera,tiffany.rivera@abctech.com,Finance,Bangalore,2020-11-25,Yes,001-463-662-0501x5081
+EMP00531,Mark Durham,mark.durham@abctech.com,Legal,Pune,2022-05-22,Yes,(500)433-4234x258
+EMP00532,Christopher Green,christopher.green@abctech.com,IT,Hyderabad,2023-06-01,No,502-761-5347
+EMP00533,Mary Pugh,mary.pugh@abctech.com,Customer Support,Bangalore,2019-04-21,No,+1-861-512-2338x655
+EMP00534,Pamela Matthews,pamela.matthews@abctech.com,Operations,Pune,2023-02-09,No,+1-942-553-0428
+EMP00535,Rachel Gibbs,rachel.gibbs@abctech.com,IT,Noida,2019-02-04,No,+1-712-986-8578x725
+EMP00536,Kathleen Adams,kathleen.adams@abctech.com,IT,Bangalore,2021-05-14,Yes,(490)733-3736x3466
+EMP00537,Bradley Walton,bradley.walton@abctech.com,Finance,Pune,2019-03-24,Yes,978-853-9078x9567
+EMP00538,Robert Stewart,robert.stewart@abctech.com,Procurement,Chennai,2024-03-10,No,(302)673-4151x4888
+EMP00539,Annette Jones,annette.jones@abctech.com,Procurement,Kolkata,2023-03-08,No,5834535444
+EMP00540,Dr. Nancy Gaines MD,dr..nancy.gaines.md@abctech.com,Sales,Chennai,2022-11-06,Yes,545-966-9078x2633
+EMP00541,Kevin Tran,kevin.tran@abctech.com,Administration,Mumbai,2023-01-16,No,275.715.3663x778
+EMP00542,Shane Torres,shane.torres@abctech.com,Customer Support,Hyderabad,2020-05-29,No,001-207-255-3666x8459
+EMP00543,Brittany Cisneros,brittany.cisneros@abctech.com,Human Resources,Bangalore,2024-01-09,No,399-799-6636x18637
+EMP00544,Jocelyn Kline,jocelyn.kline@abctech.com,IT,Mumbai,2023-02-18,No,421-582-0970
+EMP00545,Victor Campbell,victor.campbell@abctech.com,Legal,Pune,2024-09-11,No,448.717.0580
+EMP00546,Jennifer Moore,jennifer.moore@abctech.com,Administration,Bangalore,2021-11-26,No,528-667-1632
+EMP00547,Michael Wells,michael.wells@abctech.com,Administration,Chennai,2021-05-03,Yes,+1-394-893-8743x027
+EMP00548,Danielle Murphy,danielle.murphy@abctech.com,Sales,Pune,2019-04-28,No,001-777-679-0147
+EMP00549,Rodney Horn,rodney.horn@abctech.com,Human Resources,Chennai,2022-03-10,No,(632)696-7629x16032
+EMP00550,Andrea Barber,andrea.barber@abctech.com,Customer Support,Chennai,2024-06-12,No,776.881.5118
+EMP00551,David Hunter,david.hunter@abctech.com,Sales,Noida,2024-01-11,Yes,301.476.5636x004
+EMP00552,Paul Washington,paul.washington@abctech.com,Procurement,Chennai,2023-06-29,Yes,418-237-2742
+EMP00553,Cassandra Martinez,cassandra.martinez@abctech.com,Sales,Pune,2023-01-22,Yes,001-562-910-4275x2308
+EMP00554,Sara Cain,sara.cain@abctech.com,IT,Hyderabad,2023-06-08,Yes,+1-516-547-0900x6335
+EMP00555,Javier Hays,javier.hays@abctech.com,Customer Support,Noida,2022-08-03,No,531-531-2206x81558
+EMP00556,Jennifer Patterson,jennifer.patterson@abctech.com,Legal,Noida,2019-11-17,Yes,231.855.2065
+EMP00557,Daniel Barrett,daniel.barrett@abctech.com,Marketing,Delhi,2018-05-14,Yes,495-601-3649x718
+EMP00558,Lindsay Jarvis,lindsay.jarvis@abctech.com,Procurement,Delhi,2019-11-20,No,001-962-852-5715x099
+EMP00559,Natalie Gordon,natalie.gordon@abctech.com,Procurement,Bangalore,2024-06-03,No,001-203-409-1436x391
+EMP00560,Edward Hernandez,edward.hernandez@abctech.com,Procurement,Pune,2024-01-30,No,203.897.5245
+EMP00561,Donna Johnson,donna.johnson@abctech.com,Procurement,Mumbai,2022-10-08,Yes,001-455-933-8033x9685
+EMP00562,Amy Vasquez,amy.vasquez@abctech.com,Operations,Hyderabad,2023-01-17,No,502.532.1298
+EMP00563,Jessica Mcdonald,jessica.mcdonald@abctech.com,Human Resources,Noida,2019-04-26,Yes,(933)562-9344
+EMP00564,Richard Miller,richard.miller@abctech.com,Administration,Pune,2024-11-04,No,(266)827-7689x627
+EMP00565,Bradley Knox,bradley.knox@abctech.com,Sales,Chennai,2020-04-26,Yes,998-328-2467x4746
+EMP00566,Miguel Gonzalez,miguel.gonzalez@abctech.com,Administration,Pune,2023-12-21,Yes,700.885.7666
+EMP00567,Martin Chapman MD,martin.chapman.md@abctech.com,IT,Delhi,2021-03-31,No,9167923645
+EMP00568,Marilyn House,marilyn.house@abctech.com,Procurement,Bangalore,2019-07-10,Yes,001-533-470-5024x9724
+EMP00569,Ray Newman,ray.newman@abctech.com,Operations,Chennai,2019-06-28,Yes,(869)618-3626x4488
+EMP00570,Nicole Glass,nicole.glass@abctech.com,IT,Mumbai,2022-05-28,Yes,219-452-4364
+EMP00571,April Jones,april.jones@abctech.com,Administration,Delhi,2022-08-24,No,001-968-464-6225x223
+EMP00572,Ashley Bradley,ashley.bradley@abctech.com,Human Resources,Bangalore,2022-07-09,No,323.402.3467
+EMP00573,Brady Martinez,brady.martinez@abctech.com,IT,Noida,2023-06-23,Yes,250-693-7710
+EMP00574,Adrienne Aguilar,adrienne.aguilar@abctech.com,Human Resources,Noida,2022-01-07,No,9139806984
+EMP00575,Lindsey Rogers,lindsey.rogers@abctech.com,Marketing,Kolkata,2020-05-17,No,+1-855-435-6690x55107
+EMP00576,Bryce Schmidt,bryce.schmidt@abctech.com,IT,Delhi,2021-10-15,Yes,001-735-279-7863x050
+EMP00577,Nancy Gregory,nancy.gregory@abctech.com,Administration,Noida,2021-11-08,Yes,397.869.1567
+EMP00578,Cory Thomas,cory.thomas@abctech.com,Human Resources,Noida,2018-03-08,Yes,598.502.7148x72717
+EMP00579,Paul Keller,paul.keller@abctech.com,Legal,Noida,2018-01-03,Yes,616-902-5643
+EMP00580,Meagan Wade,meagan.wade@abctech.com,Sales,Delhi,2019-10-14,Yes,+1-871-853-9915
+EMP00581,Rachel Burch,rachel.burch@abctech.com,IT,Delhi,2018-12-04,Yes,(733)441-4111x59319
+EMP00582,Tiffany Ray,tiffany.ray@abctech.com,Finance,Kolkata,2021-06-05,No,7404983665
+EMP00583,Lindsay Walker,lindsay.walker@abctech.com,Human Resources,Bangalore,2018-01-05,No,(408)275-2437x7294
+EMP00584,Ellen Mooney,ellen.mooney@abctech.com,Human Resources,Chennai,2024-08-28,No,749-473-7460
+EMP00585,Christine Oconnor,christine.oconnor@abctech.com,Finance,Hyderabad,2021-11-08,No,802.776.4208
+EMP00586,John Bailey,john.bailey@abctech.com,Sales,Noida,2018-10-18,No,(261)684-4386x1259
+EMP00587,Christopher Taylor,christopher.taylor@abctech.com,Human Resources,Bangalore,2019-02-27,No,001-874-823-3305x912
+EMP00588,Carol Brown,carol.brown@abctech.com,Operations,Chennai,2022-04-17,Yes,(272)301-8596x263
+EMP00589,John Watts,john.watts@abctech.com,Human Resources,Hyderabad,2024-11-04,Yes,(361)376-4750
+EMP00590,John Barnett,john.barnett@abctech.com,Legal,Pune,2020-05-22,Yes,630.499.9741x92676
+EMP00591,Arthur Stout,arthur.stout@abctech.com,Customer Support,Noida,2020-06-08,Yes,+1-326-306-8887
+EMP00592,Christine Barrett,christine.barrett@abctech.com,Sales,Bangalore,2024-08-11,No,229-420-8751
+EMP00593,Marissa Miller,marissa.miller@abctech.com,Customer Support,Pune,2019-07-27,No,601-218-4582x603
+EMP00594,Kelly Patton,kelly.patton@abctech.com,Human Resources,Mumbai,2024-03-16,No,+1-287-529-7585x98831
+EMP00595,Charles Chase,charles.chase@abctech.com,Finance,Delhi,2020-04-21,Yes,829.383.9542
+EMP00596,Debbie Santos,debbie.santos@abctech.com,Customer Support,Delhi,2018-08-12,No,(367)614-6283
+EMP00597,Melissa Lee MD,melissa.lee.md@abctech.com,Customer Support,Bangalore,2020-09-14,Yes,+1-389-326-2566x09314
+EMP00598,Jennifer Murphy,jennifer.murphy@abctech.com,Procurement,Hyderabad,2022-01-19,Yes,855-542-3401
+EMP00599,Brian Frost,brian.frost@abctech.com,Customer Support,Kolkata,2022-02-05,Yes,(684)697-1859
+EMP00600,Stephanie Jackson,stephanie.jackson@abctech.com,Legal,Bangalore,2018-03-10,Yes,001-462-458-8967x92408
+EMP00601,Keith Adams,keith.adams@abctech.com,Finance,Delhi,2020-06-02,Yes,001-853-596-7275x7844
+EMP00602,Scott Meza,scott.meza@abctech.com,Customer Support,Delhi,2023-08-15,No,(251)811-3129x01487
+EMP00603,Tara Taylor,tara.taylor@abctech.com,Customer Support,Bangalore,2024-01-07,Yes,288.916.0930x6853
+EMP00604,Megan Macias,megan.macias@abctech.com,Operations,Bangalore,2021-06-23,Yes,332.715.2850x67625
+EMP00605,Danielle Ryan,danielle.ryan@abctech.com,Sales,Pune,2022-05-20,Yes,001-214-947-4430x96348
+EMP00606,Sarah Brown,sarah.brown@abctech.com,Operations,Kolkata,2020-09-04,Yes,4978545105
+EMP00607,Brian Vasquez,brian.vasquez@abctech.com,Human Resources,Kolkata,2019-04-21,Yes,688-526-1702
+EMP00608,James Diaz,james.diaz@abctech.com,Operations,Chennai,2019-05-05,Yes,(884)217-7225
+EMP00609,Seth Gonzalez,seth.gonzalez@abctech.com,Finance,Chennai,2023-07-27,No,540.926.6502
+EMP00610,Victoria Wilson,victoria.wilson@abctech.com,Sales,Pune,2019-06-04,Yes,487.725.6862x1102
+EMP00611,Pamela Young,pamela.young@abctech.com,Finance,Pune,2022-10-25,Yes,+1-456-490-6744x71639
+EMP00612,Randall Lin,randall.lin@abctech.com,Operations,Bangalore,2023-07-26,No,001-536-337-1892x392
+EMP00613,Andrew Mooney,andrew.mooney@abctech.com,Finance,Noida,2024-05-10,No,(660)593-1066
+EMP00614,Jeffery Brown,jeffery.brown@abctech.com,Sales,Delhi,2019-02-26,Yes,(204)214-5456x35020
+EMP00615,Erica Mitchell,erica.mitchell@abctech.com,Marketing,Hyderabad,2018-06-30,Yes,291-462-4755x411
+EMP00616,Patrick Ward,patrick.ward@abctech.com,Finance,Noida,2022-01-30,Yes,001-398-295-3439x61129
+EMP00617,Susan Pena,susan.pena@abctech.com,Sales,Hyderabad,2024-03-14,No,937.511.8954
+EMP00618,Brittany Anderson,brittany.anderson@abctech.com,Marketing,Pune,2020-10-13,No,(284)485-5716x17688
+EMP00619,Melissa Anderson,melissa.anderson@abctech.com,Operations,Bangalore,2024-05-30,Yes,4909367881
+EMP00620,Janet Chan,janet.chan@abctech.com,Procurement,Hyderabad,2020-01-05,Yes,(694)632-0293x9087
+EMP00621,Elizabeth Adams,elizabeth.adams@abctech.com,Customer Support,Bangalore,2023-03-21,No,623-408-3402
+EMP00622,Richard Day,richard.day@abctech.com,IT,Bangalore,2024-03-15,Yes,338.610.5955
+EMP00623,Jennifer Carr,jennifer.carr@abctech.com,IT,Mumbai,2021-04-09,No,500-953-4240x89164
+EMP00624,Derrick Perkins,derrick.perkins@abctech.com,Administration,Mumbai,2023-03-16,No,001-462-573-6527x17272
+EMP00625,Terri White,terri.white@abctech.com,Marketing,Mumbai,2019-09-09,No,904-822-6931x2163
+EMP00626,Joseph Acosta,joseph.acosta@abctech.com,Finance,Mumbai,2024-01-28,Yes,4915660100
+EMP00627,Debra Mays,debra.mays@abctech.com,IT,Hyderabad,2022-03-22,Yes,+1-400-618-5132x797
+EMP00628,Christopher Brown,christopher.brown@abctech.com,Marketing,Mumbai,2022-09-16,Yes,001-448-210-0184x186
+EMP00629,Allison Simmons,allison.simmons@abctech.com,Sales,Delhi,2019-01-17,Yes,(554)336-1721
+EMP00630,Diane Jones,diane.jones@abctech.com,Procurement,Kolkata,2022-03-06,Yes,415-610-9226x85926
+EMP00631,Donna Hutchinson,donna.hutchinson@abctech.com,Administration,Bangalore,2023-09-02,No,975-341-0225x267
+EMP00632,Jeffrey Acosta,jeffrey.acosta@abctech.com,Human Resources,Hyderabad,2022-11-17,Yes,(815)922-6557
+EMP00633,Jennifer Leon,jennifer.leon@abctech.com,Operations,Delhi,2021-07-14,No,323-866-8788x78836
+EMP00634,Paula Shepherd,paula.shepherd@abctech.com,IT,Noida,2021-01-18,Yes,913.450.3058
+EMP00635,Amy Bailey,amy.bailey@abctech.com,Marketing,Chennai,2024-07-22,Yes,001-824-272-8633x30212
+EMP00636,Jessica Brown,jessica.brown@abctech.com,Human Resources,Chennai,2023-01-16,No,491-379-2025
+EMP00637,Adam Guerra,adam.guerra@abctech.com,Customer Support,Bangalore,2024-01-05,Yes,(422)272-8476x57041
+EMP00638,Amanda Potter,amanda.potter@abctech.com,Legal,Delhi,2023-03-13,Yes,620.366.7849x84362
+EMP00639,Vanessa Martinez,vanessa.martinez@abctech.com,Human Resources,Chennai,2021-05-31,Yes,369.903.6289
+EMP00640,Matthew Sullivan,matthew.sullivan@abctech.com,Marketing,Pune,2019-08-31,Yes,(220)556-3411x1595
+EMP00641,Joshua Jones,joshua.jones@abctech.com,IT,Kolkata,2023-10-05,No,+1-204-938-3034x199
+EMP00642,Ernest Harding,ernest.harding@abctech.com,Operations,Chennai,2018-05-08,No,4543683565
+EMP00643,Steven Gordon,steven.gordon@abctech.com,Procurement,Mumbai,2019-01-23,Yes,520.596.7904x22711
+EMP00644,Martha Mack,martha.mack@abctech.com,Sales,Bangalore,2018-02-18,Yes,(688)798-5725
+EMP00645,Teresa Williams,teresa.williams@abctech.com,Sales,Mumbai,2022-06-29,Yes,001-463-639-9129x710
+EMP00646,Tracy Harrington,tracy.harrington@abctech.com,Administration,Delhi,2018-11-04,Yes,671-775-2421
+EMP00647,Benjamin Page,benjamin.page@abctech.com,Marketing,Noida,2019-06-12,No,847.847.2197x054
+EMP00648,Sylvia Anderson,sylvia.anderson@abctech.com,Human Resources,Hyderabad,2023-03-04,Yes,(289)555-1687x409
+EMP00649,Kristina Moore,kristina.moore@abctech.com,Administration,Kolkata,2022-06-06,Yes,946-329-6136
+EMP00650,John Nichols,john.nichols@abctech.com,Customer Support,Kolkata,2019-12-09,Yes,711.921.6636x515
+EMP00651,Patrick Wilson,patrick.wilson@abctech.com,Sales,Delhi,2021-02-20,Yes,208.727.2359x096
+EMP00652,Veronica Lewis,veronica.lewis@abctech.com,Finance,Mumbai,2021-04-23,No,606.844.2121
+EMP00653,Shane Hayes,shane.hayes@abctech.com,Procurement,Noida,2018-09-07,No,(983)942-0165x42356
+EMP00654,Rachel Sheppard,rachel.sheppard@abctech.com,Customer Support,Chennai,2022-09-14,Yes,(259)460-8931x99255
+EMP00655,Taylor Porter,taylor.porter@abctech.com,Procurement,Hyderabad,2022-04-16,No,816-448-0727x91033
+EMP00656,Cindy Clark,cindy.clark@abctech.com,Procurement,Noida,2021-11-10,No,390.955.0448
+EMP00657,Joy Jenkins,joy.jenkins@abctech.com,Customer Support,Delhi,2020-01-07,No,(486)885-1276x528
+EMP00658,Ryan Barker,ryan.barker@abctech.com,Administration,Mumbai,2018-05-01,Yes,(349)911-1109x61798
+EMP00659,Renee Contreras,renee.contreras@abctech.com,Legal,Pune,2024-07-20,Yes,(233)778-6137x15766
+EMP00660,Katie Adams,katie.adams@abctech.com,Human Resources,Mumbai,2020-09-14,Yes,+1-744-763-0600x02589
+EMP00661,Kenneth Jordan,kenneth.jordan@abctech.com,Marketing,Kolkata,2021-12-24,Yes,+1-863-496-0962
+EMP00662,Evan Moore,evan.moore@abctech.com,Marketing,Pune,2022-01-09,Yes,412.781.9648
+EMP00663,Brandon Kim,brandon.kim@abctech.com,IT,Chennai,2024-04-25,No,+1-492-509-8196x0275
+EMP00664,Courtney Lee,courtney.lee@abctech.com,Procurement,Delhi,2019-12-21,Yes,364.304.1209
+EMP00665,Kyle Rodriguez,kyle.rodriguez@abctech.com,Human Resources,Hyderabad,2020-08-10,Yes,342-911-7536x1706
+EMP00666,Angela Mcdaniel,angela.mcdaniel@abctech.com,Finance,Noida,2018-01-03,Yes,(757)922-4029x9015
+EMP00667,Lindsay Smith DDS,lindsay.smith.dds@abctech.com,Sales,Pune,2019-12-28,Yes,313-590-8088x235
+EMP00668,Charles Miller,charles.miller@abctech.com,Finance,Chennai,2024-07-30,Yes,001-824-847-3158x477
+EMP00669,Danielle Gonzalez,danielle.gonzalez@abctech.com,Procurement,Pune,2018-10-25,No,001-846-619-9423x767
+EMP00670,Lisa Lawson,lisa.lawson@abctech.com,Administration,Bangalore,2021-10-10,No,(739)855-1720x84964
+EMP00671,Christopher Morris,christopher.morris@abctech.com,Sales,Chennai,2022-11-25,No,(353)213-5525
+EMP00672,Adam Murphy,adam.murphy@abctech.com,IT,Chennai,2024-04-20,No,395.638.1649x383
+EMP00673,Theresa Aguirre,theresa.aguirre@abctech.com,Marketing,Chennai,2022-03-30,No,+1-819-366-5533x07704
+EMP00674,Christopher Murphy,christopher.murphy@abctech.com,Sales,Chennai,2018-01-08,No,(239)704-0907x4260
+EMP00675,Andrea Davis,andrea.davis@abctech.com,Administration,Hyderabad,2020-01-16,No,(944)955-6185x79064
+EMP00676,Tracy Martinez,tracy.martinez@abctech.com,Administration,Mumbai,2024-05-05,No,(491)303-0021x563
+EMP00677,Steven Wood,steven.wood@abctech.com,Sales,Pune,2018-11-15,No,+1-600-740-1041
+EMP00678,Rebecca Gray,rebecca.gray@abctech.com,IT,Chennai,2018-12-30,No,001-322-597-1252x967
+EMP00679,Mary Bray,mary.bray@abctech.com,Legal,Hyderabad,2020-12-22,Yes,273-514-4158x33117
+EMP00680,Daniel Cardenas,daniel.cardenas@abctech.com,Human Resources,Pune,2020-11-17,Yes,671.953.9885
+EMP00681,Sarah Garcia,sarah.garcia@abctech.com,Finance,Kolkata,2022-11-30,Yes,(535)367-9836
+EMP00682,Christopher Parker,christopher.parker@abctech.com,Customer Support,Noida,2022-04-01,No,001-412-671-1307
+EMP00683,Matthew Chavez,matthew.chavez@abctech.com,Human Resources,Noida,2024-06-25,Yes,718-215-6326x868
+EMP00684,Jacob Williams,jacob.williams@abctech.com,Sales,Noida,2018-10-29,No,(863)343-6294x8978
+EMP00685,Maria Haley,maria.haley@abctech.com,Finance,Pune,2020-12-05,Yes,310.609.4318
+EMP00686,Manuel Baldwin,manuel.baldwin@abctech.com,IT,Chennai,2022-03-18,Yes,(261)334-7323x5494
+EMP00687,Terry Howell,terry.howell@abctech.com,Procurement,Bangalore,2021-10-16,No,001-843-725-1225x7207
+EMP00688,William Ibarra,william.ibarra@abctech.com,Finance,Kolkata,2019-11-07,No,(909)357-9073
+EMP00689,Alan Frazier,alan.frazier@abctech.com,Sales,Hyderabad,2019-02-19,Yes,638-982-2114x5775
+EMP00690,Jimmy Carey,jimmy.carey@abctech.com,Marketing,Kolkata,2024-03-19,No,758-997-1480x2632
+EMP00691,Kenneth Dominguez,kenneth.dominguez@abctech.com,Operations,Delhi,2020-08-30,Yes,(753)813-6148x78245
+EMP00692,Theresa Hill,theresa.hill@abctech.com,Customer Support,Noida,2019-09-22,No,709.685.9167
+EMP00693,Adam Ho,adam.ho@abctech.com,Finance,Kolkata,2018-12-25,No,(972)684-9824
+EMP00694,Edward Chavez,edward.chavez@abctech.com,Marketing,Bangalore,2018-04-16,Yes,749.210.7406
+EMP00695,Chad Koch,chad.koch@abctech.com,Operations,Bangalore,2023-04-24,No,782.514.2369x14307
+EMP00696,Mandy Henderson,mandy.henderson@abctech.com,Customer Support,Noida,2023-06-27,Yes,444-594-2965
+EMP00697,Jason Gonzalez,jason.gonzalez@abctech.com,Procurement,Kolkata,2020-01-28,No,714-797-8266x1287
+EMP00698,Jeffrey Fisher,jeffrey.fisher@abctech.com,IT,Chennai,2022-12-31,No,(470)680-6129x43985
+EMP00699,Ryan Martinez,ryan.martinez@abctech.com,Legal,Noida,2020-12-14,No,+1-907-787-0104x15914
+EMP00700,Barbara Richards,barbara.richards@abctech.com,Administration,Hyderabad,2019-09-12,Yes,503.382.8723x24407
+EMP00701,Christian Hobbs,christian.hobbs@abctech.com,IT,Kolkata,2024-08-12,Yes,913.431.7087x60146
+EMP00702,Sarah Payne,sarah.payne@abctech.com,Customer Support,Kolkata,2024-01-03,Yes,+1-579-916-2022x328
+EMP00703,Mr. Brett Chapman,mr..brett.chapman@abctech.com,Legal,Delhi,2018-11-20,Yes,(346)861-7662x047
+EMP00704,Eric Brewer,eric.brewer@abctech.com,Procurement,Chennai,2019-05-08,Yes,+1-597-705-2774x02588
+EMP00705,Kelly Palmer,kelly.palmer@abctech.com,Sales,Mumbai,2020-02-29,Yes,(825)395-7244
+EMP00706,Maria Bennett,maria.bennett@abctech.com,Customer Support,Bangalore,2022-11-19,Yes,892.398.8425x9959
+EMP00707,Samuel Moore,samuel.moore@abctech.com,Administration,Delhi,2021-08-02,Yes,817-875-3312
+EMP00708,Amy King,amy.king@abctech.com,Customer Support,Kolkata,2024-03-11,No,9178590251
+EMP00709,Mark Hawkins,mark.hawkins@abctech.com,Procurement,Noida,2018-02-20,No,547.374.3326
+EMP00710,Lori Barnett,lori.barnett@abctech.com,Human Resources,Kolkata,2019-09-05,Yes,702.405.6981
+EMP00711,Tina Chandler,tina.chandler@abctech.com,Human Resources,Bangalore,2021-03-17,No,873.839.7855x98217
+EMP00712,Laura Martinez,laura.martinez@abctech.com,Customer Support,Delhi,2022-04-18,No,841.717.3098x50344
+EMP00713,Seth Donaldson,seth.donaldson@abctech.com,Administration,Noida,2018-06-03,No,289-338-9846
+EMP00714,Taylor Mercer,taylor.mercer@abctech.com,Customer Support,Chennai,2024-12-07,No,+1-200-556-4350x2385
+EMP00715,Robert Elliott DDS,robert.elliott.dds@abctech.com,Finance,Kolkata,2021-09-19,Yes,001-205-916-9918x72401
+EMP00716,Marie Reynolds,marie.reynolds@abctech.com,Legal,Delhi,2022-03-06,No,830-800-3896x0870
+EMP00717,Jessica Simmons,jessica.simmons@abctech.com,Operations,Delhi,2021-02-22,Yes,(817)219-5535
+EMP00718,Brandon Smith,brandon.smith@abctech.com,Marketing,Chennai,2021-05-15,No,(789)700-3010x27240
+EMP00719,Stephanie Bolton,stephanie.bolton@abctech.com,Operations,Kolkata,2024-10-13,Yes,(596)971-1148
+EMP00720,Robin Hurst,robin.hurst@abctech.com,Marketing,Noida,2020-05-15,No,774.358.4384
+EMP00721,Steven Thornton,steven.thornton@abctech.com,Procurement,Pune,2018-08-19,Yes,+1-774-413-2834x831
+EMP00722,David Alexander,david.alexander@abctech.com,Human Resources,Delhi,2023-09-07,Yes,001-871-907-0449x64104
+EMP00723,James Wallace,james.wallace@abctech.com,Procurement,Hyderabad,2019-12-13,Yes,736.226.8040
+EMP00724,Nicole Rogers,nicole.rogers@abctech.com,Finance,Mumbai,2018-05-16,Yes,693-905-9660x186
+EMP00725,Nathan Mack,nathan.mack@abctech.com,IT,Mumbai,2021-01-27,No,626-773-2044x138
+EMP00726,Amanda Hill,amanda.hill@abctech.com,Procurement,Kolkata,2019-05-23,Yes,249-901-4954x277
+EMP00727,Andrew Howard,andrew.howard@abctech.com,IT,Noida,2024-08-30,Yes,+1-483-660-9149x8517
+EMP00728,Desiree Booth,desiree.booth@abctech.com,Legal,Pune,2021-11-11,No,(432)929-0310
+EMP00729,Amanda Love,amanda.love@abctech.com,Human Resources,Delhi,2018-04-23,Yes,7443058093
+EMP00730,Jeremy Dixon,jeremy.dixon@abctech.com,Sales,Mumbai,2020-06-25,Yes,435.295.6164
+EMP00731,Richard Rogers,richard.rogers@abctech.com,Marketing,Delhi,2022-08-05,Yes,(557)749-0250x42901
+EMP00732,Priscilla Romero,priscilla.romero@abctech.com,Finance,Noida,2019-06-26,Yes,001-353-569-0261
+EMP00733,Yolanda Mccoy,yolanda.mccoy@abctech.com,Administration,Hyderabad,2020-07-05,No,001-568-618-0978x8754
+EMP00734,Erin Lloyd,erin.lloyd@abctech.com,Operations,Kolkata,2022-03-23,No,(337)751-3765x158
+EMP00735,Lisa Cole,lisa.cole@abctech.com,Operations,Mumbai,2023-03-27,No,(339)328-3692x94455
+EMP00736,Jonathan Hernandez,jonathan.hernandez@abctech.com,Administration,Bangalore,2018-01-31,No,232.870.2164x8712
+EMP00737,Christopher Jones,christopher.jones@abctech.com,Procurement,Delhi,2021-05-07,No,386.265.2683x41559
+EMP00738,Thomas Dodson,thomas.dodson@abctech.com,Human Resources,Pune,2021-02-06,No,(776)947-2298x12099
+EMP00739,Jeffrey Romero,jeffrey.romero@abctech.com,Operations,Delhi,2021-05-08,Yes,001-841-634-7509
+EMP00740,Fernando White,fernando.white@abctech.com,Procurement,Mumbai,2018-08-21,No,(303)768-4995
+EMP00741,Bryan Hill,bryan.hill@abctech.com,IT,Chennai,2018-04-15,No,432.244.9134x213
+EMP00742,Amanda Macdonald,amanda.macdonald@abctech.com,Operations,Delhi,2022-09-11,No,+1-830-970-5349
+EMP00743,Sandra Phillips,sandra.phillips@abctech.com,Finance,Mumbai,2021-11-06,No,317-767-4124
+EMP00744,Natasha Walker,natasha.walker@abctech.com,IT,Delhi,2019-11-28,Yes,752-285-4781
+EMP00745,Timothy Bauer,timothy.bauer@abctech.com,Operations,Bangalore,2023-04-13,No,938-400-3296x33472
+EMP00746,Diane Gonzalez,diane.gonzalez@abctech.com,Procurement,Chennai,2021-10-06,Yes,583-406-1789
+EMP00747,Michael Austin,michael.austin@abctech.com,Marketing,Pune,2020-07-03,No,+1-793-957-8243x4776
+EMP00748,Daniel Mccarty,daniel.mccarty@abctech.com,IT,Pune,2020-12-03,No,001-446-975-3612x75156
+EMP00749,Sharon Burke,sharon.burke@abctech.com,Legal,Bangalore,2023-04-12,Yes,+1-830-944-8360x85456
+EMP00750,Dean Brown,dean.brown@abctech.com,Legal,Mumbai,2023-08-12,No,735.404.7639x2831
+EMP00751,Alicia Bowen,alicia.bowen@abctech.com,Procurement,Delhi,2022-08-20,Yes,(815)558-1083x5832
+EMP00752,Christopher Brooks,christopher.brooks@abctech.com,Sales,Mumbai,2021-11-04,No,(638)630-0081x86702
+EMP00753,Mark Watts,mark.watts@abctech.com,Sales,Pune,2020-01-09,No,3418662411
+EMP00754,Patrick Weaver,patrick.weaver@abctech.com,IT,Chennai,2021-07-07,Yes,(219)663-9456
+EMP00755,Dale Baker,dale.baker@abctech.com,Finance,Noida,2021-01-25,Yes,+1-597-864-6136x8474
+EMP00756,Jonathan Long,jonathan.long@abctech.com,Administration,Chennai,2023-06-29,Yes,(381)673-9063x757
+EMP00757,Robert Daugherty,robert.daugherty@abctech.com,Administration,Kolkata,2022-10-25,No,882-937-9312
+EMP00758,Sara Hodges,sara.hodges@abctech.com,Legal,Kolkata,2018-01-20,Yes,8742645205
+EMP00759,Daniel Hart,daniel.hart@abctech.com,IT,Hyderabad,2021-08-12,Yes,387.853.5778x8116
+EMP00760,Adam Meyer,adam.meyer@abctech.com,Finance,Hyderabad,2020-10-16,No,923-471-0672
+EMP00761,Kimberly Ross,kimberly.ross@abctech.com,Operations,Chennai,2019-02-25,No,516-744-8595x9224
+EMP00762,Danielle Ford,danielle.ford@abctech.com,Sales,Bangalore,2018-07-07,No,522-587-0562x27104
+EMP00763,Kimberly Rivera,kimberly.rivera@abctech.com,Legal,Pune,2022-11-12,No,7972921583
+EMP00764,Denise Hoover,denise.hoover@abctech.com,Legal,Pune,2020-02-11,No,(594)659-6488x31921
+EMP00765,Justin Martinez,justin.martinez@abctech.com,Finance,Mumbai,2020-07-07,Yes,596.359.9949x73203
+EMP00766,Lisa Thomas,lisa.thomas@abctech.com,Finance,Chennai,2019-05-20,Yes,305.510.2876x7548
+EMP00767,Jamie Cruz,jamie.cruz@abctech.com,Customer Support,Delhi,2023-12-31,Yes,954.985.8193x2426
+EMP00768,Danielle Martinez,danielle.martinez@abctech.com,Administration,Hyderabad,2019-03-19,Yes,(452)205-7563x98365
+EMP00769,Isaac Lee,isaac.lee@abctech.com,Finance,Bangalore,2022-09-04,No,001-645-215-4809
+EMP00770,Maria Sanders,maria.sanders@abctech.com,Human Resources,Delhi,2023-04-28,Yes,001-344-209-0797x727
+EMP00771,Louis Reeves,louis.reeves@abctech.com,Finance,Delhi,2022-09-20,No,001-622-516-1070x518
+EMP00772,Nancy Cook,nancy.cook@abctech.com,Administration,Chennai,2022-09-12,Yes,+1-652-395-8066x01382
+EMP00773,Andrew Franklin,andrew.franklin@abctech.com,Operations,Bangalore,2019-03-12,Yes,001-386-920-4485x157
+EMP00774,Thomas White,thomas.white@abctech.com,Administration,Mumbai,2020-12-13,Yes,925-390-2035
+EMP00775,Terri Parker,terri.parker@abctech.com,IT,Kolkata,2021-04-24,Yes,+1-532-640-6424x29563
+EMP00776,Cassandra Phillips,cassandra.phillips@abctech.com,Procurement,Noida,2020-04-30,No,001-274-817-5955x872
+EMP00777,Keith Chaney,keith.chaney@abctech.com,Marketing,Hyderabad,2018-02-22,Yes,(654)235-8841x83437
+EMP00778,Kelly Welch,kelly.welch@abctech.com,Administration,Noida,2019-09-03,Yes,227.495.5969x0515
+EMP00779,George Wong,george.wong@abctech.com,Human Resources,Delhi,2020-08-04,No,925-942-7820
+EMP00780,Melissa Simon,melissa.simon@abctech.com,Operations,Noida,2018-07-25,Yes,834.859.5764x0381
+EMP00781,Tiffany Morales,tiffany.morales@abctech.com,Finance,Delhi,2022-01-15,No,4284249839
+EMP00782,Rachel Brown,rachel.brown@abctech.com,Human Resources,Bangalore,2018-07-07,Yes,442-557-6270
+EMP00783,Elizabeth Miller,elizabeth.miller@abctech.com,Sales,Pune,2022-01-04,No,936.413.2850
+EMP00784,John Mcdaniel,john.mcdaniel@abctech.com,Human Resources,Pune,2021-11-04,Yes,001-737-667-3162x526
+EMP00785,Monica Coleman,monica.coleman@abctech.com,Customer Support,Kolkata,2023-02-13,No,(781)257-9039x2355
+EMP00786,Nicole Melendez,nicole.melendez@abctech.com,Legal,Kolkata,2019-11-15,Yes,+1-832-473-0346x1562
+EMP00787,James Nicholson,james.nicholson@abctech.com,Finance,Chennai,2019-03-01,No,3467226817
+EMP00788,Ashley Huffman,ashley.huffman@abctech.com,Administration,Noida,2020-01-13,No,9258298670
+EMP00789,Anthony Coleman,anthony.coleman@abctech.com,IT,Hyderabad,2019-06-20,No,001-819-378-5758x5126
+EMP00790,George Villa,george.villa@abctech.com,Human Resources,Kolkata,2022-12-11,Yes,001-643-289-7607
+EMP00791,John Richardson,john.richardson@abctech.com,Operations,Pune,2018-02-20,Yes,+1-854-265-4084x245
+EMP00792,Edward Johnson,edward.johnson@abctech.com,IT,Bangalore,2022-11-08,No,350-486-3218
+EMP00793,Mackenzie Jordan,mackenzie.jordan@abctech.com,IT,Kolkata,2019-09-01,Yes,257-493-8970x155
+EMP00794,Misty Burnett,misty.burnett@abctech.com,Finance,Chennai,2023-09-02,No,468-615-4660
+EMP00795,Natalie Miller,natalie.miller@abctech.com,Sales,Bangalore,2023-07-07,Yes,(513)894-4988x30597
+EMP00796,Michael Lopez,michael.lopez@abctech.com,IT,Delhi,2018-07-26,Yes,609.962.4406x30624
+EMP00797,Vanessa Flores,vanessa.flores@abctech.com,Procurement,Kolkata,2022-07-10,Yes,930.853.1949
+EMP00798,Erin Price,erin.price@abctech.com,Legal,Noida,2024-06-05,Yes,+1-905-555-5727
+EMP00799,Carolyn Price,carolyn.price@abctech.com,Legal,Noida,2021-07-18,No,(709)917-8513x8544
+EMP00800,Alyssa Weber,alyssa.weber@abctech.com,Finance,Bangalore,2022-07-11,Yes,(995)596-6048
+EMP00801,Joshua Gray,joshua.gray@abctech.com,Procurement,Hyderabad,2019-01-08,No,416-833-1942
+EMP00802,Heather Robinson,heather.robinson@abctech.com,Procurement,Mumbai,2023-02-12,No,+1-945-951-5888x636
+EMP00803,Tim Moore,tim.moore@abctech.com,Finance,Mumbai,2023-02-05,No,(864)808-5721
+EMP00804,Jennifer Fields,jennifer.fields@abctech.com,IT,Noida,2019-04-13,Yes,+1-532-499-8199x605
+EMP00805,Kaitlyn Davis,kaitlyn.davis@abctech.com,Finance,Pune,2021-12-25,No,(909)568-8327x532
+EMP00806,Edward Kline,edward.kline@abctech.com,Procurement,Pune,2019-03-12,Yes,997.373.9732
+EMP00807,Sara Wiggins,sara.wiggins@abctech.com,Legal,Chennai,2022-08-04,No,(837)310-0687
+EMP00808,Tina Ware,tina.ware@abctech.com,Administration,Mumbai,2020-02-08,No,+1-819-280-7704
+EMP00809,Mitchell Hunt,mitchell.hunt@abctech.com,Marketing,Noida,2020-02-20,Yes,+1-476-511-2491x2565
+EMP00810,Christine Davis,christine.davis@abctech.com,Customer Support,Hyderabad,2024-08-08,No,+1-617-273-4547x5749
+EMP00811,Brittany Roberts,brittany.roberts@abctech.com,Legal,Chennai,2023-08-06,Yes,959.954.4294
+EMP00812,Brittany Trujillo,brittany.trujillo@abctech.com,Procurement,Kolkata,2024-07-24,Yes,(629)446-4303
+EMP00813,Deanna Griffith,deanna.griffith@abctech.com,Administration,Chennai,2019-06-10,No,001-886-979-2529x8585
+EMP00814,Shelby Olson,shelby.olson@abctech.com,Administration,Pune,2023-08-27,No,560.715.3433x2491
+EMP00815,Mr. Mark Smith DDS,mr..mark.smith.dds@abctech.com,Administration,Mumbai,2021-01-25,No,333.250.6158x14888
+EMP00816,Joseph Sanchez,joseph.sanchez@abctech.com,Operations,Noida,2019-07-01,No,001-323-437-2094x8413
+EMP00817,Amy Perez,amy.perez@abctech.com,Administration,Delhi,2024-02-22,Yes,001-597-971-8051
+EMP00818,Bradley Gonzalez,bradley.gonzalez@abctech.com,Marketing,Mumbai,2024-12-31,No,+1-893-397-4909
+EMP00819,Jessica Day,jessica.day@abctech.com,Sales,Chennai,2023-08-26,No,001-497-704-6947
+EMP00820,Kayla Bean,kayla.bean@abctech.com,Human Resources,Pune,2024-04-22,No,248-735-4884x7127
+EMP00821,Katrina Simpson,katrina.simpson@abctech.com,Procurement,Delhi,2022-09-27,Yes,(516)341-7582
+EMP00822,Cindy Shaw,cindy.shaw@abctech.com,Finance,Kolkata,2019-08-19,Yes,487-414-9392x52362
+EMP00823,Jose Wells,jose.wells@abctech.com,Marketing,Delhi,2019-10-22,No,+1-764-934-7452x455
+EMP00824,Justin Farmer,justin.farmer@abctech.com,Sales,Hyderabad,2021-04-23,Yes,5605652740
+EMP00825,Dawn Wall,dawn.wall@abctech.com,IT,Noida,2019-02-24,Yes,9566658833
+EMP00826,David Nguyen,david.nguyen@abctech.com,Procurement,Kolkata,2020-08-31,No,297.706.7349x9601
+EMP00827,Jacob Mclean,jacob.mclean@abctech.com,Finance,Kolkata,2022-05-07,No,672-515-6229
+EMP00828,Jessica Murphy,jessica.murphy@abctech.com,Procurement,Hyderabad,2018-02-23,Yes,+1-748-984-0215
+EMP00829,Cindy Morris,cindy.morris@abctech.com,Administration,Noida,2020-07-12,No,475.353.4490
+EMP00830,Jessica Shaffer,jessica.shaffer@abctech.com,Administration,Mumbai,2020-03-03,No,7809850960
+EMP00831,Gene Jones,gene.jones@abctech.com,Sales,Bangalore,2020-02-05,Yes,991-581-8281
+EMP00832,Pamela Jordan,pamela.jordan@abctech.com,Customer Support,Hyderabad,2022-10-22,No,277-825-1295x786
+EMP00833,Abigail Clayton,abigail.clayton@abctech.com,Sales,Chennai,2024-07-20,Yes,7039562439
+EMP00834,Christina Underwood,christina.underwood@abctech.com,IT,Noida,2019-09-27,Yes,(292)432-3421x089
+EMP00835,Tina Murphy,tina.murphy@abctech.com,IT,Hyderabad,2024-11-26,No,333-834-2643x35027
+EMP00836,Sean Dickerson,sean.dickerson@abctech.com,Administration,Pune,2018-10-26,Yes,360.377.6336
+EMP00837,Katie Lane,katie.lane@abctech.com,Sales,Bangalore,2023-09-01,No,712.931.7955x63318
+EMP00838,Brian Bryant,brian.bryant@abctech.com,Procurement,Kolkata,2019-01-12,Yes,8666615541
+EMP00839,Michael Santos,michael.santos@abctech.com,Marketing,Pune,2021-09-18,No,(470)445-0232x9028
+EMP00840,Pamela Brown,pamela.brown@abctech.com,Marketing,Noida,2024-04-18,Yes,445.496.2622
+EMP00841,Tim Buchanan,tim.buchanan@abctech.com,Human Resources,Pune,2022-12-31,Yes,2732465495
+EMP00842,Stephen Johnson,stephen.johnson@abctech.com,Finance,Pune,2022-04-12,No,(360)286-9822
+EMP00843,Daniel Barnes,daniel.barnes@abctech.com,Operations,Delhi,2018-04-12,No,217-676-8729
+EMP00844,Steven Scott,steven.scott@abctech.com,Procurement,Noida,2023-06-17,No,585-391-7793x23822
+EMP00845,Michelle Campbell,michelle.campbell@abctech.com,Marketing,Pune,2023-10-06,Yes,+1-613-434-2457x988
+EMP00846,James Thomas,james.thomas@abctech.com,Sales,Hyderabad,2018-09-26,Yes,001-206-903-2020x3265
+EMP00847,Mr. Mark Montoya,mr..mark.montoya@abctech.com,Customer Support,Bangalore,2020-04-22,No,001-367-637-9487
+EMP00848,Kayla Rogers,kayla.rogers@abctech.com,Human Resources,Chennai,2018-04-08,No,(645)378-7158
+EMP00849,Jessica Johnson,jessica.johnson@abctech.com,Finance,Bangalore,2018-10-28,Yes,+1-421-737-1184
+EMP00850,Jeffrey Joyce,jeffrey.joyce@abctech.com,Operations,Bangalore,2024-06-13,No,582-768-3230
+EMP00851,Penny Hart,penny.hart@abctech.com,Customer Support,Kolkata,2023-01-22,No,580.485.8382x52129
+EMP00852,Tina Coleman,tina.coleman@abctech.com,Customer Support,Pune,2018-03-11,Yes,940.764.6867
+EMP00853,Todd Smith,todd.smith@abctech.com,Procurement,Hyderabad,2024-12-07,Yes,484-539-9106x227
+EMP00854,Christopher Barnes,christopher.barnes@abctech.com,Human Resources,Pune,2023-08-22,No,001-333-451-3426
+EMP00855,Charles Hill,charles.hill@abctech.com,Operations,Bangalore,2021-02-27,No,901-484-8197x37418
+EMP00856,William Lozano,william.lozano@abctech.com,Customer Support,Hyderabad,2023-04-26,Yes,340-364-1769x27438
+EMP00857,Miss Linda Cox DVM,miss.linda.cox.dvm@abctech.com,Sales,Kolkata,2024-02-14,Yes,+1-376-260-1444x85645
+EMP00858,Robert Sanchez,robert.sanchez@abctech.com,Operations,Pune,2018-02-15,Yes,839.264.1789x9698
+EMP00859,Leslie Leon,leslie.leon@abctech.com,Human Resources,Hyderabad,2018-01-21,No,891-213-5996
+EMP00860,Richard Phelps,richard.phelps@abctech.com,Procurement,Bangalore,2021-06-02,No,001-280-766-0392
+EMP00861,Thomas Pham,thomas.pham@abctech.com,Marketing,Kolkata,2023-10-01,Yes,001-474-555-5347x0574
+EMP00862,Sharon Wong,sharon.wong@abctech.com,Sales,Mumbai,2024-12-01,Yes,001-365-327-1559x8354
+EMP00863,Emily Crawford,emily.crawford@abctech.com,Human Resources,Chennai,2024-05-12,No,(463)447-5575
+EMP00864,Brian Perkins,brian.perkins@abctech.com,Procurement,Bangalore,2021-04-05,No,684.488.2691x31196
+EMP00865,Kim Sanders,kim.sanders@abctech.com,Human Resources,Mumbai,2024-07-06,No,(614)299-1537x0382
+EMP00866,Roy Lucero II,roy.lucero.ii@abctech.com,IT,Chennai,2020-08-18,No,973.920.4309
+EMP00867,Juan Carroll,juan.carroll@abctech.com,Administration,Bangalore,2020-03-03,No,(728)796-9645x46553
+EMP00868,Michael Morris,michael.morris@abctech.com,Legal,Pune,2024-11-29,Yes,001-538-792-1878x519
+EMP00869,Maria Spencer,maria.spencer@abctech.com,Administration,Pune,2021-07-19,Yes,874.390.7977
+EMP00870,Carolyn Castro,carolyn.castro@abctech.com,Finance,Pune,2020-10-05,No,+1-605-272-1514
+EMP00871,Katherine Padilla,katherine.padilla@abctech.com,Operations,Pune,2019-07-05,No,(863)474-8453
+EMP00872,Veronica Matthews,veronica.matthews@abctech.com,Legal,Noida,2022-01-09,No,8904591191
+EMP00873,Danielle Guzman,danielle.guzman@abctech.com,Procurement,Bangalore,2019-12-21,Yes,001-922-407-1511x69666
+EMP00874,Catherine Collins,catherine.collins@abctech.com,Operations,Chennai,2024-01-16,No,(564)771-2463
+EMP00875,Miss Gina Walton,miss.gina.walton@abctech.com,Human Resources,Bangalore,2018-03-18,Yes,740.890.8051x20800
+EMP00876,Robert Carroll,robert.carroll@abctech.com,Administration,Kolkata,2024-08-13,Yes,(712)439-7283x512
+EMP00877,Michelle Hobbs,michelle.hobbs@abctech.com,Procurement,Delhi,2024-02-05,No,(682)670-9081
+EMP00878,Michael Lawrence,michael.lawrence@abctech.com,Sales,Pune,2022-05-27,No,(817)939-2957
+EMP00879,Mary Jones,mary.jones@abctech.com,Sales,Noida,2023-08-15,Yes,252.937.3605
+EMP00880,Susan Zimmerman,susan.zimmerman@abctech.com,Customer Support,Pune,2023-08-19,Yes,001-818-515-8998
+EMP00881,Chad Gallagher,chad.gallagher@abctech.com,Administration,Chennai,2023-10-07,No,866-666-1707x1587
+EMP00882,Dr. Dustin Sutton Jr.,dr..dustin.sutton.jr.@abctech.com,Sales,Chennai,2024-05-08,Yes,2312499825
+EMP00883,Eric Lopez,eric.lopez@abctech.com,Legal,Pune,2018-06-15,No,+1-506-388-2850
+EMP00884,Cody Walker,cody.walker@abctech.com,Marketing,Bangalore,2020-12-18,Yes,513-773-9900x63140
+EMP00885,Dr. Samantha Watson,dr..samantha.watson@abctech.com,Finance,Mumbai,2023-10-23,No,(802)229-3946x9434
+EMP00886,Jason Ramirez,jason.ramirez@abctech.com,Legal,Noida,2018-07-10,No,574.390.6072
+EMP00887,Ashley Barrera,ashley.barrera@abctech.com,Human Resources,Delhi,2020-12-14,Yes,612.385.2464x8449
+EMP00888,Jennifer Blackwell,jennifer.blackwell@abctech.com,Customer Support,Kolkata,2022-02-05,Yes,918.373.2807
+EMP00889,Andrew Hughes,andrew.hughes@abctech.com,Procurement,Delhi,2022-03-22,No,213-569-5727
+EMP00890,Misty Williams,misty.williams@abctech.com,IT,Pune,2023-06-18,Yes,8258425730
+EMP00891,Edgar Brown,edgar.brown@abctech.com,Procurement,Chennai,2022-12-07,Yes,(635)470-7139
+EMP00892,Victor Brown,victor.brown@abctech.com,Human Resources,Delhi,2020-05-16,Yes,+1-216-888-0925x50213
+EMP00893,Anthony Hughes,anthony.hughes@abctech.com,Sales,Pune,2024-10-01,Yes,001-813-609-8107
+EMP00894,Jasmine Kent,jasmine.kent@abctech.com,Customer Support,Pune,2019-04-10,No,779.545.7727
+EMP00895,Mark Thompson,mark.thompson@abctech.com,Legal,Mumbai,2024-08-16,No,(842)450-6420x7683
+EMP00896,Heather Mcmahon,heather.mcmahon@abctech.com,Finance,Mumbai,2018-06-26,Yes,(567)577-6755x56283
+EMP00897,Laura Gould,laura.gould@abctech.com,Sales,Hyderabad,2024-06-02,Yes,001-995-678-6543x6271
+EMP00898,Tina Berg,tina.berg@abctech.com,Sales,Delhi,2020-01-08,No,(803)435-8268x62703
+EMP00899,Paul Elliott,paul.elliott@abctech.com,Administration,Hyderabad,2021-03-07,Yes,(469)932-6573
+EMP00900,Timothy Salazar,timothy.salazar@abctech.com,Legal,Noida,2023-05-27,Yes,001-401-511-0005x1553
+EMP00901,Austin Hanson,austin.hanson@abctech.com,Customer Support,Chennai,2024-07-14,No,397-875-2441x82226
+EMP00902,Juan Harrison,juan.harrison@abctech.com,Sales,Pune,2023-02-01,Yes,431-227-1026x767
+EMP00903,Victoria Cox,victoria.cox@abctech.com,Marketing,Kolkata,2022-04-28,Yes,399.427.0795x515
+EMP00904,Eric Long,eric.long@abctech.com,Finance,Mumbai,2023-11-12,No,(213)854-1597
+EMP00905,Holly King DDS,holly.king.dds@abctech.com,Sales,Bangalore,2019-12-28,Yes,907.352.0344x76504
+EMP00906,Andre Wiggins,andre.wiggins@abctech.com,Procurement,Bangalore,2019-01-17,Yes,+1-809-704-6376x604
+EMP00907,Jose Chaney,jose.chaney@abctech.com,Administration,Hyderabad,2022-11-03,No,(765)325-4837x44171
+EMP00908,Carl Gill,carl.gill@abctech.com,IT,Hyderabad,2023-12-11,Yes,312.251.2931
+EMP00909,Nancy Peterson,nancy.peterson@abctech.com,Legal,Kolkata,2021-12-06,Yes,+1-312-497-5191x023
+EMP00910,Trevor Smith,trevor.smith@abctech.com,Customer Support,Chennai,2020-11-08,Yes,+1-933-601-6583x73792
+EMP00911,Leslie Valencia,leslie.valencia@abctech.com,Human Resources,Delhi,2024-09-16,No,328.301.2342x893
+EMP00912,Samuel Avila,samuel.avila@abctech.com,Operations,Mumbai,2018-01-23,Yes,526.894.9684
+EMP00913,Gregory Allen,gregory.allen@abctech.com,Procurement,Hyderabad,2022-03-17,Yes,2448210175
+EMP00914,Phillip Moran,phillip.moran@abctech.com,IT,Kolkata,2022-01-23,Yes,7159959194
+EMP00915,Robert Wood,robert.wood@abctech.com,Customer Support,Delhi,2020-12-06,No,775-883-3920x5677
+EMP00916,Steven Hayes,steven.hayes@abctech.com,Administration,Pune,2024-11-11,No,(766)202-5626
+EMP00917,Robert Whitehead,robert.whitehead@abctech.com,Marketing,Kolkata,2024-03-11,No,(692)731-0672
+EMP00918,Jonathan Moore,jonathan.moore@abctech.com,Sales,Pune,2024-04-09,No,+1-443-937-9766
+EMP00919,Amy Ali,amy.ali@abctech.com,Operations,Delhi,2024-06-24,No,557-894-2387
+EMP00920,Tyler Welch MD,tyler.welch.md@abctech.com,Sales,Bangalore,2020-07-30,Yes,996-391-9284x5525
+EMP00921,Jacob Sanchez,jacob.sanchez@abctech.com,Human Resources,Mumbai,2023-09-14,No,535-574-8595x32593
+EMP00922,John Smith MD,john.smith.md@abctech.com,Procurement,Hyderabad,2019-10-21,Yes,662-395-1877
+EMP00923,Richard Moody,richard.moody@abctech.com,Human Resources,Chennai,2023-04-16,No,425-607-3305x597
+EMP00924,Kari Edwards,kari.edwards@abctech.com,Human Resources,Bangalore,2020-12-13,No,+1-633-599-1403
+EMP00925,Jenny Cardenas,jenny.cardenas@abctech.com,Human Resources,Hyderabad,2022-04-24,No,3447324006
+EMP00926,Theodore Hernandez,theodore.hernandez@abctech.com,Administration,Hyderabad,2019-12-19,No,+1-968-629-7514x7439
+EMP00927,Carl Blanchard,carl.blanchard@abctech.com,Legal,Hyderabad,2020-04-06,No,205-887-5256
+EMP00928,Jennifer Nguyen,jennifer.nguyen@abctech.com,Marketing,Hyderabad,2024-09-21,Yes,001-404-359-9080x27112
+EMP00929,Teresa Young,teresa.young@abctech.com,Administration,Chennai,2018-05-28,Yes,001-855-451-6517x68086
+EMP00930,Ann Clark,ann.clark@abctech.com,Finance,Chennai,2018-12-22,No,(514)933-0800
+EMP00931,Daniel Hall,daniel.hall@abctech.com,IT,Kolkata,2022-07-19,Yes,(628)955-6608
+EMP00932,Miguel Perry,miguel.perry@abctech.com,Procurement,Hyderabad,2018-10-09,No,203-790-3397
+EMP00933,Lauren Richardson,lauren.richardson@abctech.com,Procurement,Pune,2021-11-24,Yes,(763)828-0944
+EMP00934,Dakota Lawson,dakota.lawson@abctech.com,Administration,Mumbai,2023-02-06,Yes,435-346-1470x79863
+EMP00935,Robert Newton,robert.newton@abctech.com,Operations,Chennai,2022-07-26,Yes,239.543.9457
+EMP00936,Stacey King,stacey.king@abctech.com,Procurement,Bangalore,2023-08-23,No,404.903.2537x65769
+EMP00937,Kyle Norton,kyle.norton@abctech.com,Human Resources,Delhi,2024-01-13,No,+1-831-491-0090x04047
+EMP00938,Jacob Brewer,jacob.brewer@abctech.com,Legal,Kolkata,2024-04-25,Yes,(351)246-0401x42473
+EMP00939,Tara Thompson,tara.thompson@abctech.com,IT,Noida,2023-03-03,Yes,913-379-8440
+EMP00940,Brittany Brown,brittany.brown@abctech.com,Legal,Bangalore,2020-11-22,No,+1-660-907-6762x09014
+EMP00941,Derek Lambert,derek.lambert@abctech.com,Marketing,Mumbai,2021-07-17,No,537.200.9687
+EMP00942,Brandon Richardson,brandon.richardson@abctech.com,Procurement,Hyderabad,2020-12-14,No,882.755.8825x5629
+EMP00943,Gregory Carter,gregory.carter@abctech.com,Human Resources,Kolkata,2021-11-01,Yes,+1-478-265-6194x25577
+EMP00944,Thomas Mcgrath,thomas.mcgrath@abctech.com,Legal,Pune,2021-12-19,No,(395)882-9236
+EMP00945,Wanda Stephens,wanda.stephens@abctech.com,Sales,Mumbai,2023-08-06,Yes,819.804.8235x71558
+EMP00946,Gregory Russell,gregory.russell@abctech.com,Marketing,Delhi,2020-04-26,Yes,001-813-672-3081x72143
+EMP00947,Kimberly Davis,kimberly.davis@abctech.com,Marketing,Pune,2019-10-01,Yes,300.604.1321
+EMP00948,Bryan Duffy,bryan.duffy@abctech.com,Human Resources,Noida,2024-11-19,Yes,+1-260-994-5653x46997
+EMP00949,Kathryn Bell,kathryn.bell@abctech.com,Legal,Pune,2024-12-17,No,276-981-6995x706
+EMP00950,Angie King,angie.king@abctech.com,Administration,Delhi,2023-07-04,No,913-217-6539
+EMP00951,Juan Padilla,juan.padilla@abctech.com,Customer Support,Mumbai,2024-06-20,Yes,439.961.0290x871
+EMP00952,Karl Solis,karl.solis@abctech.com,Procurement,Kolkata,2023-05-14,Yes,+1-604-491-8727
+EMP00953,Kyle Simmons,kyle.simmons@abctech.com,Procurement,Pune,2022-06-01,No,+1-521-737-7306x26042
+EMP00954,Lauren Snyder,lauren.snyder@abctech.com,Human Resources,Noida,2021-07-16,Yes,001-771-812-2299x077
+EMP00955,Joseph Benson,joseph.benson@abctech.com,Marketing,Kolkata,2024-07-07,No,+1-681-767-0468x6111
+EMP00956,Jonathon Sanchez,jonathon.sanchez@abctech.com,IT,Delhi,2020-02-06,No,(710)621-9237
+EMP00957,Wesley Douglas,wesley.douglas@abctech.com,Marketing,Delhi,2023-04-15,No,001-461-880-3324
+EMP00958,Anthony French,anthony.french@abctech.com,IT,Chennai,2023-08-05,Yes,584-998-0425
+EMP00959,Chelsea Wells,chelsea.wells@abctech.com,Customer Support,Pune,2022-02-04,No,931.326.8812x2821
+EMP00960,Danielle Molina,danielle.molina@abctech.com,Legal,Chennai,2024-05-29,Yes,+1-853-946-0605x6035
+EMP00961,Sharon Goodman,sharon.goodman@abctech.com,Human Resources,Delhi,2020-08-23,No,(679)986-2398
+EMP00962,Jessica Johnson,jessica.johnson@abctech.com,Customer Support,Mumbai,2019-08-21,No,981-720-5464
+EMP00963,Joseph Murphy,joseph.murphy@abctech.com,Finance,Chennai,2022-09-23,Yes,378-976-9899x9275
+EMP00964,Kim Jensen,kim.jensen@abctech.com,Procurement,Pune,2023-06-17,No,744-544-9835
+EMP00965,Hannah Torres,hannah.torres@abctech.com,Procurement,Hyderabad,2022-06-20,Yes,786-544-9639x24358
+EMP00966,Lauren Thompson,lauren.thompson@abctech.com,Finance,Mumbai,2020-11-07,Yes,001-943-739-5275x3674
+EMP00967,Larry King,larry.king@abctech.com,Legal,Pune,2020-11-30,No,(886)501-3477x8948
+EMP00968,William Fuller,william.fuller@abctech.com,Procurement,Delhi,2021-11-10,No,291.376.6512x2150
+EMP00969,Joshua Adams,joshua.adams@abctech.com,Human Resources,Pune,2024-10-16,Yes,663-609-0015
+EMP00970,David Montgomery,david.montgomery@abctech.com,Operations,Pune,2021-08-24,No,001-748-553-2089
+EMP00971,Vincent Reyes,vincent.reyes@abctech.com,Legal,Bangalore,2022-04-10,No,+1-390-321-9947
+EMP00972,Jason Allen,jason.allen@abctech.com,Legal,Chennai,2019-11-18,No,+1-822-934-1034x699
+EMP00973,Brian Miller,brian.miller@abctech.com,Customer Support,Kolkata,2018-10-20,Yes,001-877-726-9608x437
+EMP00974,Jonathan Gilbert,jonathan.gilbert@abctech.com,IT,Mumbai,2021-07-08,No,793.752.1962x633
+EMP00975,David Roberts,david.roberts@abctech.com,Operations,Kolkata,2021-01-16,No,269.870.9317
+EMP00976,Heather Smith,heather.smith@abctech.com,Administration,Noida,2022-08-23,Yes,(576)516-4534x54722
+EMP00977,Veronica Diaz,veronica.diaz@abctech.com,Finance,Chennai,2020-08-19,Yes,001-631-421-9804x18472
+EMP00978,Diana Moon,diana.moon@abctech.com,Marketing,Chennai,2022-06-15,Yes,264.428.1319
+EMP00979,John Henderson,john.henderson@abctech.com,Human Resources,Noida,2024-02-25,Yes,(430)339-1114
+EMP00980,Kristen Wood,kristen.wood@abctech.com,Customer Support,Bangalore,2019-03-02,Yes,(228)223-0524
+EMP00981,Christopher Harrison,christopher.harrison@abctech.com,Human Resources,Kolkata,2021-06-21,Yes,(439)359-4737
+EMP00982,Carla Obrien,carla.obrien@abctech.com,Operations,Noida,2019-06-02,Yes,8168204787
+EMP00983,Julie Holland,julie.holland@abctech.com,Finance,Hyderabad,2022-01-01,No,359.796.4862x87203
+EMP00984,Ashley Strong,ashley.strong@abctech.com,Legal,Delhi,2024-02-25,Yes,(464)650-5730x3627
+EMP00985,Charles Lester,charles.lester@abctech.com,Procurement,Chennai,2024-08-17,No,547.467.7537x260
+EMP00986,Tammy Phillips,tammy.phillips@abctech.com,Administration,Kolkata,2023-11-15,No,9572661945
+EMP00987,Sheila Mendoza,sheila.mendoza@abctech.com,IT,Noida,2024-01-20,Yes,(253)548-2012x840
+EMP00988,Jacqueline West,jacqueline.west@abctech.com,Legal,Delhi,2022-02-07,No,897-259-5450x89177
+EMP00989,Kimberly Curry,kimberly.curry@abctech.com,Sales,Delhi,2018-02-13,Yes,812.565.7422x31964
+EMP00990,Eric Mckay,eric.mckay@abctech.com,IT,Delhi,2023-04-06,Yes,669.536.2689
+EMP00991,Austin Trevino,austin.trevino@abctech.com,Legal,Noida,2021-05-12,No,771-937-2711x759
+EMP00992,Deanna Hansen,deanna.hansen@abctech.com,Operations,Mumbai,2018-01-30,No,001-955-682-9849x3306
+EMP00993,Jordan Porter,jordan.porter@abctech.com,Marketing,Kolkata,2024-04-15,No,001-460-394-4128x3337
+EMP00994,Katie Gutierrez,katie.gutierrez@abctech.com,Marketing,Chennai,2022-05-16,Yes,(869)854-1329x7150
+EMP00995,Brittany Kennedy,brittany.kennedy@abctech.com,Operations,Bangalore,2022-09-26,Yes,5558143776
+EMP00996,David Sanchez,david.sanchez@abctech.com,Procurement,Delhi,2021-03-12,No,(352)395-9611
+EMP00997,Alejandra Fernandez,alejandra.fernandez@abctech.com,Customer Support,Mumbai,2018-10-08,Yes,312.200.7202x4559
+EMP00998,Eric Garcia,eric.garcia@abctech.com,Operations,Bangalore,2023-02-09,No,001-310-690-3267
+EMP00999,Lisa Fox,lisa.fox@abctech.com,Operations,Noida,2020-02-09,Yes,+1-542-617-9428x179
+EMP01000,Samuel Ortega,samuel.ortega@abctech.com,Sales,Hyderabad,2024-01-01,Yes,001-577-558-4466x345
