@@ -88,7 +88,7 @@ The user can then create a **real ServiceNow incident** directly from the applic
                     │   Real Incident     │
                     │     INCxxxxxxx      │
                     └─────────────────────┘
-🧠 Key Features
+##🧠 Key Features
 1. Incident Classification
 
 The application analyzes the user's incident description and predicts the appropriate incident category using a trained machine learning model.
