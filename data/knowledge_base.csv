@@ -1,0 +1,251 @@
+issue,category,subcategory,root_cause,resolution,keywords,assignment_group,estimated_resolution_hours
+Laptop not booting,Hardware,Boot Issue,Corrupted boot files,Run startup repair and replace SSD if required,"laptop,hardware",Desktop Support,2
+Battery not charging,Hardware,Battery,Faulty charger,Replace charger and battery if needed,"battery,hardware",Desktop Support,2
+Keyboard not working,Hardware,Input Device,Driver issue,Reinstall keyboard drivers,"keyboard,hardware",Desktop Support,2
+Mouse disconnected,Hardware,Input Device,USB issue,Reconnect USB and reinstall drivers,"mouse,hardware",Desktop Support,2
+Laptop overheating,Hardware,Thermal,Dust accumulation,Clean cooling fan and replace thermal paste,"laptop,hardware",Desktop Support,2
+Laptop not booting (2),Hardware,Boot Issue,Corrupted boot files,Run startup repair and replace SSD if required,"laptop,hardware",Desktop Support,2
+Battery not charging (2),Hardware,Battery,Faulty charger,Replace charger and battery if needed,"battery,hardware",Desktop Support,2
+Keyboard not working (2),Hardware,Input Device,Driver issue,Reinstall keyboard drivers,"keyboard,hardware",Desktop Support,2
+Mouse disconnected (2),Hardware,Input Device,USB issue,Reconnect USB and reinstall drivers,"mouse,hardware",Desktop Support,2
+Laptop overheating (2),Hardware,Thermal,Dust accumulation,Clean cooling fan and replace thermal paste,"laptop,hardware",Desktop Support,2
+Laptop not booting (3),Hardware,Boot Issue,Corrupted boot files,Run startup repair and replace SSD if required,"laptop,hardware",Desktop Support,2
+Battery not charging (3),Hardware,Battery,Faulty charger,Replace charger and battery if needed,"battery,hardware",Desktop Support,2
+Keyboard not working (3),Hardware,Input Device,Driver issue,Reinstall keyboard drivers,"keyboard,hardware",Desktop Support,2
+Mouse disconnected (3),Hardware,Input Device,USB issue,Reconnect USB and reinstall drivers,"mouse,hardware",Desktop Support,2
+Laptop overheating (3),Hardware,Thermal,Dust accumulation,Clean cooling fan and replace thermal paste,"laptop,hardware",Desktop Support,2
+Laptop not booting (4),Hardware,Boot Issue,Corrupted boot files,Run startup repair and replace SSD if required,"laptop,hardware",Desktop Support,2
+Battery not charging (4),Hardware,Battery,Faulty charger,Replace charger and battery if needed,"battery,hardware",Desktop Support,2
+Keyboard not working (4),Hardware,Input Device,Driver issue,Reinstall keyboard drivers,"keyboard,hardware",Desktop Support,2
+Mouse disconnected (4),Hardware,Input Device,USB issue,Reconnect USB and reinstall drivers,"mouse,hardware",Desktop Support,2
+Laptop overheating (4),Hardware,Thermal,Dust accumulation,Clean cooling fan and replace thermal paste,"laptop,hardware",Desktop Support,2
+Laptop not booting (5),Hardware,Boot Issue,Corrupted boot files,Run startup repair and replace SSD if required,"laptop,hardware",Desktop Support,2
+Battery not charging (5),Hardware,Battery,Faulty charger,Replace charger and battery if needed,"battery,hardware",Desktop Support,2
+Keyboard not working (5),Hardware,Input Device,Driver issue,Reinstall keyboard drivers,"keyboard,hardware",Desktop Support,2
+Mouse disconnected (5),Hardware,Input Device,USB issue,Reconnect USB and reinstall drivers,"mouse,hardware",Desktop Support,2
+Laptop overheating (5),Hardware,Thermal,Dust accumulation,Clean cooling fan and replace thermal paste,"laptop,hardware",Desktop Support,2
+MS Office not opening,Software,Office,Corrupt installation,Repair Office installation,"ms,software",Application Support,2
+Chrome crashing,Software,Browser,Corrupt profile,Reset browser profile,"chrome,software",Application Support,2
+Excel freezing,Software,Spreadsheet,Large workbook,Disable add-ins and optimize workbook,"excel,software",Application Support,2
+Zoom not opening,Software,Meetings,Missing dependency,Reinstall Zoom,"zoom,software",Application Support,2
+Software update failed,Software,Update,Permission issue,Run update as administrator,"software,software",Application Support,2
+MS Office not opening (2),Software,Office,Corrupt installation,Repair Office installation,"ms,software",Application Support,2
+Chrome crashing (2),Software,Browser,Corrupt profile,Reset browser profile,"chrome,software",Application Support,2
+Excel freezing (2),Software,Spreadsheet,Large workbook,Disable add-ins and optimize workbook,"excel,software",Application Support,2
+Zoom not opening (2),Software,Meetings,Missing dependency,Reinstall Zoom,"zoom,software",Application Support,2
+Software update failed (2),Software,Update,Permission issue,Run update as administrator,"software,software",Application Support,2
+MS Office not opening (3),Software,Office,Corrupt installation,Repair Office installation,"ms,software",Application Support,2
+Chrome crashing (3),Software,Browser,Corrupt profile,Reset browser profile,"chrome,software",Application Support,2
+Excel freezing (3),Software,Spreadsheet,Large workbook,Disable add-ins and optimize workbook,"excel,software",Application Support,2
+Zoom not opening (3),Software,Meetings,Missing dependency,Reinstall Zoom,"zoom,software",Application Support,2
+Software update failed (3),Software,Update,Permission issue,Run update as administrator,"software,software",Application Support,2
+MS Office not opening (4),Software,Office,Corrupt installation,Repair Office installation,"ms,software",Application Support,2
+Chrome crashing (4),Software,Browser,Corrupt profile,Reset browser profile,"chrome,software",Application Support,2
+Excel freezing (4),Software,Spreadsheet,Large workbook,Disable add-ins and optimize workbook,"excel,software",Application Support,2
+Zoom not opening (4),Software,Meetings,Missing dependency,Reinstall Zoom,"zoom,software",Application Support,2
+Software update failed (4),Software,Update,Permission issue,Run update as administrator,"software,software",Application Support,2
+MS Office not opening (5),Software,Office,Corrupt installation,Repair Office installation,"ms,software",Application Support,2
+Chrome crashing (5),Software,Browser,Corrupt profile,Reset browser profile,"chrome,software",Application Support,2
+Excel freezing (5),Software,Spreadsheet,Large workbook,Disable add-ins and optimize workbook,"excel,software",Application Support,2
+Zoom not opening (5),Software,Meetings,Missing dependency,Reinstall Zoom,"zoom,software",Application Support,2
+Software update failed (5),Software,Update,Permission issue,Run update as administrator,"software,software",Application Support,2
+VPN not connecting,Network,VPN,Expired certificate,Restart VPN service and renew certificate,"vpn,network",Network Team,2
+Internet slow,Network,Connectivity,Bandwidth congestion,Check router and ISP connection,"internet,network",Network Team,2
+WiFi disconnected,Network,Wireless,Router issue,Reconnect and restart router,"wifi,network",Network Team,2
+DNS resolution failed,Network,DNS,DNS server issue,Flush DNS and update DNS settings,"dns,network",Network Team,2
+Server unreachable,Network,Server,Server offline,Restart server and verify connectivity,"server,network",Network Team,2
+VPN not connecting (2),Network,VPN,Expired certificate,Restart VPN service and renew certificate,"vpn,network",Network Team,2
+Internet slow (2),Network,Connectivity,Bandwidth congestion,Check router and ISP connection,"internet,network",Network Team,2
+WiFi disconnected (2),Network,Wireless,Router issue,Reconnect and restart router,"wifi,network",Network Team,2
+DNS resolution failed (2),Network,DNS,DNS server issue,Flush DNS and update DNS settings,"dns,network",Network Team,2
+Server unreachable (2),Network,Server,Server offline,Restart server and verify connectivity,"server,network",Network Team,2
+VPN not connecting (3),Network,VPN,Expired certificate,Restart VPN service and renew certificate,"vpn,network",Network Team,2
+Internet slow (3),Network,Connectivity,Bandwidth congestion,Check router and ISP connection,"internet,network",Network Team,2
+WiFi disconnected (3),Network,Wireless,Router issue,Reconnect and restart router,"wifi,network",Network Team,2
+DNS resolution failed (3),Network,DNS,DNS server issue,Flush DNS and update DNS settings,"dns,network",Network Team,2
+Server unreachable (3),Network,Server,Server offline,Restart server and verify connectivity,"server,network",Network Team,2
+VPN not connecting (4),Network,VPN,Expired certificate,Restart VPN service and renew certificate,"vpn,network",Network Team,2
+Internet slow (4),Network,Connectivity,Bandwidth congestion,Check router and ISP connection,"internet,network",Network Team,2
+WiFi disconnected (4),Network,Wireless,Router issue,Reconnect and restart router,"wifi,network",Network Team,2
+DNS resolution failed (4),Network,DNS,DNS server issue,Flush DNS and update DNS settings,"dns,network",Network Team,2
+Server unreachable (4),Network,Server,Server offline,Restart server and verify connectivity,"server,network",Network Team,2
+VPN not connecting (5),Network,VPN,Expired certificate,Restart VPN service and renew certificate,"vpn,network",Network Team,2
+Internet slow (5),Network,Connectivity,Bandwidth congestion,Check router and ISP connection,"internet,network",Network Team,2
+WiFi disconnected (5),Network,Wireless,Router issue,Reconnect and restart router,"wifi,network",Network Team,2
+DNS resolution failed (5),Network,DNS,DNS server issue,Flush DNS and update DNS settings,"dns,network",Network Team,2
+Server unreachable (5),Network,Server,Server offline,Restart server and verify connectivity,"server,network",Network Team,2
+Outlook not opening,Email,Outlook,Corrupt profile,Repair Outlook profile,"outlook,email",Messaging Team,1
+Mailbox full,Email,Mailbox,Storage exceeded,Archive emails and increase mailbox quota,"mailbox,email",Messaging Team,1
+Cannot send email,Email,SMTP,SMTP issue,Verify SMTP settings,"cannot,email",Messaging Team,1
+Email sync issue,Email,Sync,Exchange issue,Resync mailbox,"email,email",Messaging Team,1
+Attachment missing,Email,Attachment,Upload failure,Reattach and resend email,"attachment,email",Messaging Team,1
+Outlook not opening (2),Email,Outlook,Corrupt profile,Repair Outlook profile,"outlook,email",Messaging Team,1
+Mailbox full (2),Email,Mailbox,Storage exceeded,Archive emails and increase mailbox quota,"mailbox,email",Messaging Team,1
+Cannot send email (2),Email,SMTP,SMTP issue,Verify SMTP settings,"cannot,email",Messaging Team,1
+Email sync issue (2),Email,Sync,Exchange issue,Resync mailbox,"email,email",Messaging Team,1
+Attachment missing (2),Email,Attachment,Upload failure,Reattach and resend email,"attachment,email",Messaging Team,1
+Outlook not opening (3),Email,Outlook,Corrupt profile,Repair Outlook profile,"outlook,email",Messaging Team,1
+Mailbox full (3),Email,Mailbox,Storage exceeded,Archive emails and increase mailbox quota,"mailbox,email",Messaging Team,1
+Cannot send email (3),Email,SMTP,SMTP issue,Verify SMTP settings,"cannot,email",Messaging Team,1
+Email sync issue (3),Email,Sync,Exchange issue,Resync mailbox,"email,email",Messaging Team,1
+Attachment missing (3),Email,Attachment,Upload failure,Reattach and resend email,"attachment,email",Messaging Team,1
+Outlook not opening (4),Email,Outlook,Corrupt profile,Repair Outlook profile,"outlook,email",Messaging Team,1
+Mailbox full (4),Email,Mailbox,Storage exceeded,Archive emails and increase mailbox quota,"mailbox,email",Messaging Team,1
+Cannot send email (4),Email,SMTP,SMTP issue,Verify SMTP settings,"cannot,email",Messaging Team,1
+Email sync issue (4),Email,Sync,Exchange issue,Resync mailbox,"email,email",Messaging Team,1
+Attachment missing (4),Email,Attachment,Upload failure,Reattach and resend email,"attachment,email",Messaging Team,1
+Outlook not opening (5),Email,Outlook,Corrupt profile,Repair Outlook profile,"outlook,email",Messaging Team,1
+Mailbox full (5),Email,Mailbox,Storage exceeded,Archive emails and increase mailbox quota,"mailbox,email",Messaging Team,1
+Cannot send email (5),Email,SMTP,SMTP issue,Verify SMTP settings,"cannot,email",Messaging Team,1
+Email sync issue (5),Email,Sync,Exchange issue,Resync mailbox,"email,email",Messaging Team,1
+Attachment missing (5),Email,Attachment,Upload failure,Reattach and resend email,"attachment,email",Messaging Team,1
+Phishing email,Security,Phishing,Malicious email,Report and block sender,"phishing,security",Security Operations,3
+Malware detected,Security,Malware,Infected file,Run antivirus and isolate device,"malware,security",Security Operations,3
+Account locked,Security,Authentication,Failed logins,Unlock account,"account,security",Security Operations,3
+Unauthorized login,Security,Authentication,Credential misuse,Force password reset,"unauthorized,security",Security Operations,3
+Firewall blocked access,Security,Firewall,Security rule,Review firewall policy,"firewall,security",Security Operations,3
+Phishing email (2),Security,Phishing,Malicious email,Report and block sender,"phishing,security",Security Operations,3
+Malware detected (2),Security,Malware,Infected file,Run antivirus and isolate device,"malware,security",Security Operations,3
+Account locked (2),Security,Authentication,Failed logins,Unlock account,"account,security",Security Operations,3
+Unauthorized login (2),Security,Authentication,Credential misuse,Force password reset,"unauthorized,security",Security Operations,3
+Firewall blocked access (2),Security,Firewall,Security rule,Review firewall policy,"firewall,security",Security Operations,3
+Phishing email (3),Security,Phishing,Malicious email,Report and block sender,"phishing,security",Security Operations,3
+Malware detected (3),Security,Malware,Infected file,Run antivirus and isolate device,"malware,security",Security Operations,3
+Account locked (3),Security,Authentication,Failed logins,Unlock account,"account,security",Security Operations,3
+Unauthorized login (3),Security,Authentication,Credential misuse,Force password reset,"unauthorized,security",Security Operations,3
+Firewall blocked access (3),Security,Firewall,Security rule,Review firewall policy,"firewall,security",Security Operations,3
+Phishing email (4),Security,Phishing,Malicious email,Report and block sender,"phishing,security",Security Operations,3
+Malware detected (4),Security,Malware,Infected file,Run antivirus and isolate device,"malware,security",Security Operations,3
+Account locked (4),Security,Authentication,Failed logins,Unlock account,"account,security",Security Operations,3
+Unauthorized login (4),Security,Authentication,Credential misuse,Force password reset,"unauthorized,security",Security Operations,3
+Firewall blocked access (4),Security,Firewall,Security rule,Review firewall policy,"firewall,security",Security Operations,3
+Phishing email (5),Security,Phishing,Malicious email,Report and block sender,"phishing,security",Security Operations,3
+Malware detected (5),Security,Malware,Infected file,Run antivirus and isolate device,"malware,security",Security Operations,3
+Account locked (5),Security,Authentication,Failed logins,Unlock account,"account,security",Security Operations,3
+Unauthorized login (5),Security,Authentication,Credential misuse,Force password reset,"unauthorized,security",Security Operations,3
+Firewall blocked access (5),Security,Firewall,Security rule,Review firewall policy,"firewall,security",Security Operations,3
+Database connection failed,Database,Connection,DB service stopped,Restart database service,"database,database",Database Team,3
+SQL timeout,Database,Performance,Long query,Optimize SQL query,"sql,database",Database Team,3
+Backup failed,Database,Backup,Storage full,Free storage and rerun backup,"backup,database",Database Team,3
+Deadlock detected,Database,Locking,Concurrent transactions,Kill blocking session,"deadlock,database",Database Team,3
+Slow query execution,Database,Performance,Missing index,Create indexes,"slow,database",Database Team,3
+Database connection failed (2),Database,Connection,DB service stopped,Restart database service,"database,database",Database Team,3
+SQL timeout (2),Database,Performance,Long query,Optimize SQL query,"sql,database",Database Team,3
+Backup failed (2),Database,Backup,Storage full,Free storage and rerun backup,"backup,database",Database Team,3
+Deadlock detected (2),Database,Locking,Concurrent transactions,Kill blocking session,"deadlock,database",Database Team,3
+Slow query execution (2),Database,Performance,Missing index,Create indexes,"slow,database",Database Team,3
+Database connection failed (3),Database,Connection,DB service stopped,Restart database service,"database,database",Database Team,3
+SQL timeout (3),Database,Performance,Long query,Optimize SQL query,"sql,database",Database Team,3
+Backup failed (3),Database,Backup,Storage full,Free storage and rerun backup,"backup,database",Database Team,3
+Deadlock detected (3),Database,Locking,Concurrent transactions,Kill blocking session,"deadlock,database",Database Team,3
+Slow query execution (3),Database,Performance,Missing index,Create indexes,"slow,database",Database Team,3
+Database connection failed (4),Database,Connection,DB service stopped,Restart database service,"database,database",Database Team,3
+SQL timeout (4),Database,Performance,Long query,Optimize SQL query,"sql,database",Database Team,3
+Backup failed (4),Database,Backup,Storage full,Free storage and rerun backup,"backup,database",Database Team,3
+Deadlock detected (4),Database,Locking,Concurrent transactions,Kill blocking session,"deadlock,database",Database Team,3
+Slow query execution (4),Database,Performance,Missing index,Create indexes,"slow,database",Database Team,3
+Database connection failed (5),Database,Connection,DB service stopped,Restart database service,"database,database",Database Team,3
+SQL timeout (5),Database,Performance,Long query,Optimize SQL query,"sql,database",Database Team,3
+Backup failed (5),Database,Backup,Storage full,Free storage and rerun backup,"backup,database",Database Team,3
+Deadlock detected (5),Database,Locking,Concurrent transactions,Kill blocking session,"deadlock,database",Database Team,3
+Slow query execution (5),Database,Performance,Missing index,Create indexes,"slow,database",Database Team,3
+AWS EC2 stopped,Cloud,Compute,Instance stopped,Start EC2 instance,"aws,cloud",Cloud Operations,3
+Azure VM unavailable,Cloud,VM,VM crash,Restart VM,"azure,cloud",Cloud Operations,3
+Cloud deployment failed,Cloud,Deployment,Pipeline failure,Check CI/CD logs,"cloud,cloud",Cloud Operations,3
+S3 permission denied,Cloud,Storage,IAM policy,Update IAM permissions,"s3,cloud",Cloud Operations,3
+Lambda error,Cloud,Serverless,Runtime error,Check logs and redeploy,"lambda,cloud",Cloud Operations,3
+AWS EC2 stopped (2),Cloud,Compute,Instance stopped,Start EC2 instance,"aws,cloud",Cloud Operations,3
+Azure VM unavailable (2),Cloud,VM,VM crash,Restart VM,"azure,cloud",Cloud Operations,3
+Cloud deployment failed (2),Cloud,Deployment,Pipeline failure,Check CI/CD logs,"cloud,cloud",Cloud Operations,3
+S3 permission denied (2),Cloud,Storage,IAM policy,Update IAM permissions,"s3,cloud",Cloud Operations,3
+Lambda error (2),Cloud,Serverless,Runtime error,Check logs and redeploy,"lambda,cloud",Cloud Operations,3
+AWS EC2 stopped (3),Cloud,Compute,Instance stopped,Start EC2 instance,"aws,cloud",Cloud Operations,3
+Azure VM unavailable (3),Cloud,VM,VM crash,Restart VM,"azure,cloud",Cloud Operations,3
+Cloud deployment failed (3),Cloud,Deployment,Pipeline failure,Check CI/CD logs,"cloud,cloud",Cloud Operations,3
+S3 permission denied (3),Cloud,Storage,IAM policy,Update IAM permissions,"s3,cloud",Cloud Operations,3
+Lambda error (3),Cloud,Serverless,Runtime error,Check logs and redeploy,"lambda,cloud",Cloud Operations,3
+AWS EC2 stopped (4),Cloud,Compute,Instance stopped,Start EC2 instance,"aws,cloud",Cloud Operations,3
+Azure VM unavailable (4),Cloud,VM,VM crash,Restart VM,"azure,cloud",Cloud Operations,3
+Cloud deployment failed (4),Cloud,Deployment,Pipeline failure,Check CI/CD logs,"cloud,cloud",Cloud Operations,3
+S3 permission denied (4),Cloud,Storage,IAM policy,Update IAM permissions,"s3,cloud",Cloud Operations,3
+Lambda error (4),Cloud,Serverless,Runtime error,Check logs and redeploy,"lambda,cloud",Cloud Operations,3
+AWS EC2 stopped (5),Cloud,Compute,Instance stopped,Start EC2 instance,"aws,cloud",Cloud Operations,3
+Azure VM unavailable (5),Cloud,VM,VM crash,Restart VM,"azure,cloud",Cloud Operations,3
+Cloud deployment failed (5),Cloud,Deployment,Pipeline failure,Check CI/CD logs,"cloud,cloud",Cloud Operations,3
+S3 permission denied (5),Cloud,Storage,IAM policy,Update IAM permissions,"s3,cloud",Cloud Operations,3
+Lambda error (5),Cloud,Serverless,Runtime error,Check logs and redeploy,"lambda,cloud",Cloud Operations,3
+Printer offline,Printer,Connectivity,Network issue,Reconnect printer,"printer,printer",Printer Support,1
+Printer paper jam,Printer,Paper,Paper obstruction,Clear paper jam,"printer,printer",Printer Support,1
+Printer toner low,Printer,Supplies,Low toner,Replace toner,"printer,printer",Printer Support,1
+Unable to print,Printer,Driver,Driver missing,Install printer driver,"unable,printer",Printer Support,1
+Scanner not working,Printer,Scanner,Driver issue,Reinstall scanner driver,"scanner,printer",Printer Support,1
+Printer offline (2),Printer,Connectivity,Network issue,Reconnect printer,"printer,printer",Printer Support,1
+Printer paper jam (2),Printer,Paper,Paper obstruction,Clear paper jam,"printer,printer",Printer Support,1
+Printer toner low (2),Printer,Supplies,Low toner,Replace toner,"printer,printer",Printer Support,1
+Unable to print (2),Printer,Driver,Driver missing,Install printer driver,"unable,printer",Printer Support,1
+Scanner not working (2),Printer,Scanner,Driver issue,Reinstall scanner driver,"scanner,printer",Printer Support,1
+Printer offline (3),Printer,Connectivity,Network issue,Reconnect printer,"printer,printer",Printer Support,1
+Printer paper jam (3),Printer,Paper,Paper obstruction,Clear paper jam,"printer,printer",Printer Support,1
+Printer toner low (3),Printer,Supplies,Low toner,Replace toner,"printer,printer",Printer Support,1
+Unable to print (3),Printer,Driver,Driver missing,Install printer driver,"unable,printer",Printer Support,1
+Scanner not working (3),Printer,Scanner,Driver issue,Reinstall scanner driver,"scanner,printer",Printer Support,1
+Printer offline (4),Printer,Connectivity,Network issue,Reconnect printer,"printer,printer",Printer Support,1
+Printer paper jam (4),Printer,Paper,Paper obstruction,Clear paper jam,"printer,printer",Printer Support,1
+Printer toner low (4),Printer,Supplies,Low toner,Replace toner,"printer,printer",Printer Support,1
+Unable to print (4),Printer,Driver,Driver missing,Install printer driver,"unable,printer",Printer Support,1
+Scanner not working (4),Printer,Scanner,Driver issue,Reinstall scanner driver,"scanner,printer",Printer Support,1
+Printer offline (5),Printer,Connectivity,Network issue,Reconnect printer,"printer,printer",Printer Support,1
+Printer paper jam (5),Printer,Paper,Paper obstruction,Clear paper jam,"printer,printer",Printer Support,1
+Printer toner low (5),Printer,Supplies,Low toner,Replace toner,"printer,printer",Printer Support,1
+Unable to print (5),Printer,Driver,Driver missing,Install printer driver,"unable,printer",Printer Support,1
+Scanner not working (5),Printer,Scanner,Driver issue,Reinstall scanner driver,"scanner,printer",Printer Support,1
+Password reset,Account,Authentication,Forgot password,Reset through identity portal,"password,account",Identity Management,1
+Permission denied,Account,Authorization,Missing role,Grant required access,"permission,account",Identity Management,1
+Cannot login,Account,Authentication,Invalid credentials,Verify credentials,"cannot,account",Identity Management,1
+MFA issue,Account,Authentication,Authenticator problem,Re-register MFA,"mfa,account",Identity Management,1
+New user creation,Account,Provisioning,New employee,Create account,"new,account",Identity Management,1
+Password reset (2),Account,Authentication,Forgot password,Reset through identity portal,"password,account",Identity Management,1
+Permission denied (2),Account,Authorization,Missing role,Grant required access,"permission,account",Identity Management,1
+Cannot login (2),Account,Authentication,Invalid credentials,Verify credentials,"cannot,account",Identity Management,1
+MFA issue (2),Account,Authentication,Authenticator problem,Re-register MFA,"mfa,account",Identity Management,1
+New user creation (2),Account,Provisioning,New employee,Create account,"new,account",Identity Management,1
+Password reset (3),Account,Authentication,Forgot password,Reset through identity portal,"password,account",Identity Management,1
+Permission denied (3),Account,Authorization,Missing role,Grant required access,"permission,account",Identity Management,1
+Cannot login (3),Account,Authentication,Invalid credentials,Verify credentials,"cannot,account",Identity Management,1
+MFA issue (3),Account,Authentication,Authenticator problem,Re-register MFA,"mfa,account",Identity Management,1
+New user creation (3),Account,Provisioning,New employee,Create account,"new,account",Identity Management,1
+Password reset (4),Account,Authentication,Forgot password,Reset through identity portal,"password,account",Identity Management,1
+Permission denied (4),Account,Authorization,Missing role,Grant required access,"permission,account",Identity Management,1
+Cannot login (4),Account,Authentication,Invalid credentials,Verify credentials,"cannot,account",Identity Management,1
+MFA issue (4),Account,Authentication,Authenticator problem,Re-register MFA,"mfa,account",Identity Management,1
+New user creation (4),Account,Provisioning,New employee,Create account,"new,account",Identity Management,1
+Password reset (5),Account,Authentication,Forgot password,Reset through identity portal,"password,account",Identity Management,1
+Permission denied (5),Account,Authorization,Missing role,Grant required access,"permission,account",Identity Management,1
+Cannot login (5),Account,Authentication,Invalid credentials,Verify credentials,"cannot,account",Identity Management,1
+MFA issue (5),Account,Authentication,Authenticator problem,Re-register MFA,"mfa,account",Identity Management,1
+New user creation (5),Account,Provisioning,New employee,Create account,"new,account",Identity Management,1
+Mobile VPN issue,Mobile,VPN,VPN profile,Reconfigure VPN,"mobile,mobile",Mobility Support,2
+Mobile app crashing,Mobile,Application,Corrupt cache,Clear app cache,"mobile,mobile",Mobility Support,2
+Battery draining quickly,Mobile,Battery,Background apps,Optimize battery settings,"battery,mobile",Mobility Support,2
+SIM activation failed,Mobile,SIM,Carrier issue,Reprovision SIM,"sim,mobile",Mobility Support,2
+Company phone not syncing,Mobile,Sync,Account sync,Resync corporate account,"company,mobile",Mobility Support,2
+Mobile VPN issue (2),Mobile,VPN,VPN profile,Reconfigure VPN,"mobile,mobile",Mobility Support,2
+Mobile app crashing (2),Mobile,Application,Corrupt cache,Clear app cache,"mobile,mobile",Mobility Support,2
+Battery draining quickly (2),Mobile,Battery,Background apps,Optimize battery settings,"battery,mobile",Mobility Support,2
+SIM activation failed (2),Mobile,SIM,Carrier issue,Reprovision SIM,"sim,mobile",Mobility Support,2
+Company phone not syncing (2),Mobile,Sync,Account sync,Resync corporate account,"company,mobile",Mobility Support,2
+Mobile VPN issue (3),Mobile,VPN,VPN profile,Reconfigure VPN,"mobile,mobile",Mobility Support,2
+Mobile app crashing (3),Mobile,Application,Corrupt cache,Clear app cache,"mobile,mobile",Mobility Support,2
+Battery draining quickly (3),Mobile,Battery,Background apps,Optimize battery settings,"battery,mobile",Mobility Support,2
+SIM activation failed (3),Mobile,SIM,Carrier issue,Reprovision SIM,"sim,mobile",Mobility Support,2
+Company phone not syncing (3),Mobile,Sync,Account sync,Resync corporate account,"company,mobile",Mobility Support,2
+Mobile VPN issue (4),Mobile,VPN,VPN profile,Reconfigure VPN,"mobile,mobile",Mobility Support,2
+Mobile app crashing (4),Mobile,Application,Corrupt cache,Clear app cache,"mobile,mobile",Mobility Support,2
+Battery draining quickly (4),Mobile,Battery,Background apps,Optimize battery settings,"battery,mobile",Mobility Support,2
+SIM activation failed (4),Mobile,SIM,Carrier issue,Reprovision SIM,"sim,mobile",Mobility Support,2
+Company phone not syncing (4),Mobile,Sync,Account sync,Resync corporate account,"company,mobile",Mobility Support,2
+Mobile VPN issue (5),Mobile,VPN,VPN profile,Reconfigure VPN,"mobile,mobile",Mobility Support,2
+Mobile app crashing (5),Mobile,Application,Corrupt cache,Clear app cache,"mobile,mobile",Mobility Support,2
+Battery draining quickly (5),Mobile,Battery,Background apps,Optimize battery settings,"battery,mobile",Mobility Support,2
+SIM activation failed (5),Mobile,SIM,Carrier issue,Reprovision SIM,"sim,mobile",Mobility Support,2
+Company phone not syncing (5),Mobile,Sync,Account sync,Resync corporate account,"company,mobile",Mobility Support,2
