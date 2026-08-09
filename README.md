@@ -275,7 +275,7 @@ INC0010XXX
 
 The Streamlit interface allows users to enter an IT incident and analyze it using the AI-powered service desk workflow.
 
-![Streamlit Application](screenshots/streamlit_input.png)
+![Streamlit Application](screenshots/streamlitinput.png)
 
 ---
 
@@ -291,7 +291,7 @@ The application displays the predicted category, priority, assignment group, and
 
 After analysis, the application creates a real incident in the ServiceNow Personal Developer Instance through the ServiceNow REST API.
 
-![ServiceNow Incident](screenshots/servicenowincident.png)
+![ServiceNow Incident](screenshots/servicenow%20incident.png)
 
 ---
 
