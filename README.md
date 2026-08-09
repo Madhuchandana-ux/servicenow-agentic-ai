@@ -88,6 +88,7 @@ The user can then create a **real ServiceNow incident** directly from the applic
                     │   Real Incident     │
                     │     INCxxxxxxx      │
                     └─────────────────────┘
+---
 ##🧠 Key Features
 1. Incident Classification
 
