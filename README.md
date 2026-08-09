@@ -269,6 +269,31 @@ INC0010XXX
 ```
 
 ---
+## 📸 Application Screenshots
+
+### 1. Streamlit Application
+
+The Streamlit interface allows users to enter an IT incident and analyze it using the AI-powered service desk workflow.
+
+![Streamlit Application]("screenshots\streamlit input.png")
+
+---
+
+### 2. AI Incident Analysis
+
+The application displays the predicted category, priority, assignment group, and recommended resolution.
+
+![AI Analysis]("screenshots\ai-analysis.png")
+
+---
+
+### 3. ServiceNow Incident Creation
+
+After analysis, the application creates a real incident in the ServiceNow Personal Developer Instance through the ServiceNow REST API.
+
+![ServiceNow Incident](screenshots\servicenow incident.png")
+
+---
 
 ## 📁 Project Structure
 
