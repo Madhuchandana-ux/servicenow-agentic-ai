@@ -1,18 +1,34 @@
-from src.servicenow import create_incident
+import os
+import requests
+from dotenv import load_dotenv
 
+load_dotenv()
 
-response = create_incident(
-    short_description="VPN not connecting",
-    description="User is unable to connect to the company VPN.",
-    category="network",
-    priority="2",
-    assignment_group=""
+instance = os.getenv("SERVICENOW_INSTANCE")
+username = os.getenv("SERVICENOW_USERNAME")
+password = os.getenv("SERVICENOW_PASSWORD")
+
+url = f"{instance}/api/now/table/incident"
+
+data = {
+    "short_description": "VPN not connecting",
+    "description": "Created from Agentic AI Service Desk",
+    "category": "network",
+    "impact": "2",
+    "urgency": "2"
+}
+
+response = requests.post(
+    url,
+    auth=(username, password),
+    headers={
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    },
+    json=data,
+    timeout=30
 )
 
 print("Status Code:", response.status_code)
-
-print("\nResponse Headers:")
-print(response.headers)
-
-print("\nResponse Body:")
+print("\nResponse:")
 print(response.text)
