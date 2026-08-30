@@ -1,30 +1,48 @@
+import logging
+from functools import lru_cache
 from typing import TypedDict
-import joblib
-import pandas as pd
+import os
 
-print("Step 1: Imports started")
-
-from preprocessing import clean_text
-print("✓ preprocessing imported")
-
-from search_vector_db import search
-print("✓ search_vector_db imported")
+logger = logging.getLogger(__name__)
 
 
-# -----------------------------
-# Load Models
-# -----------------------------
-print("Loading Category Model...")
-category_model = joblib.load("models/category_model.pkl")
-print("✓ Category Model Loaded")
+@lru_cache(maxsize=1)
+def load_models():
+    """Lazy-load ML models and vectorizers from the models/ directory.
 
-print("Loading Priority Model...")
-priority_model = joblib.load("models/priority_model.pkl")
-print("✓ Priority Model Loaded")
+    Returns a dict with keys: category_model, priority_model, tfidf
+    Raises RuntimeError with actionable message if artifacts are missing.
+    """
+    try:
+        import joblib
+    except Exception as e:
+        raise RuntimeError("joblib is required to load models: install the project requirements") from e
 
-print("Loading TF-IDF...")
-tfidf = joblib.load("models/tfidf.pkl")
-print("✓ TF-IDF Loaded")
+    model_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models")
+
+    category_path = os.path.join(model_dir, "category_model.pkl")
+    priority_path = os.path.join(model_dir, "priority_model.pkl")
+    tfidf_path = os.path.join(model_dir, "tfidf.pkl")
+
+    missing = [p for p in (category_path, priority_path, tfidf_path) if not os.path.exists(p)]
+    if missing:
+        raise RuntimeError(
+            "Missing model artifacts: {}. Run the training scripts in src/ to generate models or place them in the models/ directory.".format(
+                ", ".join(missing)
+            )
+        )
+
+    category_model = joblib.load(category_path)
+    priority_model = joblib.load(priority_path)
+    tfidf = joblib.load(tfidf_path)
+
+    logger.info("Loaded models from %s", model_dir)
+
+    return {
+        "category_model": category_model,
+        "priority_model": priority_model,
+        "tfidf": tfidf,
+    }
 
 
 # -----------------------------
@@ -41,28 +59,30 @@ class AgentState(TypedDict):
 # -----------------------------
 # Incident Analyzer Agent
 # -----------------------------
-def incident_agent(state):
-    print("\n========== INCIDENT ANALYZER ==========")
-    print("Incident Received:")
-    print(state["incident"])
+def incident_agent(state: AgentState) -> AgentState:
+    logger.info("Incident received")
+    logger.debug("Incident text: %s", state.get("incident"))
     return state
 
 
 # -----------------------------
 # Category Prediction Agent
 # -----------------------------
-def category_agent(state):
+def category_agent(state: AgentState) -> AgentState:
+    from src.preprocessing import clean_text
 
     cleaned = clean_text(state["incident"])
 
-    vector = tfidf.transform([cleaned])
+    models = load_models()
+    tfidf = models["tfidf"]
+    category_model = models["category_model"]
 
+    vector = tfidf.transform([cleaned])
     prediction = category_model.predict(vector)[0]
 
     state["category"] = prediction
 
-    print("\n========== CATEGORY AGENT ==========")
-    print("Predicted Category:", prediction)
+    logger.info("Predicted category: %s", prediction)
 
     return state
 
@@ -70,22 +90,27 @@ def category_agent(state):
 # -----------------------------
 # Priority Prediction Agent
 # -----------------------------
-def priority_agent(state):
+def priority_agent(state: AgentState) -> AgentState:
+    import pandas as pd
 
-    sample = pd.DataFrame([
-        {
-            "description": state["incident"],
-            "impact": "Medium",
-            "urgency": "Medium"
-        }
-    ])
+    models = load_models()
+    priority_model = models["priority_model"]
+
+    sample = pd.DataFrame(
+        [
+            {
+                "description": state["incident"],
+                "impact": "Medium",
+                "urgency": "Medium",
+            }
+        ]
+    )
 
     prediction = priority_model.predict(sample)[0]
 
     state["priority"] = prediction
 
-    print("\n========== PRIORITY AGENT ==========")
-    print("Predicted Priority:", prediction)
+    logger.info("Predicted priority: %s", prediction)
 
     return state
 
@@ -93,19 +118,23 @@ def priority_agent(state):
 # -----------------------------
 # Knowledge Retrieval Agent
 # -----------------------------
-def knowledge_agent(state):
+def knowledge_agent(state: AgentState) -> AgentState:
+    from src.search_vector_db import search
 
     results = search(state["incident"], top_k=1)
 
+    if results is None or results.empty:
+        logger.warning("No knowledge base match found for incident")
+        state["resolution"] = "No recommended resolution found"
+        state["assignment_group"] = ""
+        return state
+
     row = results.iloc[0]
 
-    state["resolution"] = row["resolution"]
-    state["assignment_group"] = row["assignment_group"]
+    state["resolution"] = row.get("resolution", "")
+    state["assignment_group"] = row.get("assignment_group", "")
 
-    print("\n========== KNOWLEDGE AGENT ==========")
-    print("Issue Found :", row["issue"])
-    print("Resolution :", row["resolution"])
-    print("Assignment Group :", row["assignment_group"])
+    logger.info("Knowledge retrieved: issue=%s", row.get("issue"))
 
     return state
 
@@ -113,43 +142,25 @@ def knowledge_agent(state):
 # -----------------------------
 # Decision Agent
 # -----------------------------
-def decision_agent(state):
-
-    print("\n========== FINAL DECISION ==========")
-
-    print("Incident:")
-    print(state["incident"])
-
-    print("\nCategory:")
-    print(state["category"])
-
-    print("\nPriority:")
-    print(state["priority"])
-
-    print("\nAssignment Group:")
-    print(state["assignment_group"])
-
-    print("\nSuggested Resolution:")
-    print(state["resolution"])
-
-    print("\nTicket Ready For ServiceNow")
-
+def decision_agent(state: AgentState) -> AgentState:
+    logger.info("Final decision prepared for ticket creation")
     return state
 
 
 # -----------------------------
-# Main
+# Main (for local debugging)
 # -----------------------------
 if __name__ == "__main__":
+    import logging
 
-    print("\nStarting Agent Workflow...\n")
+    logging.basicConfig(level=logging.INFO)
 
-    state = {
+    state: AgentState = {
         "incident": "VPN not connecting to company network",
         "category": "",
         "priority": "",
         "resolution": "",
-        "assignment_group": ""
+        "assignment_group": "",
     }
 
     state = incident_agent(state)
@@ -158,4 +169,4 @@ if __name__ == "__main__":
     state = knowledge_agent(state)
     state = decision_agent(state)
 
-    print("\nWorkflow Completed Successfully!")
+    print("Workflow Completed Successfully!")
