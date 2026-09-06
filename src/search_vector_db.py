@@ -50,6 +50,6 @@ def search(query, top_k=3):
 
     embedding = model.encode([query], convert_to_numpy=True)
 
-    distances, indices = index.search(embedding, top_k)
+    _distances, indices = index.search(embedding, top_k)
 
     return kb.iloc[indices[0]]
