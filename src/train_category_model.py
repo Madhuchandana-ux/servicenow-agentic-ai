@@ -9,7 +9,7 @@ from sklearn.metrics import (
 )
 from sklearn.model_selection import train_test_split
 
-from preprocessing import clean_text
+from src.preprocessing import clean_text
 
 df = pd.read_csv("data/incidents_cleaned.csv")
 df = df[["description", "category"]]
