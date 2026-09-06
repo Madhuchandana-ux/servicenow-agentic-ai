@@ -30,12 +30,12 @@ def load_models():
         p for p in (category_path, priority_path, tfidf_path) if not os.path.exists(p)
     ]
     if missing:
-        raise RuntimeError(
-            "Missing model artifacts: {}. Run the training scripts in src/ to "
-            "generate models or place them in the models/ directory.".format(
-                ", ".join(missing)
-            )
+        msg = (
+            "Missing model artifacts: {}. Run the training "
+            "scripts in src/ to generate models or place them "
+            "in the models/ directory."
         )
+        raise RuntimeError(msg.format(", ".join(missing)))
 
     category_model = joblib.load(category_path)
     priority_model = joblib.load(priority_path)
