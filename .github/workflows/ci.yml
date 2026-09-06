@@ -29,7 +29,7 @@ jobs:
         run: |
           python -m ruff check src || true
 
-      - name: Check formatting with black
+      - name: Format check with black
         run: |
           python -m black --check . || true
 
@@ -41,6 +41,6 @@ jobs:
         run: |
           python -m bandit -r src -q || true
 
-      - name: Run pytest
+      - name: Run pytest with coverage
         run: |
-          PYTHONPATH=. pytest -q || true
+          PYTHONPATH=. pytest --cov=src --cov-report=xml || true
