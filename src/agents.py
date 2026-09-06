@@ -121,7 +121,13 @@ def priority_agent(state: AgentState) -> AgentState:
 def knowledge_agent(state: AgentState) -> AgentState:
     from src.search_vector_db import search
 
-    results = search(state["incident"], top_k=1)
+    try:
+        results = search(state["incident"], top_k=1)
+    except RuntimeError as e:
+        logger.warning("Vector DB unavailable: %s", e)
+        state["resolution"] = "No recommended resolution found (KB unavailable)"
+        state["assignment_group"] = ""
+        return state
 
     if results is None or results.empty:
         logger.warning("No knowledge base match found for incident")
