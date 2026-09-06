@@ -21,7 +21,9 @@ def _get_session():
     if _session is None:
         session = requests.Session()
         retries = Retry(
-            total=3, backoff_factor=0.5, status_forcelist=[429, 500, 502, 503, 504]
+            total=3,
+            backoff_factor=0.5,
+            status_forcelist=[429, 500, 502, 503, 504],
         )
         session.mount("https://", HTTPAdapter(max_retries=retries))
         _session = session
@@ -38,8 +40,8 @@ def create_incident(
     if not (INSTANCE and USERNAME and PASSWORD):
         msg = (
             "ServiceNow credentials are not configured. Set "
-            "SERVICENOW_INSTANCE, SERVICENOW_USERNAME, and SERVICENOW_PASSWORD "
-            "in .env or environment."
+            "SERVICENOW_INSTANCE, SERVICENOW_USERNAME, and "
+            "SERVICENOW_PASSWORD in .env or environment."
         )
         logger.error(msg)
         return {"success": False, "message": msg}
@@ -62,7 +64,10 @@ def create_incident(
         response = session.post(
             url,
             auth=(USERNAME, PASSWORD),
-            headers={"Accept": "application/json", "Content-Type": "application/json"},
+            headers={
+                "Accept": "application/json",
+                "Content-Type": "application/json",
+            },
             json=data,
             timeout=30,
         )

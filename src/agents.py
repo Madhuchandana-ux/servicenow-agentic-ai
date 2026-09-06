@@ -27,13 +27,14 @@ def load_models():
     tfidf_path = os.path.join(model_dir, "tfidf.pkl")
 
     missing = [
-        p for p in (category_path, priority_path, tfidf_path) if not os.path.exists(p)
+        p
+        for p in (category_path, priority_path, tfidf_path)
+        if not os.path.exists(p)
     ]
     if missing:
         msg = (
-            "Missing model artifacts: {}. Run the training "
-            "scripts in src/ to generate models or place them "
-            "in the models/ directory."
+            "Missing model artifacts: {}. Run the training scripts in src/ "
+            "to generate models or place them in the models/ directory."
         )
         raise RuntimeError(msg.format(", ".join(missing)))
 
@@ -130,7 +131,8 @@ def knowledge_agent(state: AgentState) -> AgentState:
         results = search(state["incident"], top_k=1)
     except RuntimeError as e:
         logger.warning("Vector DB unavailable: %s", e)
-        state["resolution"] = "No recommended resolution found (KB unavailable)"
+        msg = "No recommended resolution found (KB unavailable)"
+        state["resolution"] = msg
         state["assignment_group"] = ""
         return state
 

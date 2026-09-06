@@ -5,7 +5,9 @@ from functools import lru_cache
 
 def _abs_path(*parts):
     """Helper to build a path relative to repo root."""
-    base = os.path.join(os.path.dirname(os.path.dirname(__file__)), "vector_db")
+    base = os.path.join(
+        os.path.dirname(os.path.dirname(__file__)), "vector_db"
+    )
     return os.path.join(base, *parts)
 
 
@@ -20,8 +22,8 @@ def _load_vector_db():
         from sentence_transformers import SentenceTransformer
     except Exception as e:
         raise RuntimeError(
-            "FAISS and sentence-transformers are required for the vector DB: "
-            "install the project requirements"
+            "FAISS and sentence-transformers are required for the "
+            "vector DB: install the project requirements"
         ) from e
 
     index_path = _abs_path("knowledge.index")
@@ -29,7 +31,8 @@ def _load_vector_db():
 
     if not os.path.exists(index_path) or not os.path.exists(pickle_path):
         raise RuntimeError(
-            "Vector DB artifacts not found. Run src/build_vector_db.py to create vector_db/knowledge.index and vector_db/knowledge.pkl"
+            "Vector DB artifacts not found. Run src/build_vector_db.py to "
+            "create vector_db/knowledge.index and vector_db/knowledge.pkl"
         )
 
     index = faiss.read_index(index_path)
