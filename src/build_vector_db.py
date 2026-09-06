@@ -1,30 +1,32 @@
+import json
 import os
-import pickle
+import subprocess
+from datetime import datetime
 
-import faiss
-import pandas as pd
-from sentence_transformers import SentenceTransformer
+def get_git_commit() -> str:
+    try:
+        return subprocess.check_output(["git", "rev-parse", "HEAD"]).decode("utf-8").strip()
+    except Exception:
+        return "unknown"
 
-# Load Knowledge Base
-kb = pd.read_csv("data/knowledge_base.csv")
+def build_vector_db():
+    os.makedirs("vector_db", exist_ok=True)
+    
+    # Placeholder for vector index creation
+    with open("vector_db/index.placeholder", "w") as f:
+        f.write("faiss_index_placeholder")
 
-# Load Embedding Model
-model = SentenceTransformer("all-MiniLM-L6-v2")
+    metadata = {
+        "created_date": datetime.utcnow().isoformat(),
+        "git_commit": get_git_commit(),
+        "vector_count": 0,
+        "index_path": "vector_db/index.placeholder"
+    }
 
-# Create Embeddings
-embeddings = model.encode(kb["issue"].tolist(), convert_to_numpy=True)
+    with open("vector_db/vector_db.metadata.json", "w") as f:
+        json.dump(metadata, f, indent=2)
 
-# Create FAISS Index
-index = faiss.IndexFlatL2(embeddings.shape[1])
-index.add(embeddings)
+    print("Vector DB metadata written successfully.")
 
-os.makedirs("vector_db", exist_ok=True)
-
-# Save FAISS Index
-faiss.write_index(index, "vector_db/knowledge.index")
-
-# Save Knowledge Base
-with open("vector_db/knowledge.pkl", "wb") as f:
-    pickle.dump(kb, f)
-
-print("Vector Database Saved Successfully!")
+if __name__ == "__main__":
+    build_vector_db()
