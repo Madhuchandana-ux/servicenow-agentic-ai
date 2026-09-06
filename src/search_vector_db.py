@@ -11,6 +11,10 @@ def _abs_path(*parts):
 
 @lru_cache(maxsize=1)
 def _load_vector_db():
+    """Lazy-load FAISS index, pickled KB and embedding model.
+
+    Raises RuntimeError with guidance if files missing.
+    """
     try:
         import faiss
         from sentence_transformers import SentenceTransformer
@@ -36,6 +40,10 @@ def _load_vector_db():
 
 
 def search(query, top_k=3):
+    """Return pandas DataFrame rows of top matches.
+
+    Raises RuntimeError if vector DB artifacts are missing.
+    """
     index, kb, model = _load_vector_db()
 
     embedding = model.encode([query], convert_to_numpy=True)
