@@ -17,22 +17,17 @@ from agents import (
     category_agent,
     priority_agent,
     knowledge_agent,
-    decision_agent
+    decision_agent,
 )
 
 # ServiceNow API
 from servicenow import create_incident
 
-
 # ---------------------------------------------------------
 # PAGE CONFIGURATION
 # ---------------------------------------------------------
 
-st.set_page_config(
-    page_title="AI Service Desk Agent",
-    page_icon="🤖",
-    layout="wide"
-)
+st.set_page_config(page_title="AI Service Desk Agent", page_icon="🤖", layout="wide")
 
 
 # ---------------------------------------------------------
@@ -84,7 +79,7 @@ st.markdown(
 
     </style>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
 )
 
 
@@ -93,16 +88,15 @@ st.markdown(
 # ---------------------------------------------------------
 
 st.markdown(
-    '<div class="main-title">🤖 AI Service Desk Agent</div>',
-    unsafe_allow_html=True
+    '<div class="main-title">🤖 AI Service Desk Agent</div>', unsafe_allow_html=True
 )
 
 st.markdown(
     '<div class="subtitle">'
-    'Intelligent incident classification, priority prediction, '
-    'knowledge retrieval and ServiceNow ticket creation'
-    '</div>',
-    unsafe_allow_html=True
+    "Intelligent incident classification, priority prediction, "
+    "knowledge retrieval and ServiceNow ticket creation"
+    "</div>",
+    unsafe_allow_html=True,
 )
 
 
@@ -115,7 +109,7 @@ st.subheader("📝 Describe Your IT Issue")
 incident = st.text_area(
     "Enter your incident:",
     placeholder="Example: VPN is not connecting to the office network",
-    height=150
+    height=150,
 )
 
 
@@ -140,7 +134,7 @@ if st.button("🔍 Analyze Incident", use_container_width=True):
             "category": "",
             "priority": "",
             "resolution": "",
-            "assignment_group": ""
+            "assignment_group": "",
         }
 
         # ---------------------------------------------
@@ -178,7 +172,6 @@ if "incident_result" in st.session_state:
 
     st.header("🤖 AI Analysis")
 
-
     # -------------------------------------------------
     # Incident
     # -------------------------------------------------
@@ -186,7 +179,6 @@ if "incident_result" in st.session_state:
     st.subheader("Incident")
 
     st.info(result["incident"])
-
 
     # -------------------------------------------------
     # Classification / Priority
@@ -200,13 +192,11 @@ if "incident_result" in st.session_state:
 
         st.success(result["category"])
 
-
     with col2:
 
         st.subheader("🚨 Priority")
 
         st.warning(result["priority"])
-
 
     # -------------------------------------------------
     # Assignment Group
@@ -216,7 +206,6 @@ if "incident_result" in st.session_state:
 
     st.info(result["assignment_group"])
 
-
     # -------------------------------------------------
     # Resolution
     # -------------------------------------------------
@@ -224,7 +213,6 @@ if "incident_result" in st.session_state:
     st.subheader("💡 Recommended Resolution")
 
     st.success(result["resolution"])
-
 
     # -------------------------------------------------
     # CREATE SERVICENOW TICKET
@@ -234,18 +222,12 @@ if "incident_result" in st.session_state:
 
     st.header("🎫 ServiceNow")
 
-
-    if st.button(
-        "🚀 Create ServiceNow Ticket",
-        use_container_width=True
-    ):
+    if st.button("🚀 Create ServiceNow Ticket", use_container_width=True):
 
         with st.spinner("Creating ServiceNow incident..."):
 
             ticket = create_incident(
-
                 short_description=result["incident"],
-
                 description=(
                     f"Incident: {result['incident']}\n\n"
                     f"Category: {result['category']}\n"
@@ -253,14 +235,10 @@ if "incident_result" in st.session_state:
                     f"Recommended Resolution:\n"
                     f"{result['resolution']}"
                 ),
-
                 category=result["category"],
-
                 priority=result["priority"],
-
-                assignment_group=result["assignment_group"]
+                assignment_group=result["assignment_group"],
             )
-
 
         # -------------------------------------------------
         # SUCCESS
@@ -268,22 +246,15 @@ if "incident_result" in st.session_state:
 
         if ticket["success"]:
 
-            st.success(
-                "✅ ServiceNow ticket created successfully!"
-            )
+            st.success("✅ ServiceNow ticket created successfully!")
 
             st.subheader("🎫 Incident Number")
 
-            st.code(
-                ticket["number"],
-                language=None
-            )
+            st.code(ticket["number"], language=None)
 
             st.write(
-                "The incident has been successfully created "
-                "in your ServiceNow PDI."
+                "The incident has been successfully created " "in your ServiceNow PDI."
             )
-
 
         # -------------------------------------------------
         # FAILURE
@@ -291,18 +262,11 @@ if "incident_result" in st.session_state:
 
         else:
 
-            st.error(
-                "❌ Failed to create ServiceNow ticket."
-            )
+            st.error("❌ Failed to create ServiceNow ticket.")
 
-            st.error(
-                f"Status Code: {ticket.get('status_code', 'Unknown')}"
-            )
+            st.error(f"Status Code: {ticket.get('status_code', 'Unknown')}")
 
-            st.code(
-                ticket.get("message", "Unknown error"),
-                language=None
-            )
+            st.code(ticket.get("message", "Unknown error"), language=None)
 
 
 # ---------------------------------------------------------

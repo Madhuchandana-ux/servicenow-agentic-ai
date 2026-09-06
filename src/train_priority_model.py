@@ -1,18 +1,17 @@
-import pandas as pd
 import joblib
-
-from sklearn.model_selection import train_test_split
+import pandas as pd
 from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.preprocessing import OneHotEncoder
 from sklearn.ensemble import RandomForestClassifier
-
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import (
     accuracy_score,
     classification_report,
     confusion_matrix,
 )
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder
+
 df = pd.read_csv("data/incidents_cleaned.csv")
 
 print(df.head())

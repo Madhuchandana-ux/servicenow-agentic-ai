@@ -1,6 +1,7 @@
 import re
 import string
 
+
 def clean_text(text):
     """
     Clean text for NLP.
@@ -13,9 +14,7 @@ def clean_text(text):
 
     text = re.sub(r"\d+", "", text)
 
-    text = text.translate(
-        str.maketrans("", "", string.punctuation)
-    )
+    text = text.translate(str.maketrans("", "", string.punctuation))
 
     text = re.sub(r"\s+", " ", text)
 

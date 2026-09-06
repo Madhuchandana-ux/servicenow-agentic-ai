@@ -1,7 +1,7 @@
 import logging
+import os
 from functools import lru_cache
 from typing import TypedDict
-import os
 
 logger = logging.getLogger(__name__)
 
@@ -16,7 +16,9 @@ def load_models():
     try:
         import joblib
     except Exception as e:
-        raise RuntimeError("joblib is required to load models: install the project requirements") from e
+        raise RuntimeError(
+            "joblib is required to load models: install the project requirements"
+        ) from e
 
     model_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models")
 
@@ -24,7 +26,9 @@ def load_models():
     priority_path = os.path.join(model_dir, "priority_model.pkl")
     tfidf_path = os.path.join(model_dir, "tfidf.pkl")
 
-    missing = [p for p in (category_path, priority_path, tfidf_path) if not os.path.exists(p)]
+    missing = [
+        p for p in (category_path, priority_path, tfidf_path) if not os.path.exists(p)
+    ]
     if missing:
         raise RuntimeError(
             "Missing model artifacts: {}. Run the training scripts in src/ to generate models or place them in the models/ directory.".format(
