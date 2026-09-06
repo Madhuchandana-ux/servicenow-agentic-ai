@@ -1,6 +1,6 @@
 import joblib
 
-from preprocessing import clean_text
+from src.preprocessing import clean_text
 
 model = joblib.load("models/category_model.pkl")
 tfidf = joblib.load("models/tfidf.pkl")
