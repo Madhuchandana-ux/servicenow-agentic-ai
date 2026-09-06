@@ -31,7 +31,8 @@ def load_models():
     ]
     if missing:
         raise RuntimeError(
-            "Missing model artifacts: {}. Run the training scripts in src/ to generate models or place them in the models/ directory.".format(
+            "Missing model artifacts: {}. Run the training scripts in src/ to "
+            "generate models or place them in the models/ directory.".format(
                 ", ".join(missing)
             )
         )
