@@ -20,7 +20,8 @@ def _load_vector_db():
         from sentence_transformers import SentenceTransformer
     except Exception as e:
         raise RuntimeError(
-            "FAISS and sentence-transformers are required for the vector DB: install the project requirements"
+            "FAISS and sentence-transformers are required for the vector DB: "
+            "install the project requirements"
         ) from e
 
     index_path = _abs_path("knowledge.index")
