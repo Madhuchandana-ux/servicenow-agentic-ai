@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main, faang/* ]
+    branches: [ main, "faang/*" ]
   pull_request:
     branches: [ main ]
 
@@ -20,53 +20,27 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements-dev.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dev deps only
+      - name: Install dev dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements-dev.txt
 
-      - name: Lint (ruff)
+      - name: Lint with ruff
         run: |
           python -m ruff check src || true
 
-      - name: Format check (black)
+      - name: Check formatting with black
         run: |
           python -m black --check . || true
 
-      - name: Type check (mypy)
+      - name: Type check with mypy
         run: |
           python -m mypy src || true
 
-      - name: Security scan (bandit)
+      - name: Security scan with bandit
         run: |
           python -m bandit -r src -q || true
 
-      - name: Run tests with coverage
-        env:
-          PYTHONWARNINGS: ignore::DeprecationWarning
+      - name: Run pytest
         run: |
-          PYTHONPATH=. pytest --maxfail=1 -q --disable-warnings --cov=src --cov-report=xml || true
-
-      - name: Show coverage summary
-        if: always()
-        run: |
-          python - <<'PY'
-import sys
-from xml.etree import ElementTree as ET
-try:
-    tree = ET.parse('coverage.xml')
-    root = tree.getroot()
-    line_rate = float(root.attrib.get('line-rate', 0.0))
-    print(f"Coverage (line-rate): {line_rate*100:.2f}%")
-except Exception as e:
-    print("Could not parse coverage.xml:", e)
-    sys.exit(0)
-PY
+          PYTHONPATH=. pytest -q || true
