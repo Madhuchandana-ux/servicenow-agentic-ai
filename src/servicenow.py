@@ -64,7 +64,7 @@ def create_incident(
         )
         response.raise_for_status()
     except requests.RequestException as exc:
-        logger.exception("Failed to create ServiceNow incident: %s", exc)
+        logger.exception("Failed to create ServiceNow incident")
         return {"success": False, "message": str(exc)}
 
     if response.status_code == 201:
