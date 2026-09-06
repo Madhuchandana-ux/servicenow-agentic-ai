@@ -36,7 +36,11 @@ def create_incident(
     Returns dict: {success: bool, number, sys_id, status_code?, message}
     """
     if not (INSTANCE and USERNAME and PASSWORD):
-        msg = "ServiceNow credentials are not configured. Set SERVICENOW_INSTANCE, SERVICENOW_USERNAME, and SERVICENOW_PASSWORD in .env or environment."
+        msg = (
+            "ServiceNow credentials are not configured. Set "
+            "SERVICENOW_INSTANCE, SERVICENOW_USERNAME, and SERVICENOW_PASSWORD "
+            "in .env or environment."
+        )
         logger.error(msg)
         return {"success": False, "message": msg}
 
