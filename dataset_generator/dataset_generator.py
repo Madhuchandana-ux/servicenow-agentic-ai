@@ -52,8 +52,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 # ============================
 
 logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s | %(levelname)s | %(message)s"
+    level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s"
 )
 
 logger = logging.getLogger(__name__)
@@ -88,7 +87,7 @@ DEPARTMENTS = [
     "Customer Support",
     "Legal",
     "Procurement",
-    "Administration"
+    "Administration",
 ]
 
 LOCATIONS = [
@@ -99,38 +98,17 @@ LOCATIONS = [
     "Delhi",
     "Pune",
     "Kolkata",
-    "Noida"
+    "Noida",
 ]
 
-DEVICE_TYPES = [
-    "Laptop",
-    "Desktop",
-    "Printer",
-    "Server",
-    "Mobile",
-    "Tablet"
-]
+DEVICE_TYPES = ["Laptop", "Desktop", "Printer", "Server", "Mobile", "Tablet"]
 
-STATUS = [
-    "Open",
-    "In Progress",
-    "Resolved",
-    "Closed"
-]
+STATUS = ["Open", "In Progress", "Resolved", "Closed"]
 
-IMPACT = [
-    "Low",
-    "Medium",
-    "High"
-]
+IMPACT = ["Low", "Medium", "High"]
 
-URGENCY = [
-    "Low",
-    "Medium",
-    "High"
-]
+URGENCY = ["Low", "Medium", "High"]
 CATEGORIES = {
-
     "Hardware": [
         "Laptop not booting",
         "Keyboard not working",
@@ -139,9 +117,8 @@ CATEGORIES = {
         "Mouse disconnected",
         "USB ports not working",
         "Hard disk failure",
-        "Laptop overheating"
+        "Laptop overheating",
     ],
-
     "Software": [
         "MS Office not opening",
         "Chrome crashing",
@@ -150,9 +127,8 @@ CATEGORIES = {
         "Application installation failed",
         "Teams crashing",
         "Zoom not opening",
-        "Software update failed"
+        "Software update failed",
     ],
-
     "Network": [
         "VPN not connecting",
         "Internet slow",
@@ -161,9 +137,8 @@ CATEGORIES = {
         "Cannot access shared drive",
         "DNS resolution failed",
         "Network timeout",
-        "LAN cable unplugged"
+        "LAN cable unplugged",
     ],
-
     "Email": [
         "Outlook not opening",
         "Mailbox full",
@@ -172,9 +147,8 @@ CATEGORIES = {
         "Exchange server unavailable",
         "Spam emails received",
         "Calendar not syncing",
-        "Attachment missing"
+        "Attachment missing",
     ],
-
     "Security": [
         "Phishing email",
         "Malware detected",
@@ -183,9 +157,8 @@ CATEGORIES = {
         "Password compromised",
         "Account locked",
         "Suspicious attachment",
-        "Ransomware alert"
+        "Ransomware alert",
     ],
-
     "Printer": [
         "Printer offline",
         "Printer paper jam",
@@ -194,9 +167,8 @@ CATEGORIES = {
         "Printer queue stuck",
         "Printer driver missing",
         "Scanner not working",
-        "Network printer unavailable"
+        "Network printer unavailable",
     ],
-
     "Database": [
         "Database connection failed",
         "SQL timeout",
@@ -205,9 +177,8 @@ CATEGORIES = {
         "Replication error",
         "Database locked",
         "Deadlock detected",
-        "Slow query execution"
+        "Slow query execution",
     ],
-
     "Cloud": [
         "AWS EC2 stopped",
         "Azure VM unavailable",
@@ -216,9 +187,8 @@ CATEGORIES = {
         "Cloud deployment failed",
         "Lambda function error",
         "Load balancer unhealthy",
-        "S3 permission denied"
+        "S3 permission denied",
     ],
-
     "Account": [
         "Cannot login",
         "Password reset",
@@ -227,9 +197,8 @@ CATEGORIES = {
         "New user creation",
         "Access request pending",
         "User profile missing",
-        "MFA issue"
+        "MFA issue",
     ],
-
     "Mobile": [
         "Company phone not syncing",
         "Tablet frozen",
@@ -238,34 +207,22 @@ CATEGORIES = {
         "Mobile VPN issue",
         "SIM activation failed",
         "Mobile app crashing",
-        "Mobile email issue"
-    ]
+        "Mobile email issue",
+    ],
 }
 ASSIGNMENT_GROUPS = {
-
-    "Hardware":"Desktop Support",
-
-    "Software":"Application Support",
-
-    "Network":"Network Team",
-
-    "Email":"Messaging Team",
-
-    "Security":"Security Operations",
-
-    "Printer":"Printer Support",
-
-    "Database":"Database Team",
-
-    "Cloud":"Cloud Operations",
-
-    "Account":"Identity Management",
-
-    "Mobile":"Mobility Support"
-
+    "Hardware": "Desktop Support",
+    "Software": "Application Support",
+    "Network": "Network Team",
+    "Email": "Messaging Team",
+    "Security": "Security Operations",
+    "Printer": "Printer Support",
+    "Database": "Database Team",
+    "Cloud": "Cloud Operations",
+    "Account": "Identity Management",
+    "Mobile": "Mobility Support",
 }
 ENGINEERS = [
-
     "Rahul Sharma",
     "Priya Verma",
     "Arjun Reddy",
@@ -285,9 +242,10 @@ ENGINEERS = [
     "Divya Sharma",
     "Rakesh Patel",
     "Akash Verma",
-    "Harsha Kumar"
-
+    "Harsha Kumar",
 ]
+
+
 def random_date(start_date: datetime, end_date: datetime) -> datetime:
     """
     Generate a random datetime between start_date and end_date.
@@ -296,6 +254,8 @@ def random_date(start_date: datetime, end_date: datetime) -> datetime:
     random_days = random.randint(0, delta.days)
     random_seconds = random.randint(0, 86400)
     return start_date + timedelta(days=random_days, seconds=random_seconds)
+
+
 def generate_users(num_users: int) -> pd.DataFrame:
     """
     Generate synthetic employee data.
@@ -309,39 +269,31 @@ def generate_users(num_users: int) -> pd.DataFrame:
 
         name = fake.name()
 
-        users.append({
-
-            "employee_id": f"EMP{i:05d}",
-
-            "employee_name": name,
-
-            "employee_email": name.lower().replace(" ", ".").replace("'", "") + "@abctech.com",
-
-            "department": random.choice(DEPARTMENTS),
-
-            "location": random.choice(LOCATIONS),
-
-            "joining_date": random_date(
-                datetime(2018,1,1),
-                datetime(2025,1,1)
-            ).date(),
-
-            "vip_user": random.choice(["Yes","No"]),
-
-            "phone": fake.phone_number()
-
-        })
+        users.append(
+            {
+                "employee_id": f"EMP{i:05d}",
+                "employee_name": name,
+                "employee_email": name.lower().replace(" ", ".").replace("'", "")
+                + "@abctech.com",
+                "department": random.choice(DEPARTMENTS),
+                "location": random.choice(LOCATIONS),
+                "joining_date": random_date(
+                    datetime(2018, 1, 1), datetime(2025, 1, 1)
+                ).date(),
+                "vip_user": random.choice(["Yes", "No"]),
+                "phone": fake.phone_number(),
+            }
+        )
 
     users_df = pd.DataFrame(users)
 
-    users_df.to_csv(
-        os.path.join(DATA_DIR,"users.csv"),
-        index=False
-    )
+    users_df.to_csv(os.path.join(DATA_DIR, "users.csv"), index=False)
 
     logger.info(f"{len(users_df)} Users Generated")
 
     return users_df
+
+
 def generate_assets(num_assets: int) -> pd.DataFrame:
     """
     Generate company assets.
@@ -349,65 +301,37 @@ def generate_assets(num_assets: int) -> pd.DataFrame:
 
     logger.info("Generating Assets...")
 
-    manufacturers = [
-
-        "Dell",
-
-        "HP",
-
-        "Lenovo",
-
-        "Apple",
-
-        "Asus",
-
-        "Acer"
-
-    ]
+    manufacturers = ["Dell", "HP", "Lenovo", "Apple", "Asus", "Acer"]
 
     assets = []
 
     for i in range(1, num_assets + 1):
 
-        purchase_year = random.randint(2019,2025)
+        purchase_year = random.randint(2019, 2025)
 
-        assets.append({
-
-            "asset_id":f"AST{i:05d}",
-
-            "asset_name":fake.word().upper()+"-"+str(random.randint(1000,9999)),
-
-            "device_type":random.choice(DEVICE_TYPES),
-
-            "manufacturer":random.choice(manufacturers),
-
-            "purchase_year":purchase_year,
-
-            "warranty_status":random.choice([
-
-                "Active",
-
-                "Expired"
-
-            ]),
-
-            "location":random.choice(LOCATIONS)
-
-        })
+        assets.append(
+            {
+                "asset_id": f"AST{i:05d}",
+                "asset_name": fake.word().upper()
+                + "-"
+                + str(random.randint(1000, 9999)),
+                "device_type": random.choice(DEVICE_TYPES),
+                "manufacturer": random.choice(manufacturers),
+                "purchase_year": purchase_year,
+                "warranty_status": random.choice(["Active", "Expired"]),
+                "location": random.choice(LOCATIONS),
+            }
+        )
 
     assets_df = pd.DataFrame(assets)
 
-    assets_df.to_csv(
-
-        os.path.join(DATA_DIR,"assets.csv"),
-
-        index=False
-
-    )
+    assets_df.to_csv(os.path.join(DATA_DIR, "assets.csv"), index=False)
 
     logger.info(f"{len(assets_df)} Assets Generated")
 
     return assets_df
+
+
 def generate_engineers() -> pd.DataFrame:
     """
     Generate IT support engineers.
@@ -418,62 +342,43 @@ def generate_engineers() -> pd.DataFrame:
     engineer_data = []
 
     specializations = [
-
         "Hardware",
-
         "Software",
-
         "Network",
-
         "Security",
-
         "Cloud",
-
         "Database",
-
         "Printer",
-
         "Email",
-
         "Account",
-
-        "Mobile"
-
+        "Mobile",
     ]
 
     for i, engineer in enumerate(ENGINEERS, start=1):
 
-        engineer_data.append({
-
-            "engineer_id":f"ENG{i:03d}",
-
-            "engineer_name":engineer,
-
-            "experience_years":random.randint(2,15),
-
-            "specialization":random.choice(specializations),
-
-            "rating":round(random.uniform(3.5,5.0),1)
-
-        })
+        engineer_data.append(
+            {
+                "engineer_id": f"ENG{i:03d}",
+                "engineer_name": engineer,
+                "experience_years": random.randint(2, 15),
+                "specialization": random.choice(specializations),
+                "rating": round(random.uniform(3.5, 5.0), 1),
+            }
+        )
 
     engineer_df = pd.DataFrame(engineer_data)
 
-    engineer_df.to_csv(
-
-        os.path.join(DATA_DIR,"engineers.csv"),
-
-        index=False
-
-    )
+    engineer_df.to_csv(os.path.join(DATA_DIR, "engineers.csv"), index=False)
 
     logger.info(f"{len(engineer_df)} Engineers Generated")
 
     return engineer_df
 
+
 # ============================
 # PRIORITY CALCULATION
 # ============================
+
 
 def calculate_priority(impact, urgency):
     """
@@ -489,13 +394,16 @@ def calculate_priority(impact, urgency):
         ("Medium", "Low"): "Medium",
         ("Low", "High"): "Medium",
         ("Low", "Medium"): "Low",
-        ("Low", "Low"): "Low"
+        ("Low", "Low"): "Low",
     }
 
     return matrix[(impact, urgency)]
+
+
 # ============================
 # RESOLUTION HOURS
 # ============================
+
 
 def resolution_hours(priority):
 
@@ -510,78 +418,51 @@ def resolution_hours(priority):
 
     else:
         return round(random.uniform(24, 72), 2)
+
+
 ROOT_CAUSES = [
-
     "Configuration Error",
-
     "User Mistake",
-
     "Hardware Failure",
-
     "Software Bug",
-
     "Network Congestion",
-
     "Expired Certificate",
-
     "Database Lock",
-
     "Memory Leak",
-
     "Disk Failure",
-
     "Security Policy",
-
-    "Unknown"
-
+    "Unknown",
 ]
 RESOLUTION_NOTES = [
-
     "Restarted the affected service.",
-
     "Installed latest software updates.",
-
     "Replaced faulty hardware component.",
-
     "Reset user password and unlocked account.",
-
     "Restarted VPN service.",
-
     "Updated printer drivers.",
-
     "Cleared application cache.",
-
     "Increased disk space.",
-
     "Reconfigured network settings.",
-
     "Escalated to Level 2 Support.",
-
     "Applied security patch.",
-
-    "Restarted database server."
-
+    "Restarted database server.",
 ]
+
+
 def create_description(issue, department):
 
     templates = [
-
         f"User from {department} department reported that {issue.lower()}. Daily work is affected.",
-
         f"{department} employee cannot continue work because {issue.lower()}.",
-
         f"Incident reported from {department}. Problem: {issue.lower()}.",
-
         f"A user in {department} raised a ticket stating that {issue.lower()}.",
-
-        f"Business process interrupted because {issue.lower()}."
-
+        f"Business process interrupted because {issue.lower()}.",
     ]
 
     return random.choice(templates)
-def generate_incidents(users_df,
-                       assets_df,
-                       engineers_df):
+
+
+def generate_incidents(users_df, assets_df, engineers_df):
 
     logger.info("Generating Incidents...")
 
@@ -611,10 +492,7 @@ def generate_incidents(users_df,
 
         priority = calculate_priority(impact, urgency)
 
-        created = random_date(
-            START_DATE,
-            END_DATE
-        )
+        created = random_date(START_DATE, END_DATE)
 
         hours = resolution_hours(priority)
 
@@ -622,85 +500,43 @@ def generate_incidents(users_df,
 
         assignment_group = ASSIGNMENT_GROUPS[category]
 
-        incidents.append({
-
-            "incident_number":f"INC{i:06d}",
-
-            "created_date":created,
-
-            "resolved_date":resolved,
-
-            "employee_id":user["employee_id"],
-
-            "employee_name":user["employee_name"],
-
-            "department":user["department"],
-
-            "location":user["location"],
-
-            "asset_id":asset["asset_id"],
-
-            "device_type":asset["device_type"],
-
-            "short_description":issue,
-
-            "description":create_description(
-                issue,
-                user["department"]
-            ),
-
-            "category":category,
-
-            "impact":impact,
-
-            "urgency":urgency,
-
-            "priority":priority,
-
-            "assignment_group":assignment_group,
-
-            "assigned_engineer":engineer["engineer_name"],
-
-            "status":random.choice(STATUS),
-
-            "sla_status":random.choice(
-                [
-                    "Within SLA",
-                    "Breached"
-                ]
-            ),
-
-            "resolution_time_hours":hours,
-
-            "resolution_notes":random.choice(
-                RESOLUTION_NOTES
-            ),
-
-            "root_cause":random.choice(
-                ROOT_CAUSES
-            ),
-
-            "customer_satisfaction":random.randint(1,5)
-
-        })
+        incidents.append(
+            {
+                "incident_number": f"INC{i:06d}",
+                "created_date": created,
+                "resolved_date": resolved,
+                "employee_id": user["employee_id"],
+                "employee_name": user["employee_name"],
+                "department": user["department"],
+                "location": user["location"],
+                "asset_id": asset["asset_id"],
+                "device_type": asset["device_type"],
+                "short_description": issue,
+                "description": create_description(issue, user["department"]),
+                "category": category,
+                "impact": impact,
+                "urgency": urgency,
+                "priority": priority,
+                "assignment_group": assignment_group,
+                "assigned_engineer": engineer["engineer_name"],
+                "status": random.choice(STATUS),
+                "sla_status": random.choice(["Within SLA", "Breached"]),
+                "resolution_time_hours": hours,
+                "resolution_notes": random.choice(RESOLUTION_NOTES),
+                "root_cause": random.choice(ROOT_CAUSES),
+                "customer_satisfaction": random.randint(1, 5),
+            }
+        )
 
     incidents_df = pd.DataFrame(incidents)
 
-    incidents_df.to_csv(
+    incidents_df.to_csv(os.path.join(DATA_DIR, "incidents.csv"), index=False)
 
-        os.path.join(DATA_DIR,"incidents.csv"),
-
-        index=False
-
-    )
-
-    logger.info(
-
-        f"{len(incidents_df)} Incidents Generated"
-
-    )
+    logger.info(f"{len(incidents_df)} Incidents Generated")
 
     return incidents_df
+
+
 if __name__ == "__main__":
 
     logger.info("Generating Enterprise Dataset")
@@ -711,15 +547,7 @@ if __name__ == "__main__":
 
     engineers_df = generate_engineers()
 
-    incidents_df = generate_incidents(
-
-        users_df,
-
-        assets_df,
-
-        engineers_df
-
-    )
+    incidents_df = generate_incidents(users_df, assets_df, engineers_df)
 
     print("\nDataset Generation Completed Successfully")
 

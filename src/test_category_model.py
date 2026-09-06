@@ -1,4 +1,5 @@
 import joblib
+
 from preprocessing import clean_text
 
 model = joblib.load("models/category_model.pkl")

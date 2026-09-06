@@ -1,6 +1,5 @@
-import pandas as pd
 import faiss
-import numpy as np
+import pandas as pd
 from sentence_transformers import SentenceTransformer
 
 # Load Knowledge Base
@@ -13,10 +12,7 @@ print("Knowledge Base Shape:", kb.shape)
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Create Embeddings
-embeddings = model.encode(
-    kb["issue"].tolist(),
-    convert_to_numpy=True
-)
+embeddings = model.encode(kb["issue"].tolist(), convert_to_numpy=True)
 
 print("Embeddings Shape:", embeddings.shape)
 
@@ -35,15 +31,9 @@ print("Knowledge Base Indexed Successfully")
 # -----------------------------
 def search_issue(query, top_k=3):
 
-    query_embedding = model.encode(
-        [query],
-        convert_to_numpy=True
-    )
+    query_embedding = model.encode([query], convert_to_numpy=True)
 
-    distances, indices = index.search(
-        query_embedding,
-        top_k
-    )
+    distances, indices = index.search(query_embedding, top_k)
 
     return kb.iloc[indices[0]]
 

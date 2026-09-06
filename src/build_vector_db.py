@@ -1,8 +1,9 @@
-import pandas as pd
-import faiss
-import pickle
-from sentence_transformers import SentenceTransformer
 import os
+import pickle
+
+import faiss
+import pandas as pd
+from sentence_transformers import SentenceTransformer
 
 # Load Knowledge Base
 kb = pd.read_csv("data/knowledge_base.csv")
@@ -11,10 +12,7 @@ kb = pd.read_csv("data/knowledge_base.csv")
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Create Embeddings
-embeddings = model.encode(
-    kb["issue"].tolist(),
-    convert_to_numpy=True
-)
+embeddings = model.encode(kb["issue"].tolist(), convert_to_numpy=True)
 
 # Create FAISS Index
 index = faiss.IndexFlatL2(embeddings.shape[1])

@@ -1,9 +1,10 @@
+import logging
 import os
+
 import requests
 from dotenv import load_dotenv
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-import logging
 
 logger = logging.getLogger(__name__)
 load_dotenv()
@@ -19,13 +20,17 @@ def _get_session():
     global _session
     if _session is None:
         session = requests.Session()
-        retries = Retry(total=3, backoff_factor=0.5, status_forcelist=[429, 500, 502, 503, 504])
+        retries = Retry(
+            total=3, backoff_factor=0.5, status_forcelist=[429, 500, 502, 503, 504]
+        )
         session.mount("https://", HTTPAdapter(max_retries=retries))
         _session = session
     return _session
 
 
-def create_incident(short_description, description, category, priority, assignment_group):
+def create_incident(
+    short_description, description, category, priority, assignment_group
+):
     """Create an incident in ServiceNow.
 
     Returns dict: {success: bool, number, sys_id, status_code?, message}
@@ -64,6 +69,15 @@ def create_incident(short_description, description, category, priority, assignme
 
     if response.status_code == 201:
         result = response.json().get("result", {})
-        return {"success": True, "number": result.get("number"), "sys_id": result.get("sys_id"), "message": "ServiceNow incident created successfully"}
+        return {
+            "success": True,
+            "number": result.get("number"),
+            "sys_id": result.get("sys_id"),
+            "message": "ServiceNow incident created successfully",
+        }
 
-    return {"success": False, "status_code": response.status_code, "message": response.text}
+    return {
+        "success": False,
+        "status_code": response.status_code,
+        "message": response.text,
+    }

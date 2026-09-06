@@ -15,18 +15,15 @@ data = {
     "description": "Created from Agentic AI Service Desk",
     "category": "network",
     "impact": "2",
-    "urgency": "2"
+    "urgency": "2",
 }
 
 response = requests.post(
     url,
     auth=(username, password),
-    headers={
-        "Accept": "application/json",
-        "Content-Type": "application/json"
-    },
+    headers={"Accept": "application/json", "Content-Type": "application/json"},
     json=data,
-    timeout=30
+    timeout=30,
 )
 
 print("Status Code:", response.status_code)
