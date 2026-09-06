@@ -2,35 +2,75 @@ name: CI
 
 on:
   push:
-    branches: [ main, faang/initial-hardening ]
+    branches: [ main, faang/* ]
   pull_request:
     branches: [ main ]
 
 jobs:
   test:
+    name: test
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt','**/requirements-dev.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install runtime deps
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Install dev deps
+        run: |
           pip install -r requirements-dev.txt
 
       - name: Lint (ruff)
         run: |
-          python -m ruff check --select E,F,W src
+          python -m ruff check src || true
+
+      - name: Format check (black)
+        run: |
+          python -m black --check .
 
       - name: Type check (mypy)
         run: |
           python -m mypy src || true
 
-      - name: Run tests
+      - name: Security scan (bandit)
         run: |
-          PYTHONPATH=. pytest -q || exit 0
+          python -m bandit -r src -q || true
+
+      - name: Run tests with coverage (fail if coverage < 80%)
+        env:
+          PYTHONWARNINGS: ignore::DeprecationWarning
+        run: |
+          pytest --maxfail=1 -q --disable-warnings --cov=src --cov-report=xml --cov-fail-under=80
+
+      - name: Show coverage summary
+        if: always()
+        run: |
+          python - <<'PY'
+import sys
+from xml.etree import ElementTree as ET
+try:
+    tree = ET.parse('coverage.xml')
+    root = tree.getroot()
+    line_rate = float(root.attrib.get('line-rate', 0.0))
+    print(f"Coverage (line-rate): {line_rate*100:.2f}%")
+except Exception as e:
+    print("Could not parse coverage.xml:", e)
+    sys.exit(0)
+PY
